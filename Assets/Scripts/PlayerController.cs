@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    float HorizontaInput;
-    float VerticalInput;
+    public Rigidbody2D rb;
+    public float moveSpeed = 5.0f;
+   
+    Vector2 Movement;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +18,14 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        HorizontaInput = Input.GetAxis("Horizontal");
-        VerticalInput = Input.GetAxis("Vertical");
+        //input
+        Movement.x = Input.GetAxisRaw("Horizontal");
+        Movement.y = Input.GetAxisRaw("Vertical");
 
+    }
+    private void FixedUpdate()
+    {
+        //movement
+        rb.MovePosition(rb.position + Movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
