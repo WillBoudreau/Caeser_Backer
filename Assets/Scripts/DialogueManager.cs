@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class DialogueInterations : MonoBehaviour
+public class DialogueInteractions : MonoBehaviour
 {
     private Queue<string> sentences;
     // Start is called before the first frame update
     void Start()
     {
 
-        nameText.text = dialogue.name;
+        //nameText.text = dialogue.name;
 
         sentences = new Queue<string>();
     }
@@ -31,7 +32,7 @@ public class DialogueInterations : MonoBehaviour
             return;
         }
         string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+       // dialogueText.text = sentence;
     }
     void EndDialogue()
     {
