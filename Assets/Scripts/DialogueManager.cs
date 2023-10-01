@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueInteractions : MonoBehaviour
+public class DialogueManager : MonoBehaviour
 {
     private Queue<string> sentences;
     // Start is called before the first frame update
