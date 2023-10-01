@@ -6,8 +6,8 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public float moveSpeed = 5.0f;
-   
+    public float moveSpeed = 1.0f;
+    public Animator CBanimator;
     Vector2 Movement;
     // Start is called before the first frame update
     void Start()
@@ -21,6 +21,9 @@ public class NewBehaviourScript : MonoBehaviour
         //input
         Movement.x = Input.GetAxisRaw("Horizontal");
         Movement.y = Input.GetAxisRaw("Vertical");
+        CBanimator.SetFloat("Horizontal", Movement.x);
+        CBanimator.SetFloat("Vertical", Movement.y);
+        CBanimator.SetFloat("Speed", Movement.sqrMagnitude);
 
     }
     private void FixedUpdate()
