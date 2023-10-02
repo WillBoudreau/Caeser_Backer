@@ -2,20 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     private Queue<string> sentences;
+    public TextMeshProUGUI nametext;
+    public TextMeshProUGUI dialoguetext;
+    public GameObject panel;
     // Start is called before the first frame update
     void Start()
     {
-
-        //nameText.text = dialogue.name;
-
+        panel.SetActive(false);
         sentences = new Queue<string>();
     }
     public void StartDialogue (Dialogue dialogue)
     {
+        panel.SetActive(true);
+        nametext.text = dialogue.name;
+
         sentences.Clear();
 
         foreach(string sentence in dialogue.sentences )
@@ -29,10 +34,11 @@ public class DialogueManager : MonoBehaviour
         if(sentences.Count == 0)
         {
             EndDialogue();
+            panel.SetActive(false);
             return;
         }
         string sentence = sentences.Dequeue();
-       // dialogueText.text = sentence;
+        dialoguetext.text = sentence;
     }
     void EndDialogue()
     {
