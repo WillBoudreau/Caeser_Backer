@@ -9,9 +9,10 @@ public class Unit : MonoBehaviour
     public int Damage;
     public int MaxHP;
     public int CurrentHP;
+    public int Armour;
     public bool TakeDamage(int dmg)
     {
-        CurrentHP -= dmg;
+        CurrentHP -= ((dmg * 4) - Armour) % 4;
 
         if(CurrentHP <= 0)
         {
