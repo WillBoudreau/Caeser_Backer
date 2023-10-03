@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public enum BattleState { Start, PTurn, ETurn, Win, Loss }
 public class BattlerSystem : MonoBehaviour
@@ -15,7 +16,8 @@ public class BattlerSystem : MonoBehaviour
     Unit playerUnit;
     Unit enemyUnit;
 
-    public Text dialogueText;
+    public TextMeshProUGUI Atkbut;
+    public TextMeshProUGUI dialogueText;
     public BTLHuD pHuD;
     public BTLHuD eHuD;
     public BattleState state;
@@ -57,7 +59,7 @@ public class BattlerSystem : MonoBehaviour
         else
         {
             state = BattleState.ETurn;
-            StartCoroutine(PlayerAttack());
+            StartCoroutine(ETurn());
         }
     }
 
@@ -93,6 +95,10 @@ public class BattlerSystem : MonoBehaviour
     void PlayerTurn()
     {
         dialogueText.text = playerUnit.UnitName + " is ready,\n" + "Please select a command... ";
+        if (Atkbut)
+        {
+            StartCoroutine(PlayerAttack());
+        }
     }
 
     public void OnAttackButton()
