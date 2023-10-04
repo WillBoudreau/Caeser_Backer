@@ -100,8 +100,9 @@ public class BattlerSystem : MonoBehaviour
 
     IEnumerator PTurn()
     {
-        dialogueText.text = playerUnit.UnitName + " is ready,\n" + "Please select a command... ";
+        
         bool FrTrn = true;
+        dialogueText.text = playerUnit.UnitName + " is ready,\n" + "Please select a command... ";
         if (Atkbut && FrTrn)
         {
             FrTrn = false;
