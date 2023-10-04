@@ -12,7 +12,7 @@ public class BTLHuD : MonoBehaviour
 
     public void SetHuD(Unit unit)
     {
-        NameText.Te = unit.UnitName;
+        NameText.text = unit.UnitName;
         LevelText.text = "LvL: " + unit.UnitLevel;
         HPSlider.maxValue = unit.MaxHP;
         HPSlider.value = unit.CurrentHP;

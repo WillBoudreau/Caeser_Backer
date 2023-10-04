@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+using System;
 
 public enum BattleState { Start, PTurn, ETurn, Win, Loss }
 public class BattlerSystem : MonoBehaviour
@@ -42,7 +44,7 @@ public class BattlerSystem : MonoBehaviour
         eHuD.SetHuD(enemyUnit);
         yield return new WaitForSeconds(2f);
         state = BattleState.PTurn;
-        PlayerTurn();
+        PTurn();
     }
 
     IEnumerator PlayerAttack()
@@ -70,14 +72,16 @@ public class BattlerSystem : MonoBehaviour
         bool IsDead = playerUnit.TakeDamage(enemyUnit.Damage);
         pHuD.SetHP(playerUnit.CurrentHP);
         yield return new WaitForSeconds(1f);
+        dialogueText.text = enemyUnit.UnitName + " Attacked for " + enemyUnit.Damage + " HP!";
         if (IsDead)
         {
            state = BattleState.Loss;
+            EndBattle();
         }
         else
         {
             state = BattleState.PTurn;
-            PlayerTurn();
+            PTurn();
         }
     }
     void EndBattle()
@@ -85,19 +89,32 @@ public class BattlerSystem : MonoBehaviour
         if (state == BattleState.Win)
         {
             dialogueText.text = "You Survived!";
+            SceneManager.LoadScene(3);
         }
         else if (state == BattleState.Loss)
         {
             dialogueText.text = "You've lost your life...";
+            SceneManager.LoadScene(0);
         }
     }
 
-    void PlayerTurn()
+    IEnumerator PTurn()
     {
         dialogueText.text = playerUnit.UnitName + " is ready,\n" + "Please select a command... ";
-        if (Atkbut)
+        bool FrTrn = true;
+        if (Atkbut && FrTrn)
         {
+            FrTrn = false;
             StartCoroutine(PlayerAttack());
+            pHuD.SetHuD(playerUnit);
+            eHuD.SetHuD(enemyUnit);
+            state = BattleState.ETurn;
+
+        }
+        else
+        {
+            
+            yield return new WaitForSeconds(0f);
         }
     }
 
