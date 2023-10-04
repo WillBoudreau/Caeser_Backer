@@ -16,5 +16,9 @@ public class NPCDialogueBehaviour : MonoBehaviour
     {
         Interact.SetActive(true);
     }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        Interact.SetActive(false);
+    }
 
 }
