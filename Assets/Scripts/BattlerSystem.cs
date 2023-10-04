@@ -44,7 +44,7 @@ public class BattlerSystem : MonoBehaviour
         eHuD.SetHuD(enemyUnit);
         yield return new WaitForSeconds(2f);
         state = BattleState.PTurn;
-        PTurn();
+        PlayerTurn();
     }
 
     IEnumerator PlayerAttack()
@@ -61,7 +61,7 @@ public class BattlerSystem : MonoBehaviour
         else
         {
             state = BattleState.ETurn;
-            StartCoroutine(ETurn());
+            ETurn();
         }
     }
 
@@ -81,7 +81,7 @@ public class BattlerSystem : MonoBehaviour
         else
         {
             state = BattleState.PTurn;
-            PTurn();
+            PlayerTurn();
         }
     }
     void EndBattle()
@@ -98,25 +98,22 @@ public class BattlerSystem : MonoBehaviour
         }
     }
 
-    IEnumerator PTurn()
+    IEnumerator PlayerTurn()
     {
         
         bool FrTrn = true;
-        dialogueText.text = playerUnit.UnitName + " is ready,\n" + "Please select a command... ";
+        dialogueText.text = playerUnit.UnitName + " is ready, " + "Please select a command... ";
         if (Atkbut && FrTrn)
         {
             FrTrn = false;
             StartCoroutine(PlayerAttack());
             pHuD.SetHuD(playerUnit);
             eHuD.SetHuD(enemyUnit);
+            yield return new WaitForSeconds(2f);
             state = BattleState.ETurn;
 
         }
-        else
-        {
-            
-            yield return new WaitForSeconds(0f);
-        }
+        
     }
 
     public void OnAttackButton()
