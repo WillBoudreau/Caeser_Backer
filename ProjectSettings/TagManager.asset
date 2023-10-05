@@ -8,6 +8,7 @@ TagManager:
   - Interact
   - Dave
   - DaveCollider
+  - BtlrUI
   layers:
   - Default
   - TransparentFX
