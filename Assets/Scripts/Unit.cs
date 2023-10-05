@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    public string UnitName;
-    public int UnitLevel;
-    public int Damage;
-    public int MaxHP;
-    public int CurrentHP;
-    public int Armour;
+
+    public string unitName;
+    public int unitLevel;
+
+    public int damage;
+
+    public int maxHP;
+    public int currentHP;
+
     public bool TakeDamage(int dmg)
     {
-        CurrentHP -= ((dmg * 4) - Armour) % 4;
+        currentHP -= dmg;
 
-        if(CurrentHP <= 0)
-        {
+        if (currentHP == 0 || currentHP <= 0)
             return true;
-        }
         else
-        {
             return false;
-        }
-        
     }
-    
+
+    public void Heal(int amount)
+    {
+        currentHP += amount;
+        if (currentHP > maxHP)
+            currentHP = maxHP;
+    }
+
 }
+
+

@@ -45,11 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 015df6cc4496cf24da858eaa52cec3d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UnitName: Dangerous Chicken
-  UnitLevel: 665
-  Damage: 5
-  MaxHP: 10
-  CurrentHP: 10
+  unitName: Dangerous Chicken
+  unitLevel: 665
+  damage: 5
+  maxHP: 10
+  currentHP: 10
 --- !u!1 &3369478766291783145
 GameObject:
   m_ObjectHideFlags: 0

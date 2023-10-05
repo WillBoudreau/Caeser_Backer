@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-public class BTLHuD : MonoBehaviour
+public class BattleHUD : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public TextMeshProUGUI NameText;
-    public TextMeshProUGUI LevelText;
-    public Slider HPSlider;
 
-    public void SetHuD(Unit unit)
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI levelText;
+    public Slider hpSlider;
+
+    public void SetHUD(Unit unit)
     {
-        NameText.text = unit.UnitName;
-        LevelText.text = "LvL: " + unit.UnitLevel;
-        HPSlider.maxValue = unit.MaxHP;
-        HPSlider.value = unit.CurrentHP;
+        nameText.text = unit.unitName;
+        levelText.text = "Lvl " + unit.unitLevel;
+        hpSlider.maxValue = unit.maxHP;
+        hpSlider.value = unit.currentHP;
     }
 
-
-    public void SetHP(int Hp)
+    public void SetHP(int hp)
     {
-        HPSlider.value = Hp;
+        hpSlider.value = hp;
     }
+
 }

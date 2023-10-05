@@ -45,12 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 015df6cc4496cf24da858eaa52cec3d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UnitName: Ceaser
-  UnitLevel: 0
-  Damage: 1
-  MaxHP: 50
-  CurrentHP: 50
-  Armour: 0
+  unitName: Ceaser
+  unitLevel: 0
+  damage: 1
+  maxHP: 50
+  currentHP: 50
 --- !u!1 &6250281139971823694
 GameObject:
   m_ObjectHideFlags: 0
