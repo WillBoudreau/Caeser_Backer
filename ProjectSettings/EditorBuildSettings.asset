@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Combat-01.unity
     guid: 85d99a351eccab64b94fbf81105056fa
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 393ef0216d76a4f4c8494e3a3ecc0184
+  - enabled: 1
+    path: Assets/Scenes/Home2(UnFinished).unity
+    guid: 067b6c7552b145c49aa41dde1ffa54ef
   m_configObjects: {}
