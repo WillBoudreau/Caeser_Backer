@@ -6,6 +6,8 @@ TagManager:
   tags:
   - NPC1
   - Interact
+  - Dave
+  - DaveCollider
   layers:
   - Default
   - TransparentFX
