@@ -13034,8 +13034,8 @@ MonoBehaviour:
     name: Dave
     sentences:
     - 'How are you doing today Caeser? '
-    - Sorry, I
-    - '*Item collected: Chicken Seed'
+    - Sorry, I am afraid that we are all sold out of chicken seed
+    - Come back in a few days and maybe i'll have some
     - End of Conversation
 --- !u!114 &1860809285
 MonoBehaviour:
