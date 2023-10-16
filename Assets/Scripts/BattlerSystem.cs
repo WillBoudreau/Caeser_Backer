@@ -41,6 +41,12 @@ public class BattleSystem : MonoBehaviour
         playerUnit = playerGO.GetComponent<Unit>();
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Unit>();
+        playerUnit.maxHP = PlayerData.CBmHP;
+        playerUnit.currentHP = PlayerData.CBcHP;
+        playerUnit.unitLevel = PlayerData.CBLVL;
+        playerUnit.MnDamage = PlayerData.CBmnDMG;
+        playerUnit.MxDamage = PlayerData.CBmxDMG;
+
         dialogueText.text = "You've been cornered by a " + enemyUnit.unitName + "...";
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
@@ -50,16 +56,18 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator PlayerAttack()
     {
-        bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
+        bool isDead = enemyUnit.TakeDamage(playerUnit.MnDamage, playerUnit.MxDamage);
         enemyHUD.SetHP(enemyUnit.currentHP);
         dialogueText.text = playerUnit.unitName + " Attacks!";
-        yield return new WaitForSeconds(1f);
-        dialogueText.text = playerUnit.unitName + " Deals " + playerUnit.damage + " to the" + playerUnit.unitName + "...";
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
+        dialogueText.text = playerUnit.unitName + " Deals " + PlayerData.RNGRSLT + " to the " + enemyUnit.unitName + "...";
+        yield return new WaitForSeconds(2f);
         if (isDead)
         {
+            
+            dialogueText.text = "The " + enemyUnit.unitName + ", has been defeated...";
             state = BattleState.WON;
-            EndBattle();
+            StartCoroutine(EndBattle());
         }
         else
         {
@@ -70,15 +78,16 @@ public class BattleSystem : MonoBehaviour
     IEnumerator EnemyTurn()
     {
         dialogueText.text = "The " + enemyUnit.unitName + " Makes their move!";
-        yield return new WaitForSeconds(1f);
-        bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
+        yield return new WaitForSeconds(2f);
+        bool isDead = playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MxDamage);
         playerHUD.SetHP(playerUnit.currentHP);       
-        dialogueText.text = "The " + enemyUnit.unitName + " deals " + enemyUnit.damage + " to " + playerUnit.unitName + "...";
-        yield return new WaitForSeconds(1f);
+        dialogueText.text = "The " + enemyUnit.unitName + " deals " + PlayerData.RNGRSLT + " to " + playerUnit.unitName + "...";
+        yield return new WaitForSeconds(2f);
         if (isDead)
         {
+            
             state = BattleState.LOST;
-            EndBattle();
+            StartCoroutine(EndBattle());
         }
         else
         {
@@ -86,12 +95,22 @@ public class BattleSystem : MonoBehaviour
             PlayerTurn();
         }
     }
-    void EndBattle()
+    IEnumerator EndBattle()
     {
+        PlayerData.CBcHP = playerUnit.currentHP;
+
+        
+
+        PlayerData.CBXP = PlayerData.CBXP + enemyUnit.UnitXp;
+
+
         if (state == BattleState.WON)
         {
             dialogueText.text = "You've Survived...";
-            SceneManager.LoadScene(4);
+            yield return new WaitForSeconds(2f);
+            dialogueText.text = "You gained " + enemyUnit.UnitXp + " XP!";
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene(3);
         }
         else if (state == BattleState.LOST)
         {
@@ -115,11 +134,11 @@ public class BattleSystem : MonoBehaviour
     IEnumerator PlayerHeal()
     {
         dialogueText.text = "You Ask God for heals...";
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         playerUnit.Heal(20);
         playerHUD.SetHP(playerUnit.currentHP);
         dialogueText.text = "Your God heals you... Reluctantly...";
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurn());
     }

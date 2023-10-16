@@ -12,7 +12,9 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Movement.x = PlayerData.playerPOSX;
+        Movement.y = PlayerData.playerPOSY;
+        rb.position = new Vector2 (Movement.x, Movement.y);
     }
 
     // Update is called once per frame

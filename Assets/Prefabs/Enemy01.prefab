@@ -47,7 +47,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Dangerous Chicken
   unitLevel: 665
-  damage: 5
+  UnitXp: 1
+  MnDamage: 3
+  MxDamage: 8
   maxHP: 10
   currentHP: 10
 --- !u!1 &3369478766291783145

@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeController : MonoBehaviour
 {
+    public int TposX;
+    public int TposY;
+
     public int SCNL;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +21,8 @@ public class SceneChangeController : MonoBehaviour
     {
         if (collision != null)
         {
+            PlayerData.playerPOSX = TposX;
+            PlayerData.playerPOSY = TposY;
             SceneManager.LoadScene(SCNL);
         }
     }

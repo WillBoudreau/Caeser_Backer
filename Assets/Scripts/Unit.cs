@@ -7,20 +7,26 @@ public class Unit : MonoBehaviour
 
     public string unitName;
     public int unitLevel;
-
-    public int damage;
+    public int UnitXp;
+    public int MnDamage;
+    public int MxDamage;
 
     public int maxHP;
     public int currentHP;
 
-    public bool TakeDamage(int dmg)
+    public bool TakeDamage(int mindmg, int maxdmg)
     {
-        currentHP -= dmg;
+        PlayerData.RNGRSLT = Random.Range(mindmg, maxdmg);
+        currentHP -= PlayerData.RNGRSLT;
 
         if (currentHP == 0 | currentHP <= 0)
+        {
             return true;
+        }
         else
+        {
             return false;
+        }
     }
 
     public void Heal(int amount)
