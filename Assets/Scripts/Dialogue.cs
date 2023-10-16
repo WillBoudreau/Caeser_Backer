@@ -5,7 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class Dialogue
 {
-    float textSpeed = 0.5f;
 
     public string name;
 
