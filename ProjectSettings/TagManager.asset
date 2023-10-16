@@ -7,7 +7,6 @@ TagManager:
   - NPC1
   - Interact
   - Dave
-  - DaveCollider
   - BtlrUI
   layers:
   - Default

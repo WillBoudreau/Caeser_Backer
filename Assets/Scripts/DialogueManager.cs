@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -48,10 +49,9 @@ public class DialogueManager : MonoBehaviour
     }
     void EndDialogue()
     {
-        Debug.Log("End of Conversation");
-        if(endGame)
-        {
-            SceneManager.LoadScene(6);
-        }
+        if (endGame)
+            {
+                SceneManager.LoadScene(6);
+            }
     }
 }
