@@ -6,11 +6,12 @@ public class MenuButtonsScript : MonoBehaviour
 {
     public GameObject optionsMenu;
     public GameObject Menu;
+    public GameObject DevNotesMenu;
     // Start is called before the first frame update
     void Start()
     {
         optionsMenu.SetActive(false);
-
+        DevNotesMenu.SetActive(false);
         Menu.SetActive(true);
     }
 
@@ -24,13 +25,24 @@ public class MenuButtonsScript : MonoBehaviour
         optionsMenu.SetActive(true);
         Menu.SetActive(false);
     }
-    public void backButton()
+    public void OptionsbackButton()
     {
         optionsMenu.SetActive(false);
         Menu.SetActive(true);
+        
     }
     public void quitButton()
     {
         Application.Quit();
+    }
+    public void DevNotesButton() 
+    {
+        DevNotesMenu.SetActive(true);
+        Menu.SetActive(false);
+    }
+    public void DevNotesBack()
+    {
+        DevNotesMenu.SetActive(false);
+        Menu.SetActive(true);
     }
 }
