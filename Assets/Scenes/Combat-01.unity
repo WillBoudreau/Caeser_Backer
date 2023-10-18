@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 284171834}
   - component: {fileID: 284171833}
   m_Layer: 0
-  m_Name: Untitledplaceholderbg
+  m_Name: BattleBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -496,7 +496,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1633734a075c9f3459cb7e86cff7f946, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28ea53d876119d747ad91898ef0037ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -516,8 +516,8 @@ Transform:
   m_GameObject: {fileID: 284171832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16, y: -2.25, z: 0}
-  m_LocalScale: {x: 10, y: 5, z: 1}
+  m_LocalPosition: {x: -0.04, y: -0.1, z: 0}
+  m_LocalScale: {x: 1.9095188, y: 1.7011845, z: 0.2045}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
