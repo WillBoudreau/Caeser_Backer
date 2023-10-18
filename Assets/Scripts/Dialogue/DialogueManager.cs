@@ -45,13 +45,10 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDemoCheck()
     {
-        endGame = true;
+       endGame = true;
     }
     void EndDialogue()
     {
-        if (endGame)
-            {
-                SceneManager.LoadScene(6);
-            }
+        
     }
 }

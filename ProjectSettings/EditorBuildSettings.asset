@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home2(UnFinished).unity
     guid: 067b6c7552b145c49aa41dde1ffa54ef
+  - enabled: 1
+    path: Assets/Scenes/InGameMenu.unity
+    guid: 79b1dfed19e3c264a8ded74248963667
   m_configObjects: {}
