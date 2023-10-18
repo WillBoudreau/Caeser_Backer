@@ -14,7 +14,7 @@ public class MenuStart : MonoBehaviour
         PlayerData.CBcHP = 50;
         PlayerData.CBmHP = 50;
         PlayerData.CBmnDMG = 1;
-        PlayerData.CBmxDMG = 1;
+        PlayerData.CBmxDMG = 2;
         PlayerData.CBLVL = 0;
         PlayerData.CBcSP = 10;
         PlayerData.CBmSP = 10;

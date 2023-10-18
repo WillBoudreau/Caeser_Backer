@@ -47,7 +47,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Ceaser
   unitLevel: 0
-  damage: 0
+  UnitXp: 0
+  MnDamage: 0
+  MxDamage: 0
   maxHP: 0
   currentHP: 0
 --- !u!1 &6250281139971823694

@@ -64,7 +64,7 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(2f);
         if (isDead)
         {
-            
+
             dialogueText.text = "The " + enemyUnit.unitName + ", has been defeated...";
             state = BattleState.WON;
             StartCoroutine(EndBattle());
@@ -80,12 +80,12 @@ public class BattleSystem : MonoBehaviour
         dialogueText.text = "The " + enemyUnit.unitName + " Makes their move!";
         yield return new WaitForSeconds(2f);
         bool isDead = playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MxDamage);
-        playerHUD.SetHP(playerUnit.currentHP);       
+        playerHUD.SetHP(playerUnit.currentHP);
         dialogueText.text = "The " + enemyUnit.unitName + " deals " + PlayerData.RNGRSLT + " to " + playerUnit.unitName + "...";
         yield return new WaitForSeconds(2f);
         if (isDead)
         {
-            
+
             state = BattleState.LOST;
             StartCoroutine(EndBattle());
         }
@@ -99,7 +99,7 @@ public class BattleSystem : MonoBehaviour
     {
         PlayerData.CBcHP = playerUnit.currentHP;
 
-        
+
 
         PlayerData.CBXP = PlayerData.CBXP + enemyUnit.UnitXp;
 
@@ -123,24 +123,104 @@ public class BattleSystem : MonoBehaviour
         if (playerUnit.currentHP == 5 || playerUnit.currentHP <= 5)
         {
             Skullivan.SetActive(true);
-        }       
+        }
+        else
+        {
+            Skullivan.SetActive(false);
+        }
         dialogueText.text = "Please select an Action:";
         BattleUI00.SetActive(true);
-        //BattleUI01.SetActive(true);
-        //BattleUI02.SetActive(true);
+        BattleUI01.SetActive(true);
+        BattleUI02.SetActive(true);
         BattleUI03.SetActive(true);
         FrTrn = true;
     }
     IEnumerator PlayerHeal()
     {
-        dialogueText.text = "You Ask God for heals...";
+        dialogueText.text = "You apply bandages to your wounds...";
         yield return new WaitForSeconds(2f);
-        playerUnit.Heal(20);
+        int HealValue = UnityEngine.Random.Range(5, playerUnit.maxHP);
+        playerUnit.Heal(HealValue);
         playerHUD.SetHP(playerUnit.currentHP);
-        dialogueText.text = "Your God heals you... Reluctantly...";
+        dialogueText.text = playerUnit.name + " Recovers " + HealValue + " Health!";
         yield return new WaitForSeconds(2f);
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurn());
+    }
+    IEnumerator Pray()
+    {
+        dialogueText.text = "You pray to the Six Gods...";
+        int PrayValue = UnityEngine.Random.Range(0, 1000);
+        yield return new WaitForSeconds(2);
+        if (PrayValue == 777)
+        {
+            dialogueText.text = "The Six Gods Grant you a divine Blessing!";
+            playerUnit.currentHP = playerUnit.maxHP;
+            playerUnit.MnDamage += 500;
+            playerUnit.MxDamage += 1000;
+            PlayerData.CBXP += 100;
+            yield return new WaitForSeconds(2);
+        }
+        else if (PrayValue >= 0 && PrayValue <= 50)
+        {
+            dialogueText.text = "They said some hurtful words...";
+            yield return new WaitForSeconds(2);
+            playerUnit.currentHP -= 25;
+            if (playerUnit.currentHP <= 0)
+            {
+                playerUnit.currentHP = 0;
+                state = BattleState.LOST;
+                StartCoroutine(EndBattle());
+
+            }
+        }
+        else if (PrayValue >= 51 && PrayValue <= 500)
+        {
+            dialogueText.text = "Nothing happens...";
+            yield return new WaitForSeconds(2);
+            //nothing
+        }
+        else if (PrayValue >= 501 && PrayValue <= 776)
+        {
+            dialogueText.text = "Your wounds have been healed!";
+            yield return new WaitForSeconds(2);
+            playerUnit.currentHP += 25;
+            if (playerUnit.currentHP > playerUnit.maxHP)
+            {
+                playerUnit.currentHP = playerUnit.maxHP;
+            }
+        }
+        else if (PrayValue >= 778 && PrayValue <= 1000)
+        {
+            dialogueText.text = "The Six Gods have blessed you with greed!";
+            yield return new WaitForSeconds(2);
+            enemyUnit.UnitXp *= 2;
+        }
+        state = BattleState.ENEMYTURN;
+        StartCoroutine(EnemyTurn());
+    }
+    IEnumerator FleeAttempt()
+    {
+        dialogueText.text = "You Attempt to Flee...";
+        yield return new WaitForSeconds(2);
+        int FleeValue = UnityEngine.Random.Range(0, 100);
+        if (FleeValue >= 40 && FleeValue <= 60)
+        {
+            dialogueText.text = "You Flee.";
+            yield return new WaitForSeconds(2);
+            PlayerData.playerPOSX = -36;
+            PlayerData.playerPOSY = -1;
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            dialogueText.text = "The " + enemyUnit.unitName + " Caught you!";
+            yield return new WaitForSeconds(2);
+            playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MnDamage);
+            dialogueText.text = playerUnit.unitName + " takes " + enemyUnit.MnDamage;
+            yield return new WaitForSeconds(2);
+            StartCoroutine(EnemyTurn());
+        }
     }
     public void OnAttackButton()
     {
@@ -158,6 +238,22 @@ public class BattleSystem : MonoBehaviour
         }
         StartCoroutine(PlayerAttack());
     }
+    public void OnRunButton()
+    {
+        if (FrTrn)
+        {
+            FrTrn = false;
+            BattleUI00.SetActive(false);
+            BattleUI01.SetActive(false);
+            BattleUI02.SetActive(false);
+            BattleUI03.SetActive(false);
+            if (state != BattleState.PLAYERTURN)
+            {
+                return;
+            }
+        }
+        StartCoroutine(FleeAttempt());
+    }
     public void OnHealButton()
     {
         FrTrn = true;
@@ -172,7 +268,24 @@ public class BattleSystem : MonoBehaviour
             {
                 return;
             }
-        StartCoroutine(PlayerHeal());         
+            StartCoroutine(PlayerHeal());
+        }
+    }
+    public void OnPrayButton()
+    {
+        FrTrn = true;
+        if (FrTrn)
+        {
+            FrTrn = false;
+            BattleUI00.SetActive(false);
+            BattleUI01.SetActive(false);
+            BattleUI02.SetActive(false);
+            BattleUI03.SetActive(false);
+            if (state != BattleState.PLAYERTURN)
+            {
+                return;
+            }
+            StartCoroutine(Pray());
         }
     }
 }
