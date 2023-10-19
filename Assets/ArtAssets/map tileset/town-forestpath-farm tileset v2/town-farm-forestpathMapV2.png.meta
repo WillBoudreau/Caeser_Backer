@@ -1,0 +1,7673 @@
+fileFormatVersion: 2
+guid: 477b0f15b1aa3b54bb3f8baad6cdd685
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607fd47b445e7b64286bc12fb3d8a58b
+      internalID: -52707525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ee9012f5e9614690c301e8f353260
+      internalID: -899951299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638f9be9ae1007e47aad6a04f49060bf
+      internalID: -625209528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e81a21c98ec8ac47a20ad0484f012e1
+      internalID: -778359410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9906128c66b72554da7265bb52121317
+      internalID: 1740570823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f68bea814921e4dbd69c64f671344b
+      internalID: -1479844924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7fdd5a5d6b85f47987f4553c0dcb0f
+      internalID: 939034298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c348f6087965b1f4eab214094042c396
+      internalID: 351941049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caba996231ac6eb40ba657cad924d58f
+      internalID: 1950622122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af34c362fa41d7e4baf93809d8e3fd22
+      internalID: -398223705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a1fe62f51354d4d95f666ddf5f22b7
+      internalID: 594802257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbadec47fa0cb4d4e8207cf9a09bb8c4
+      internalID: 1165832954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098ce8669f948c748b4d9967c79098fb
+      internalID: 1865358645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_13
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d525bca6a71a86408aaa69d8c857ede
+      internalID: -1104213178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9281ee1b9975749984f329e249e9f2
+      internalID: -589046571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f9b94ecd3f7a40a873e35eec19a3b
+      internalID: -1003099214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_16
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ba41ce627e8f146ba15543a35cd860
+      internalID: 804299704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_17
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf7e17bf1cda064ab5b7b5109c1acd1
+      internalID: -2088475440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_18
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5bcb1bd9f8e9c41a3b5f57ff05a78d
+      internalID: 626360182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_19
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a6d09e23059b443b6db472fb453108
+      internalID: 1918547124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ea316d063f714e8f021a9a297dec5
+      internalID: 1439968060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_21
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0638aa8b84d83434eacc1e915246ff22
+      internalID: -1113877301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_22
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1860
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d3c4016c6ac074888195d49a92ff28
+      internalID: -769858717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c4b6c90da9b8a4481adbc416154e68
+      internalID: -1208235996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0486194be677449a702b634f1ca610
+      internalID: 379563639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3571bb1d8b1b40b4ab4c5fc6f2f70fc5
+      internalID: 130233354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333998a563180a848a7ea11fc854cbba
+      internalID: 949692109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ec5257563cc904a89353dfc4869061
+      internalID: 912073829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd8834159e873c47bcb646bbc29c650
+      internalID: 143442166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c08bf2807eb4c418f9ae9a9dcc7e4a
+      internalID: 1934651638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_30
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd848a7cf310fc544b09e01c591ba6af
+      internalID: -1160944111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d2de030d6126242a8b558f2e876e2e
+      internalID: 1009279959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_32
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b40e490cef0554dbcaf6e8cc4b6596
+      internalID: -1954997396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dc070752a69264cbaabfee280d737c
+      internalID: 1976286370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f925f0f55bf9bbf439a3d17fb3b7d4eb
+      internalID: 1099814882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_35
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ae51451845ce48b8a3b251c855ed0
+      internalID: -1819581009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_36
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efd316ed1e295e459f692248b7bc06d
+      internalID: -571397891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_37
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd98ec9665fbd1c48a167b1cda65d59a
+      internalID: 371140479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ae365db21a50c4b8eb8e3ac7f59401
+      internalID: -221821642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_39
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430e73080548c0544aabea04cfd5b736
+      internalID: 1374298172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_40
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80286d83df869f74c9aebe3d53aad26e
+      internalID: -1014493284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_41
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32a43dcf8f9ec24c9095616e7e28b96
+      internalID: -809974143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_42
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ee64d1a6f7a9042ba3c41f3d0e76f3
+      internalID: -1587986226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_43
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad790a5089722843b9a393543f42ede
+      internalID: -1943743472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_44
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbd776e79e47ab4dabbd2d7a8f319e4
+      internalID: -901715641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_45
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf8e6276c9a482488e464ac5f07ebb9
+      internalID: 1189178394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_46
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d910a3938017d134ea64b7c882bf11b8
+      internalID: 522452703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_47
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d99e5fd532fc84eaeb04d6b5e62452
+      internalID: 31412636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_48
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1800
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1905aec853d694468845952d317002f
+      internalID: 1853529609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe33e972dc858a74b8bae11b50d15497
+      internalID: 1963898364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_50
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c4a43a4911cee44bdec20dab9dc308
+      internalID: -1919572237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_51
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5962b63506cda764eaf60c9fbc76907c
+      internalID: 1418253628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_52
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2209ec6a324439c4abe990d2b7af6d99
+      internalID: -358918136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37051760deeb715448ab6e73443d60a2
+      internalID: 1737263162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982413e147dcb0b49bebe68104cb4ddf
+      internalID: -1351142684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_55
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebdf7bb384a8f94ca8e04e0031f4ed2
+      internalID: 1176216314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_56
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a769e1089ebbc8c46884df54234a4325
+      internalID: -306200073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef59c8a9e0bf4664586cb009834bd672
+      internalID: -603597487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_58
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaffca1cf88aa634a8fde36248ff4c0d
+      internalID: 139667555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_59
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5212bf9063ed49541bb2712858b521b9
+      internalID: -1279645929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3be0dc21794cf46b820ed77c92f7dc
+      internalID: 2053803979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_61
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec5962fa1eea8140af0553a43a64671
+      internalID: 1831793969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_62
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65899353916b1a64ab28c77689f874ab
+      internalID: 1203987253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_63
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f230b90db3ac4295daa36a89d4a46
+      internalID: -1527523888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_64
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6db3d1f2dd5feb4ba3f3cb1208cb30c
+      internalID: 906001437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_65
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92575eade8f3bad4fb9fbe0b96d3e0d8
+      internalID: 1062475913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_66
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5f0747eb291643aa9997658e13ef2
+      internalID: 1288046363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_67
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0be614105ef2aa4198e9cb6c69c8cb3
+      internalID: 2058311112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_68
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedfbb3ed62804e478bb721a85cabe5d
+      internalID: 1557103306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_69
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364f391f79ab8784b98c3ff5c9f12601
+      internalID: 1404546259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_70
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1740
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1088e3f39f581249b63fe538fbf5f35
+      internalID: -1355135558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3af9768c6102464bbb1d47fadcaa39d
+      internalID: 1619529155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_72
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a775880976e744abc0dee1411bb110
+      internalID: -1296938662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acf4146196f4b244805aba1ac9e4046
+      internalID: 731139874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f74f74171c43b409c15b3c40fa68ee
+      internalID: 603737332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccdf1f341826a841ba3ab5ff1f73599
+      internalID: 658524378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_76
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b55404831673643a71094870ee804c
+      internalID: -983114964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_77
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84839ad08b060d44ab81bc577e3c286
+      internalID: 50352016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_78
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f97fae5ca595f944a37480b116441b6
+      internalID: -1846980335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a85d635968747a499d8acae2eb3542a
+      internalID: 788690273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_80
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46556fc483910874d916756ed2448c6d
+      internalID: 1363802496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_81
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c782114a5c410c94597720e0478ea699
+      internalID: 221122068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_82
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70baa08848b3ea1479fea23f98afd3cf
+      internalID: -27233411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_83
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e4fcab70e97774aae1e8b15645aa62
+      internalID: -657641655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_84
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278a90c1adbdb0d478d7b07d6ea88a19
+      internalID: 572393997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_85
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7872d91948e0f4780deccc7f23f89c
+      internalID: -1891286354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_86
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fb84a43dd57b049921ccf57051cc19
+      internalID: 983597638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_87
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a0cc552a6934347a7d9fca80261b31
+      internalID: 2086530962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_88
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902c9289d12d8054a85a8bd9b8c4e9e5
+      internalID: 869315537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_89
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010afff00dab85041a51be48e3fb4bf2
+      internalID: -2141650029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_90
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff52474362675784999338615885b8be
+      internalID: -1687440595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_91
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1680
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c14c9a667e24394f925d4c217fa52bb
+      internalID: -924696917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fded149fb67adc4b8c04a3e07ff4583
+      internalID: 650134592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_93
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa6587d63903ef43b92b1b8422c5af6
+      internalID: 1364288478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_94
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8ec254f4b1f98418a79c3fc673db95
+      internalID: -832639139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_95
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ed67af415aa04cacd5d988c3352ff
+      internalID: 1040648039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_96
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28699b7e9fc37f4fbaf18d50923de88
+      internalID: -1442141049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_97
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a217e8a8f7dc1404e86bca1a187adef5
+      internalID: -670933174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_98
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e42af3358102647b40622bb6437a96
+      internalID: 1366342341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_99
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4277f88a3c4c8b45bcdc8d5a6d887c6
+      internalID: -1067058832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_100
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f492f95b17753f42b7039d404a3fee3
+      internalID: -439439219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_101
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f34b684a584ccb45a123da4006436dc
+      internalID: 1429492574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_102
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236a2aad57654ce4a8f028e593de2445
+      internalID: 1545309212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_103
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7cfc86caf3d844f8ad549d747bd8f0
+      internalID: 1516941614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_104
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4a98b65a3c3ff4e914798776e1b2e0
+      internalID: -1334790492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_105
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95253cb96a5d814983182b03af385d0
+      internalID: -1149063704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_106
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac5ed89621cfc9458470dac843ef527
+      internalID: -1637526535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_107
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27a66bd3830ef44e9f8c7f1e7ab2b49
+      internalID: 812472344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_108
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbccd886453e764c8dfa314b3450d0e
+      internalID: -1182276148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_109
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86d4aebe7a20c247a0ec69dcca6f1ff
+      internalID: -225142114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_110
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1620
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0a4accdd41ebb4391f3ef42559c937
+      internalID: 1735775935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46cbe3f79eb1eb488173e8f6f01932b
+      internalID: -1076664617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_112
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f0975213dd5d14c95efd5ab406d69a
+      internalID: 1861734652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_113
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928c339ff14e5fb4c903d15db78223dd
+      internalID: -480840067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_114
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a029455587e17fa48a41e30e2dec3057
+      internalID: -1648196480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a2ba23c8d1ebe41be0c9e93ac4a24b
+      internalID: -685144259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_116
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782d62059ee81b64fb73325548219d48
+      internalID: -1558269899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_117
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef40f5fec608a349b21424b0e2da1a0
+      internalID: -1411589816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_118
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2679b68aeb33404fb1d19d0f676d163
+      internalID: 849650690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_119
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b052cbdf8eebb4784ed89b05a15281
+      internalID: 1733311057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_120
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739a54d452bafb54fa4a6ad18503bc2e
+      internalID: 1915305789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_121
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bd80fe8b7f5e94383ee100779afd04
+      internalID: 1444311511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_122
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5274c0829c09464a9e110cb786c37ed
+      internalID: 243265004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_123
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af0a3016fef15643b4b96cf7b6a5cfb
+      internalID: -1160638234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_124
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7759d3d3f0829c0478bddc3f7c220a4b
+      internalID: 1280011216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_125
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb7264b4824d924586255d850e52281
+      internalID: -1810221635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_126
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981ab83ea0561d449a59c358cff8bfb1
+      internalID: 1964505966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_127
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f11b351513f7c34db53235de1578d61
+      internalID: -1805707726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_128
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0553d3a661f62b141a556c591603ac5a
+      internalID: 216826050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_129
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1a0cbb34506cc4b83ca330320175d1
+      internalID: 1632978847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_130
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c079b38832cdb1f42bad89150e0f8faa
+      internalID: -926336019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_131
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6524210ac80ff40a002b4a968f13ee
+      internalID: -1393107070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_132
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a479e7251542af4084b2ca726b60b36
+      internalID: 95050466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_133
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398abc3d62bb5094fae4af38e6f3144e
+      internalID: -293545628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_134
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c895b24795ab745a065241e3303458
+      internalID: 1732832409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_135
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf80bda447173b4dabd51cbf2ca389d
+      internalID: -1554349419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_136
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94049a4801d67ac4b97b1b677bdd0d35
+      internalID: 39645189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_137
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1560
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2817ded4a42d14a9d1f60f847e0ba4
+      internalID: 494601795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5046b934aa61eea4f9306cd8fba199cb
+      internalID: 1444776975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_139
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918eea7f7f4627649a8be5a3a6970127
+      internalID: 2001352749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_140
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d12c57bdca10b46acd2f2afb2ed105
+      internalID: -757625412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_141
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4cfb2d8f4ad134a945568c33ef173b
+      internalID: -384911951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_142
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0c64c0653fd064e880b41a34975e7e
+      internalID: -650297222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_143
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162016f9fda7b444d82c5f1511d304f2
+      internalID: 897738826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_144
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cca10d306c2ff42a96b40103e2b55b
+      internalID: 1041039930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_145
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc1f126ff4ba93428b4d894e638d0c1
+      internalID: 1182232791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_146
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb380c1b637a3f743880849f505c9e71
+      internalID: -403258273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_147
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9504c29914b43ae47901e7be61c83f80
+      internalID: 2008154641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_148
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101fee37349d5814da6d07fcde30cb8f
+      internalID: -1064334222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_149
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef7466fc13e3b64bb4a401f942506c6
+      internalID: 1039297466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_150
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e870b048f15f94b8a0dd18be03c315
+      internalID: -1592633848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_151
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2683ce520777d014da62d2c34d9d772a
+      internalID: -923021641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_152
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc9457ea876b0742b09678db9edbef7
+      internalID: -772873299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_153
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9cf5231aa8d6a44b51c9721e5a59b2
+      internalID: 2095693657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_154
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ee0d13221d29646aabbbc452678812
+      internalID: -839122726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_155
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e9f669c5d67941868a981ee0dd579
+      internalID: -881764674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_156
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cc57bff0ba3b947936bcffdf633cde
+      internalID: -999148804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_157
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb9bd3af0915104aa2ee283a4814850
+      internalID: 254221027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_158
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f99c86f413ecd46a4a0fbd22aea7d0
+      internalID: -942624115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_159
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6be6ec6a7453d943965431a54cf7671
+      internalID: -852701082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_160
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3a0882e00441443afeda2642d91f71
+      internalID: -957778530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_161
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114fc996fb1ea39469630ed3830191e6
+      internalID: 2013534404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_162
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950a91c1caa9f644a9d492bfbb0eddc6
+      internalID: -933905288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_163
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba6b5808e1bee5408be4044c6226738
+      internalID: 530683100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_164
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1500
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addbe78b190ef1145bfa9b3731d79198
+      internalID: -949768583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727e48b41ccb53449a2e3a6c28069909
+      internalID: 179772445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_166
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50ab8eea3362694fa58504e95647e36
+      internalID: -892799951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_167
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e6f3ed725a1e14ca98f1962ab4e2a0
+      internalID: -561446030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_168
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec178d3bd44d6349aa49513d4e8dcd1
+      internalID: 1640173843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_169
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073951baf0ccec945b2d17569a974b94
+      internalID: -1808240537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_170
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928de9cc713bbc8429fe887e6c7e3dc6
+      internalID: -1026387538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_171
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cec265f1f05eff499fecd4ca540434a
+      internalID: -1544046152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_172
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7b643ffa2e3c409878c568bc5722f
+      internalID: -253877838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_173
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173f51becc6f1d843876d12c8a8e7647
+      internalID: 343560846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_174
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8ed6914e0fbe24e8fbffcb70003c9d
+      internalID: -1241243641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_175
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7049686fe3dd6c46b664b2d83da805b
+      internalID: -1105992353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_176
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf77e011d7d7cb04b8e2bc2bded25745
+      internalID: -1180091152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_177
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a77825be5b40824f9a4683f206ca2bd
+      internalID: -1522461791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_178
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaa4b8d5190c274683d3569197024fb
+      internalID: 895766825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_179
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68bd116980b5d14cbef632cb0c183b2
+      internalID: -1593416819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_180
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2edec5ec8ff34192a5d98081a2511
+      internalID: -42942035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_181
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a4ee4bceb37a641bc3cc0eeb55a8c8
+      internalID: 1657892238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_182
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bb3298708e3ca42ba010ee4eec48f9
+      internalID: -760520188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_183
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef7473190af14c4590017cb53ce512f
+      internalID: -164913803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_184
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5054b79bfa9e2f45b507b31aa0571cc
+      internalID: 983602284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_185
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7844e350fb0809f4ca72b64b2a20672f
+      internalID: 541119866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_186
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1786851468a6c943931fa28450adbb6
+      internalID: 1168264118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_187
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1440
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453d64631c103ce40bc718b79269ba83
+      internalID: 1611501972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382f366b302342649a6c3ca90d5510f5
+      internalID: -739381239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_189
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52a7a2fbde076f4fb1654fe534e785d
+      internalID: 777236369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_190
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e67fd8720ce0d46a1af60dc1ec1fd8
+      internalID: -1436730851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_191
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02404e95addc914c98016621946a0b2
+      internalID: 1104883995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_192
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e689275950190f94f91c5f38a6ba650a
+      internalID: 2120207138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_193
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcefdafa3a8cf645b838a95d506396c
+      internalID: -169272657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_194
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df251d1043840fb4eb19b23eb5abe648
+      internalID: 298248080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_195
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c9ef3d3eb575a43934e851d054e56b
+      internalID: -510168955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_196
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12549b1884ec13c42b6a1afe04e2b99d
+      internalID: -320025801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_197
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751ad972463e5194fab668e7ec523041
+      internalID: 1108857010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_198
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a222fddbd7fa9d4cb72eb96907678d3
+      internalID: 404241812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_199
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca8a9c3ff4e2504baf5ceaf07698bb8
+      internalID: 1029493260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_200
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10873436c047d664ca6a9fcac1d1445e
+      internalID: -2000578127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_201
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10d912f03467424c9652078d2589a33
+      internalID: -1868296099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_202
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205af32258543d34eb79ba73a94e5611
+      internalID: -456585901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_203
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b4b58cb2e0cb49b5cdf1e3aa9a6a0
+      internalID: 796096058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_204
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82cd9c3d73c38944982af23a5b2803a
+      internalID: 158178785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_205
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2934788f6c382be4ab408999f7e54eea
+      internalID: 2027581233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_206
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dee4c6060ab3e44a1811b5104a859b
+      internalID: 722621142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_207
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4cb2820d69f3a4789e1f12724fc165
+      internalID: 1282250771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_208
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2022cdbdac6b8742906496c8a675ca3
+      internalID: -1520077781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_209
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c7903de714c14eb2eed8d0a8159a2
+      internalID: 2134135196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_210
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f303a3394dab7314cb44fda40e5e82bd
+      internalID: 263432507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_211
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b528bc52538ea4b8a4f9d3d6241131
+      internalID: 1662797594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_212
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1380
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a81fae1c5b2a4597c2a06a35d4e1f
+      internalID: -2056183202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04589146293d33a4cafa656da2a9a5bf
+      internalID: 517826148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_214
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577866bc6508df644949e062cd86ea31
+      internalID: 223003263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_215
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc52f707cfab1b41af892cf118b7cc0
+      internalID: 1027098803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_216
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7e652350860774ab12b26d02608480
+      internalID: -814915614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_217
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404c5d9596218a446a596378a11cbeda
+      internalID: -869851511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_218
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef28046bdcec864ab99cde82548d6da
+      internalID: -1409837155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_219
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0126352fb7644bb4b879ced69a26d9b4
+      internalID: -617319683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_220
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca621104c0cb2a340a4c49f1171df44f
+      internalID: -1027314335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_221
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2b0b16a9f4709439c477b30918dff5
+      internalID: 1191421544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_222
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee5bf55df3d9d443ba7b039c373f29c
+      internalID: 184170169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_223
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8a5c25b2b572b40bbf92a5357d06c3
+      internalID: 1985646129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_224
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aff3959a106f44bafb4c634744a3b0
+      internalID: -382467856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_225
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3c2cd1357a5de47b2614d016e29b6b
+      internalID: -891736508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_226
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308cfff68b0590148995bb048ea4417a
+      internalID: 609055335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_227
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cfee5e8c8cd7749ab59c65ec8b9781
+      internalID: -1687664252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_228
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88b733fe711dd640a9851c5a30f181a
+      internalID: -1570619681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_229
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbaa91203d45a44d99619086facc403
+      internalID: -804674808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_230
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b3e0c0bdc5660439988b652a950a15
+      internalID: -2068695131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_231
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4f24780569bae4ca9b2f94235d6f41
+      internalID: 2012616536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_232
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1320
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f39d9aa30d19044a623f02f5d51c51
+      internalID: -1964622225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_233
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3e011c5ddeddb438abf6cfa07d3a48
+      internalID: 2029201724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_234
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90410cd8f8ba0248a2f9044f94719cf
+      internalID: 1335217192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_235
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4611cca31b65c264089547ddd5944df3
+      internalID: 21625648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_236
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccb3619d7b331e4b92dce213669b9f7
+      internalID: 1131578461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_237
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e098b0d7e9b1222439be37b100b0cb2a
+      internalID: 1444031327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_238
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f3bb7f978fcc546b0cbb1e422ee492
+      internalID: 250400224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_239
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f80c5fc38534a4fba1a9119662d683
+      internalID: -1328019840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_240
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c18e0b23834a7249b3b8e53c30da3aa
+      internalID: -326322512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_241
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85efe0e87b1054a49a038049e379f840
+      internalID: 759094428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_242
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1260
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fbd5fe939471b4c9094d7723b83796
+      internalID: -1695890734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_243
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f06f6c4fc24194b93b05910442c79f
+      internalID: 809655325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_244
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1200
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4268322378c0a428265a8422bc5cc8
+      internalID: 371454900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_245
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1200
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e269bde7d9ddd41b7b76ae4753cc65
+      internalID: 1751360233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_246
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f38f98a4c45ee643a395aae48ff7b8d
+      internalID: 881027783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_247
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ebd3e284bca624bb393ce6f9b0c3c2
+      internalID: -602472165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_248
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caf767021f4356439ec8acf2217fdae
+      internalID: -2055164276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_249
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b91c9f52d305f4aaa1c10ad7c175a9
+      internalID: 771567846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_250
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463df05039f49ac4b8bd041a5301d028
+      internalID: -1767108699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_251
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ab8374fe16a6d40835175c199c27f4
+      internalID: 819106579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_252
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce3029f724b0e84b8a8b52c16408c37
+      internalID: -310270534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_253
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b6cc46b68ee74085952ac921f7835
+      internalID: -1467300776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_254
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a8d8c14cfc0154ba2a218ef6632f16
+      internalID: -1413302077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_255
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34508f87bc57124bb0b09c68824dad7
+      internalID: -1198069252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_256
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db3ad5eb5ebc1d42986ef90779f4ca4
+      internalID: 1593399475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_257
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1140
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae90356f5cf8274d81b83f82d204cc9
+      internalID: -969688338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_258
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e8113537eb48d48ac7add8b553209d
+      internalID: -1744804649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_259
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a5a08b7620aa14282706ddd0f907fc
+      internalID: -178665613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_260
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d60d93bf6e9924eab6a94dbae1e191
+      internalID: -80492072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_261
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59f6fb2d38b45548a48b8d1bc13b0e7
+      internalID: -1045287712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_262
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4353a10fb925f240bd3a0fa429f5850
+      internalID: -1194661521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_263
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f201df8c99d829479b3408480aeb3bd
+      internalID: 1504147585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_264
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ee5a93715c38f4ba8a86d4b277cf6b
+      internalID: -1165239447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_265
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cb7d8704d3a384faadf0031bb4461c
+      internalID: 236703315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_266
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7225734a81a7242bc6b932aa2164fd
+      internalID: -709907934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_267
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4672f550240c04c8685c6a6be6a9ec
+      internalID: -68237050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_268
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2147230372a18409f08bda7ea549b2
+      internalID: 403306256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_269
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b29236858e717428115e6731c88ba8
+      internalID: -322461829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_270
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c672802dc9db18842b503a21b7a54906
+      internalID: 1579282129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_271
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4e84fbb94e31442aed61eb12f9f4c9
+      internalID: -1593025322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_272
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0deb1f3b56630b4ba70143dd4038ee7
+      internalID: -637036562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_273
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3919034e94f36964e8aa6d98cfe94027
+      internalID: -1308046348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_274
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1080
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d93f0d3ef27ee9489e2f8a99352e232
+      internalID: -1195742132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_275
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f623655d5da1b44a59bf14d634e6a2
+      internalID: -1178876797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_276
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bceaa8b74b9a7b4897caa08d11add4d
+      internalID: 388145554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_277
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8697afddddf194149b4eaa508005e6c2
+      internalID: 119422080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_278
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a6bb0ca9a8142439d3e6297b8ecab9
+      internalID: -711002275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_279
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfb4a0f8cfea844ab51f84f3da7dfce
+      internalID: -1816900873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_280
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb010e1377b40b41bb6ef16381e1829
+      internalID: -825284769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_281
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fdd30e024c84e4ebde292782cf4d58
+      internalID: 1005381654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_282
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f85bca0d01916f4dba9e270ba0176d8
+      internalID: -1361178218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_283
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f030538b0dd2c4da3039e82fafaeea
+      internalID: 835026391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_284
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6243cacd4616374e8ff0cb32a5d72e2
+      internalID: -927325697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_285
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32248ce6857b7924cbc6a8dbb6fa2b90
+      internalID: 829818120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_286
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c465141871d3f41924e16d7845449c
+      internalID: 1465208888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_287
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda0a3e3bc4af974da55797a04fc4bf1
+      internalID: 774603797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_288
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f64f7006d1db2408f24ca96e4539dc
+      internalID: -982303056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_289
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1564e041dcb11dd4f9a738b454a2d177
+      internalID: -2018922106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_290
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9131b4d57367f449440b8a2c273665
+      internalID: -1641071532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_291
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992848ac7bf783d4a87ba107aaede25d
+      internalID: -1114742934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_292
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dce41975936d5458e64792fa892b54
+      internalID: -1797833111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_293
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1020
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dd1f83bbc829b47880271ca7e10574
+      internalID: -1513288383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_294
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2358a11e0dd5c347bc70128fbda0b44
+      internalID: 678927513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_295
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1425d13deb2c0f479f538592817ee98
+      internalID: 1129917082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_296
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029fe435405566549ae138160abc622a
+      internalID: -961721095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_297
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee5d851d52b6674db13c9ab7d21a6fb
+      internalID: 737163677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_298
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbbb91840e64f49be2dfb1c3394832
+      internalID: -1137563277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_299
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a832a561623814591ad9382987baac
+      internalID: -832561548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_300
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76205d89481ea0409be4d8c18ad8cc5
+      internalID: 760293883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_301
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e32689ab8eb5f4c998d02ea098019e
+      internalID: 1241348733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_302
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc8238788e9f0343914eb927168d606
+      internalID: 1043688322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_303
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760e0e865d3d67548b162cca8f149e06
+      internalID: -1365384274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_304
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0c8048a5563f048b8f5decd5c43561
+      internalID: 1406195358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_305
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec16d1d9701219c4dabab56e5b840a85
+      internalID: 842071781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_306
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf36d949af04824fb6476733fe2be04
+      internalID: -1785121716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_307
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec64f58a97898f74eb43213dd06876dd
+      internalID: -538168748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_308
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49956cc306e92446a559262d4d4a942
+      internalID: -651489885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_309
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f45e563d3a45b4fb9266890bb87326
+      internalID: -1709166148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_310
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 960
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e006ddd6675a2dd45a214a4e7b07f861
+      internalID: -35112170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_311
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf506d8b72334784eb15a713774c466b
+      internalID: -209447574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_312
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a37b9fbf0b392041bfe5291b8871bda
+      internalID: -2125906548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_313
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72037e3702f2f54ea0591fe6119b459
+      internalID: 1364396539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_314
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81a2de3cde06a4a985080b0f6485c8
+      internalID: 355035533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_315
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c022a7a1f3667fb468ad4228ef185609
+      internalID: 114514227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_316
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec5bf923961f78468619cc656dc4d07
+      internalID: 1561853311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_317
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7526e7ea56ccd66439e821b69363e723
+      internalID: -1019638824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_318
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bd27885a1febd4d971f34697997422
+      internalID: -577662865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_319
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f35ffa52e0aae445b12ec98ffdeaa23
+      internalID: -193475348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_320
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5298e304cced9489b873818c5d1bec
+      internalID: -1492268154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_321
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94661da79d4f7ea49806e4639482fb21
+      internalID: 1693051192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_322
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80972f916bff3b6429144781ac8bded2
+      internalID: -1533463794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_323
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d13918bc58944469a54c8457460920
+      internalID: 1145534872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_324
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468316e8e0be54440b3229795ce4b536
+      internalID: 1137347519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_325
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a13a57500cd004c9419b6d1ee22fb5
+      internalID: -1777838021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_326
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd3537254d8f2844a62f163938f61e8
+      internalID: -2046059864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_327
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 900
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b119de005f833042b63704ba98b37b1
+      internalID: 1980663311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_328
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dadd7e8424c106459a23af2cb6553f0
+      internalID: 1692691084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_329
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b0f20c153950439a9095d56629117
+      internalID: 1922671411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_330
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a709c8dc6509764cb22925aec0abd3c
+      internalID: -249543841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_331
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360dc856f13a5bb4cbea97d5099218f4
+      internalID: -1237990236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_332
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e85b1a1ab5e2e4fa75a2d9b8ebae2f
+      internalID: -176561541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_333
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd554e651951c384a9f43746e3b14b09
+      internalID: -2101175042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_334
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7865f709a7fc92f4399fb3779a81283b
+      internalID: 657952783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_335
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4559f80e58ee9a4595f482d57ed53df
+      internalID: -2105311604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_336
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff792675df9e3f94595ed69ec3ca0779
+      internalID: -1820486917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_337
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f29f87f7aa2ac4e8170c3cfc5dec60
+      internalID: 1097767425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_338
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6332edee8e2f77e47954c1bf90520c1e
+      internalID: 743455420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_339
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74056b2a85f0f4342887037dea19c85f
+      internalID: -450275057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_340
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47313e753c05f44d9db49d304a12a07
+      internalID: 857746109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_341
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 840
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c24611100f3c714b9d83faa20192381
+      internalID: -1539113566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: town-farm-forestpathMapV2_342
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 780
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87c83881c68ebf40a3d6b36902f9bb2
+      internalID: -1468899802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      town-farm-forestpathMapV2_0: -52707525
+      town-farm-forestpathMapV2_1: -899951299
+      town-farm-forestpathMapV2_10: 594802257
+      town-farm-forestpathMapV2_100: -439439219
+      town-farm-forestpathMapV2_101: 1429492574
+      town-farm-forestpathMapV2_102: 1545309212
+      town-farm-forestpathMapV2_103: 1516941614
+      town-farm-forestpathMapV2_104: -1334790492
+      town-farm-forestpathMapV2_105: -1149063704
+      town-farm-forestpathMapV2_106: -1637526535
+      town-farm-forestpathMapV2_107: 812472344
+      town-farm-forestpathMapV2_108: -1182276148
+      town-farm-forestpathMapV2_109: -225142114
+      town-farm-forestpathMapV2_11: 1165832954
+      town-farm-forestpathMapV2_110: 1735775935
+      town-farm-forestpathMapV2_111: -1076664617
+      town-farm-forestpathMapV2_112: 1861734652
+      town-farm-forestpathMapV2_113: -480840067
+      town-farm-forestpathMapV2_114: -1648196480
+      town-farm-forestpathMapV2_115: -685144259
+      town-farm-forestpathMapV2_116: -1558269899
+      town-farm-forestpathMapV2_117: -1411589816
+      town-farm-forestpathMapV2_118: 849650690
+      town-farm-forestpathMapV2_119: 1733311057
+      town-farm-forestpathMapV2_12: 1865358645
+      town-farm-forestpathMapV2_120: 1915305789
+      town-farm-forestpathMapV2_121: 1444311511
+      town-farm-forestpathMapV2_122: 243265004
+      town-farm-forestpathMapV2_123: -1160638234
+      town-farm-forestpathMapV2_124: 1280011216
+      town-farm-forestpathMapV2_125: -1810221635
+      town-farm-forestpathMapV2_126: 1964505966
+      town-farm-forestpathMapV2_127: -1805707726
+      town-farm-forestpathMapV2_128: 216826050
+      town-farm-forestpathMapV2_129: 1632978847
+      town-farm-forestpathMapV2_13: -1104213178
+      town-farm-forestpathMapV2_130: -926336019
+      town-farm-forestpathMapV2_131: -1393107070
+      town-farm-forestpathMapV2_132: 95050466
+      town-farm-forestpathMapV2_133: -293545628
+      town-farm-forestpathMapV2_134: 1732832409
+      town-farm-forestpathMapV2_135: -1554349419
+      town-farm-forestpathMapV2_136: 39645189
+      town-farm-forestpathMapV2_137: 494601795
+      town-farm-forestpathMapV2_138: 1444776975
+      town-farm-forestpathMapV2_139: 2001352749
+      town-farm-forestpathMapV2_14: -589046571
+      town-farm-forestpathMapV2_140: -757625412
+      town-farm-forestpathMapV2_141: -384911951
+      town-farm-forestpathMapV2_142: -650297222
+      town-farm-forestpathMapV2_143: 897738826
+      town-farm-forestpathMapV2_144: 1041039930
+      town-farm-forestpathMapV2_145: 1182232791
+      town-farm-forestpathMapV2_146: -403258273
+      town-farm-forestpathMapV2_147: 2008154641
+      town-farm-forestpathMapV2_148: -1064334222
+      town-farm-forestpathMapV2_149: 1039297466
+      town-farm-forestpathMapV2_15: -1003099214
+      town-farm-forestpathMapV2_150: -1592633848
+      town-farm-forestpathMapV2_151: -923021641
+      town-farm-forestpathMapV2_152: -772873299
+      town-farm-forestpathMapV2_153: 2095693657
+      town-farm-forestpathMapV2_154: -839122726
+      town-farm-forestpathMapV2_155: -881764674
+      town-farm-forestpathMapV2_156: -999148804
+      town-farm-forestpathMapV2_157: 254221027
+      town-farm-forestpathMapV2_158: -942624115
+      town-farm-forestpathMapV2_159: -852701082
+      town-farm-forestpathMapV2_16: 804299704
+      town-farm-forestpathMapV2_160: -957778530
+      town-farm-forestpathMapV2_161: 2013534404
+      town-farm-forestpathMapV2_162: -933905288
+      town-farm-forestpathMapV2_163: 530683100
+      town-farm-forestpathMapV2_164: -949768583
+      town-farm-forestpathMapV2_165: 179772445
+      town-farm-forestpathMapV2_166: -892799951
+      town-farm-forestpathMapV2_167: -561446030
+      town-farm-forestpathMapV2_168: 1640173843
+      town-farm-forestpathMapV2_169: -1808240537
+      town-farm-forestpathMapV2_17: -2088475440
+      town-farm-forestpathMapV2_170: -1026387538
+      town-farm-forestpathMapV2_171: -1544046152
+      town-farm-forestpathMapV2_172: -253877838
+      town-farm-forestpathMapV2_173: 343560846
+      town-farm-forestpathMapV2_174: -1241243641
+      town-farm-forestpathMapV2_175: -1105992353
+      town-farm-forestpathMapV2_176: -1180091152
+      town-farm-forestpathMapV2_177: -1522461791
+      town-farm-forestpathMapV2_178: 895766825
+      town-farm-forestpathMapV2_179: -1593416819
+      town-farm-forestpathMapV2_18: 626360182
+      town-farm-forestpathMapV2_180: -42942035
+      town-farm-forestpathMapV2_181: 1657892238
+      town-farm-forestpathMapV2_182: -760520188
+      town-farm-forestpathMapV2_183: -164913803
+      town-farm-forestpathMapV2_184: 983602284
+      town-farm-forestpathMapV2_185: 541119866
+      town-farm-forestpathMapV2_186: 1168264118
+      town-farm-forestpathMapV2_187: 1611501972
+      town-farm-forestpathMapV2_188: -739381239
+      town-farm-forestpathMapV2_189: 777236369
+      town-farm-forestpathMapV2_19: 1918547124
+      town-farm-forestpathMapV2_190: -1436730851
+      town-farm-forestpathMapV2_191: 1104883995
+      town-farm-forestpathMapV2_192: 2120207138
+      town-farm-forestpathMapV2_193: -169272657
+      town-farm-forestpathMapV2_194: 298248080
+      town-farm-forestpathMapV2_195: -510168955
+      town-farm-forestpathMapV2_196: -320025801
+      town-farm-forestpathMapV2_197: 1108857010
+      town-farm-forestpathMapV2_198: 404241812
+      town-farm-forestpathMapV2_199: 1029493260
+      town-farm-forestpathMapV2_2: -625209528
+      town-farm-forestpathMapV2_20: 1439968060
+      town-farm-forestpathMapV2_200: -2000578127
+      town-farm-forestpathMapV2_201: -1868296099
+      town-farm-forestpathMapV2_202: -456585901
+      town-farm-forestpathMapV2_203: 796096058
+      town-farm-forestpathMapV2_204: 158178785
+      town-farm-forestpathMapV2_205: 2027581233
+      town-farm-forestpathMapV2_206: 722621142
+      town-farm-forestpathMapV2_207: 1282250771
+      town-farm-forestpathMapV2_208: -1520077781
+      town-farm-forestpathMapV2_209: 2134135196
+      town-farm-forestpathMapV2_21: -1113877301
+      town-farm-forestpathMapV2_210: 263432507
+      town-farm-forestpathMapV2_211: 1662797594
+      town-farm-forestpathMapV2_212: -2056183202
+      town-farm-forestpathMapV2_213: 517826148
+      town-farm-forestpathMapV2_214: 223003263
+      town-farm-forestpathMapV2_215: 1027098803
+      town-farm-forestpathMapV2_216: -814915614
+      town-farm-forestpathMapV2_217: -869851511
+      town-farm-forestpathMapV2_218: -1409837155
+      town-farm-forestpathMapV2_219: -617319683
+      town-farm-forestpathMapV2_22: -769858717
+      town-farm-forestpathMapV2_220: -1027314335
+      town-farm-forestpathMapV2_221: 1191421544
+      town-farm-forestpathMapV2_222: 184170169
+      town-farm-forestpathMapV2_223: 1985646129
+      town-farm-forestpathMapV2_224: -382467856
+      town-farm-forestpathMapV2_225: -891736508
+      town-farm-forestpathMapV2_226: 609055335
+      town-farm-forestpathMapV2_227: -1687664252
+      town-farm-forestpathMapV2_228: -1570619681
+      town-farm-forestpathMapV2_229: -804674808
+      town-farm-forestpathMapV2_23: -1208235996
+      town-farm-forestpathMapV2_230: -2068695131
+      town-farm-forestpathMapV2_231: 2012616536
+      town-farm-forestpathMapV2_232: -1964622225
+      town-farm-forestpathMapV2_233: 2029201724
+      town-farm-forestpathMapV2_234: 1335217192
+      town-farm-forestpathMapV2_235: 21625648
+      town-farm-forestpathMapV2_236: 1131578461
+      town-farm-forestpathMapV2_237: 1444031327
+      town-farm-forestpathMapV2_238: 250400224
+      town-farm-forestpathMapV2_239: -1328019840
+      town-farm-forestpathMapV2_24: 379563639
+      town-farm-forestpathMapV2_240: -326322512
+      town-farm-forestpathMapV2_241: 759094428
+      town-farm-forestpathMapV2_242: -1695890734
+      town-farm-forestpathMapV2_243: 809655325
+      town-farm-forestpathMapV2_244: 371454900
+      town-farm-forestpathMapV2_245: 1751360233
+      town-farm-forestpathMapV2_246: 881027783
+      town-farm-forestpathMapV2_247: -602472165
+      town-farm-forestpathMapV2_248: -2055164276
+      town-farm-forestpathMapV2_249: 771567846
+      town-farm-forestpathMapV2_25: 130233354
+      town-farm-forestpathMapV2_250: -1767108699
+      town-farm-forestpathMapV2_251: 819106579
+      town-farm-forestpathMapV2_252: -310270534
+      town-farm-forestpathMapV2_253: -1467300776
+      town-farm-forestpathMapV2_254: -1413302077
+      town-farm-forestpathMapV2_255: -1198069252
+      town-farm-forestpathMapV2_256: 1593399475
+      town-farm-forestpathMapV2_257: -969688338
+      town-farm-forestpathMapV2_258: -1744804649
+      town-farm-forestpathMapV2_259: -178665613
+      town-farm-forestpathMapV2_26: 949692109
+      town-farm-forestpathMapV2_260: -80492072
+      town-farm-forestpathMapV2_261: -1045287712
+      town-farm-forestpathMapV2_262: -1194661521
+      town-farm-forestpathMapV2_263: 1504147585
+      town-farm-forestpathMapV2_264: -1165239447
+      town-farm-forestpathMapV2_265: 236703315
+      town-farm-forestpathMapV2_266: -709907934
+      town-farm-forestpathMapV2_267: -68237050
+      town-farm-forestpathMapV2_268: 403306256
+      town-farm-forestpathMapV2_269: -322461829
+      town-farm-forestpathMapV2_27: 912073829
+      town-farm-forestpathMapV2_270: 1579282129
+      town-farm-forestpathMapV2_271: -1593025322
+      town-farm-forestpathMapV2_272: -637036562
+      town-farm-forestpathMapV2_273: -1308046348
+      town-farm-forestpathMapV2_274: -1195742132
+      town-farm-forestpathMapV2_275: -1178876797
+      town-farm-forestpathMapV2_276: 388145554
+      town-farm-forestpathMapV2_277: 119422080
+      town-farm-forestpathMapV2_278: -711002275
+      town-farm-forestpathMapV2_279: -1816900873
+      town-farm-forestpathMapV2_28: 143442166
+      town-farm-forestpathMapV2_280: -825284769
+      town-farm-forestpathMapV2_281: 1005381654
+      town-farm-forestpathMapV2_282: -1361178218
+      town-farm-forestpathMapV2_283: 835026391
+      town-farm-forestpathMapV2_284: -927325697
+      town-farm-forestpathMapV2_285: 829818120
+      town-farm-forestpathMapV2_286: 1465208888
+      town-farm-forestpathMapV2_287: 774603797
+      town-farm-forestpathMapV2_288: -982303056
+      town-farm-forestpathMapV2_289: -2018922106
+      town-farm-forestpathMapV2_29: 1934651638
+      town-farm-forestpathMapV2_290: -1641071532
+      town-farm-forestpathMapV2_291: -1114742934
+      town-farm-forestpathMapV2_292: -1797833111
+      town-farm-forestpathMapV2_293: -1513288383
+      town-farm-forestpathMapV2_294: 678927513
+      town-farm-forestpathMapV2_295: 1129917082
+      town-farm-forestpathMapV2_296: -961721095
+      town-farm-forestpathMapV2_297: 737163677
+      town-farm-forestpathMapV2_298: -1137563277
+      town-farm-forestpathMapV2_299: -832561548
+      town-farm-forestpathMapV2_3: -778359410
+      town-farm-forestpathMapV2_30: -1160944111
+      town-farm-forestpathMapV2_300: 760293883
+      town-farm-forestpathMapV2_301: 1241348733
+      town-farm-forestpathMapV2_302: 1043688322
+      town-farm-forestpathMapV2_303: -1365384274
+      town-farm-forestpathMapV2_304: 1406195358
+      town-farm-forestpathMapV2_305: 842071781
+      town-farm-forestpathMapV2_306: -1785121716
+      town-farm-forestpathMapV2_307: -538168748
+      town-farm-forestpathMapV2_308: -651489885
+      town-farm-forestpathMapV2_309: -1709166148
+      town-farm-forestpathMapV2_31: 1009279959
+      town-farm-forestpathMapV2_310: -35112170
+      town-farm-forestpathMapV2_311: -209447574
+      town-farm-forestpathMapV2_312: -2125906548
+      town-farm-forestpathMapV2_313: 1364396539
+      town-farm-forestpathMapV2_314: 355035533
+      town-farm-forestpathMapV2_315: 114514227
+      town-farm-forestpathMapV2_316: 1561853311
+      town-farm-forestpathMapV2_317: -1019638824
+      town-farm-forestpathMapV2_318: -577662865
+      town-farm-forestpathMapV2_319: -193475348
+      town-farm-forestpathMapV2_32: -1954997396
+      town-farm-forestpathMapV2_320: -1492268154
+      town-farm-forestpathMapV2_321: 1693051192
+      town-farm-forestpathMapV2_322: -1533463794
+      town-farm-forestpathMapV2_323: 1145534872
+      town-farm-forestpathMapV2_324: 1137347519
+      town-farm-forestpathMapV2_325: -1777838021
+      town-farm-forestpathMapV2_326: -2046059864
+      town-farm-forestpathMapV2_327: 1980663311
+      town-farm-forestpathMapV2_328: 1692691084
+      town-farm-forestpathMapV2_329: 1922671411
+      town-farm-forestpathMapV2_33: 1976286370
+      town-farm-forestpathMapV2_330: -249543841
+      town-farm-forestpathMapV2_331: -1237990236
+      town-farm-forestpathMapV2_332: -176561541
+      town-farm-forestpathMapV2_333: -2101175042
+      town-farm-forestpathMapV2_334: 657952783
+      town-farm-forestpathMapV2_335: -2105311604
+      town-farm-forestpathMapV2_336: -1820486917
+      town-farm-forestpathMapV2_337: 1097767425
+      town-farm-forestpathMapV2_338: 743455420
+      town-farm-forestpathMapV2_339: -450275057
+      town-farm-forestpathMapV2_34: 1099814882
+      town-farm-forestpathMapV2_340: 857746109
+      town-farm-forestpathMapV2_341: -1539113566
+      town-farm-forestpathMapV2_342: -1468899802
+      town-farm-forestpathMapV2_35: -1819581009
+      town-farm-forestpathMapV2_36: -571397891
+      town-farm-forestpathMapV2_37: 371140479
+      town-farm-forestpathMapV2_38: -221821642
+      town-farm-forestpathMapV2_39: 1374298172
+      town-farm-forestpathMapV2_4: 1740570823
+      town-farm-forestpathMapV2_40: -1014493284
+      town-farm-forestpathMapV2_41: -809974143
+      town-farm-forestpathMapV2_42: -1587986226
+      town-farm-forestpathMapV2_43: -1943743472
+      town-farm-forestpathMapV2_44: -901715641
+      town-farm-forestpathMapV2_45: 1189178394
+      town-farm-forestpathMapV2_46: 522452703
+      town-farm-forestpathMapV2_47: 31412636
+      town-farm-forestpathMapV2_48: 1853529609
+      town-farm-forestpathMapV2_49: 1963898364
+      town-farm-forestpathMapV2_5: -1479844924
+      town-farm-forestpathMapV2_50: -1919572237
+      town-farm-forestpathMapV2_51: 1418253628
+      town-farm-forestpathMapV2_52: -358918136
+      town-farm-forestpathMapV2_53: 1737263162
+      town-farm-forestpathMapV2_54: -1351142684
+      town-farm-forestpathMapV2_55: 1176216314
+      town-farm-forestpathMapV2_56: -306200073
+      town-farm-forestpathMapV2_57: -603597487
+      town-farm-forestpathMapV2_58: 139667555
+      town-farm-forestpathMapV2_59: -1279645929
+      town-farm-forestpathMapV2_6: 939034298
+      town-farm-forestpathMapV2_60: 2053803979
+      town-farm-forestpathMapV2_61: 1831793969
+      town-farm-forestpathMapV2_62: 1203987253
+      town-farm-forestpathMapV2_63: -1527523888
+      town-farm-forestpathMapV2_64: 906001437
+      town-farm-forestpathMapV2_65: 1062475913
+      town-farm-forestpathMapV2_66: 1288046363
+      town-farm-forestpathMapV2_67: 2058311112
+      town-farm-forestpathMapV2_68: 1557103306
+      town-farm-forestpathMapV2_69: 1404546259
+      town-farm-forestpathMapV2_7: 351941049
+      town-farm-forestpathMapV2_70: -1355135558
+      town-farm-forestpathMapV2_71: 1619529155
+      town-farm-forestpathMapV2_72: -1296938662
+      town-farm-forestpathMapV2_73: 731139874
+      town-farm-forestpathMapV2_74: 603737332
+      town-farm-forestpathMapV2_75: 658524378
+      town-farm-forestpathMapV2_76: -983114964
+      town-farm-forestpathMapV2_77: 50352016
+      town-farm-forestpathMapV2_78: -1846980335
+      town-farm-forestpathMapV2_79: 788690273
+      town-farm-forestpathMapV2_8: 1950622122
+      town-farm-forestpathMapV2_80: 1363802496
+      town-farm-forestpathMapV2_81: 221122068
+      town-farm-forestpathMapV2_82: -27233411
+      town-farm-forestpathMapV2_83: -657641655
+      town-farm-forestpathMapV2_84: 572393997
+      town-farm-forestpathMapV2_85: -1891286354
+      town-farm-forestpathMapV2_86: 983597638
+      town-farm-forestpathMapV2_87: 2086530962
+      town-farm-forestpathMapV2_88: 869315537
+      town-farm-forestpathMapV2_89: -2141650029
+      town-farm-forestpathMapV2_9: -398223705
+      town-farm-forestpathMapV2_90: -1687440595
+      town-farm-forestpathMapV2_91: -924696917
+      town-farm-forestpathMapV2_92: 650134592
+      town-farm-forestpathMapV2_93: 1364288478
+      town-farm-forestpathMapV2_94: -832639139
+      town-farm-forestpathMapV2_95: 1040648039
+      town-farm-forestpathMapV2_96: -1442141049
+      town-farm-forestpathMapV2_97: -670933174
+      town-farm-forestpathMapV2_98: 1366342341
+      town-farm-forestpathMapV2_99: -1067058832
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
