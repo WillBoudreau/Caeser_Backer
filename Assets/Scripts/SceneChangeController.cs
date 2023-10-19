@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeController : MonoBehaviour
 {
-    public int TposX;
-    public int TposY;
+    public float TposX;
+    public float TposY;
 
     public int SCNL;
     // Start is called before the first frame update

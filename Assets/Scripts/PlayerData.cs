@@ -5,8 +5,8 @@ using UnityEngine;
 public static class PlayerData 
 {
     //Ceaser data
-    public static int playerPOSX;
-    public static int playerPOSY;
+    public static float playerPOSX;
+    public static float playerPOSY;
     public static bool CHKNBTL = true;
     public static int CBcHP;
     public static int CBmSP;

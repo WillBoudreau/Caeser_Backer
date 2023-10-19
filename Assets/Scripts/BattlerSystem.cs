@@ -208,8 +208,8 @@ public class BattleSystem : MonoBehaviour
         {
             dialogueText.text = "You Flee.";
             yield return new WaitForSeconds(2);
-            PlayerData.playerPOSX = -36;
-            PlayerData.playerPOSY = -1;
+            
+            
             SceneManager.LoadScene(2);
         }
         else
