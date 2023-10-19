@@ -10,7 +10,7 @@ public class InGameMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time.timeScale = 1f;
+       
         InventoryMenu.SetActive(false)
 ;    }
 
@@ -29,12 +29,6 @@ public class InGameMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void Resume() 
-    {
-        paused = false;
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(8);
-    }
     public void InventoryMenuBUtton() 
     {
         paused = false;
@@ -48,9 +42,5 @@ public class InGameMenu : MonoBehaviour
     public void BackToTitleScreenButton()
     {
         SceneManager.LoadScene(0);
-    }
-    public void ToMenuBUtton() 
-    {
-        
     }
 }
