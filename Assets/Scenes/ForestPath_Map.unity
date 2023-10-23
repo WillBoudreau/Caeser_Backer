@@ -3414,7 +3414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: TposY
-      value: -1
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6454667387242209878, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: m_Name
@@ -6371,7 +6371,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: 0
-  InventoryMenu: {fileID: 890068327}
 --- !u!114 &1188633867
 MonoBehaviour:
   m_ObjectHideFlags: 0
