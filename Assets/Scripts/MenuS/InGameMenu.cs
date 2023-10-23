@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class InGameMenu : MonoBehaviour
 {
     public bool paused = false;
+    public GameObject InventoryMenu;
     // Start is called before the first frame update
     void Start()
     {
-       
-;   }
+       InventoryMenu.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update()
@@ -29,13 +30,13 @@ public class InGameMenu : MonoBehaviour
     }
     public void InventoryMenuBUtton() 
     {
-        paused = false;
+        InventoryMenu.SetActive(true);
         
     }
     public void InventoryBack() 
     {
         paused = true;
-        
+        InventoryMenu.SetActive(false);
     }
     public void BackToTitleScreenButton()
     {
