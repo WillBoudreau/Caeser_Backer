@@ -5,7 +5,17 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
    public Dialogue dialogue;
+   public static bool GetKeyDown((KeyCode.Interact));
 
+   void Start()
+   {
+      Input.GetAxis("Interact");
+      if(Input.GetKeyDown("Interact"))
+      {
+         Debug.Log("Interact");
+      }
+      
+   }
    public void TriggerDialogue()
    {
     FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
