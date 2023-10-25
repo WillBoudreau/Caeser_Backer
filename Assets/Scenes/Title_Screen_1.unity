@@ -149,7 +149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 13043703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b50a3cfa3828c04caca7172f3ae1cd2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2105208f4c91a2d458615bccb3e81a74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MMSc: 1
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 294556325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b50a3cfa3828c04caca7172f3ae1cd2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2105208f4c91a2d458615bccb3e81a74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MMSc: 1
@@ -466,8 +466,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860474979}
-        m_TargetAssemblyTypeName: MenuButtonsScript, Assembly-CSharp
+      - m_Target: {fileID: 1860474981}
+        m_TargetAssemblyTypeName: MenuButtonsScript2, Assembly-CSharp
         m_MethodName: optionButton
         m_Mode: 1
         m_Arguments:
@@ -599,8 +599,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860474979}
-        m_TargetAssemblyTypeName: MenuButtonsScript, Assembly-CSharp
+      - m_Target: {fileID: 1860474981}
+        m_TargetAssemblyTypeName: MenuButtonsScript2, Assembly-CSharp
         m_MethodName: DevNotesButton
         m_Mode: 1
         m_Arguments:
@@ -1209,8 +1209,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860474979}
-        m_TargetAssemblyTypeName: MenuButtonsScript, Assembly-CSharp
+      - m_Target: {fileID: 1860474981}
+        m_TargetAssemblyTypeName: MenuButtonsScript2, Assembly-CSharp
         m_MethodName: DevNotesBack
         m_Mode: 1
         m_Arguments:
@@ -1476,8 +1476,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860474979}
-        m_TargetAssemblyTypeName: MenuButtonsScript, Assembly-CSharp
+      - m_Target: {fileID: 1860474981}
+        m_TargetAssemblyTypeName: MenuButtonsScript2, Assembly-CSharp
         m_MethodName: quitButton
         m_Mode: 1
         m_Arguments:
@@ -1999,7 +1999,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -332.9, y: 208}
+  m_AnchoredPosition: {x: -332.9, y: 271}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1463429614
@@ -2085,8 +2085,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860474979}
-        m_TargetAssemblyTypeName: MenuButtonsScript, Assembly-CSharp
+      - m_Target: {fileID: 1860474981}
+        m_TargetAssemblyTypeName: MenuButtonsScript2, Assembly-CSharp
         m_MethodName: OptionsbackButton
         m_Mode: 1
         m_Arguments:
@@ -2783,7 +2783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1860474980}
-  - component: {fileID: 1860474979}
+  - component: {fileID: 1860474981}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -2791,21 +2791,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1860474979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860474978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2b0709476ea20a40862b3bc83067bb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  optionsMenu: {fileID: 833362246}
-  Menu: {fileID: 1067741950}
-  DevNotesMenu: {fileID: 1648387434}
 --- !u!4 &1860474980
 Transform:
   m_ObjectHideFlags: 0
@@ -2821,6 +2806,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1860474981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860474978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6406a388d82cc5842a450ab4882fe4f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionsMenu: {fileID: 833362246}
+  Menu: {fileID: 1067741950}
+  DevNotesMenu: {fileID: 1648387434}
 --- !u!1 &1932447757
 GameObject:
   m_ObjectHideFlags: 0
