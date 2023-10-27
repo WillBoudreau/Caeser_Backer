@@ -1674,6 +1674,7 @@ GameObject:
   - component: {fileID: 303385679}
   - component: {fileID: 303385678}
   - component: {fileID: 303385677}
+  - component: {fileID: 303385680}
   m_Layer: 5
   m_Name: Canvas (1)
   m_TagString: Untagged
@@ -1764,6 +1765,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &303385680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303385675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92823f0033044b140b087a41eba2d5a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interact: {fileID: 1831479874}
 --- !u!1 &312928867
 GameObject:
   m_ObjectHideFlags: 0
@@ -6890,7 +6904,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nametext: {fileID: 979015903}
   dialoguetext: {fileID: 1583198716}
-  endGame: 0
   panel: {fileID: 593944166}
 --- !u!1 &877261698
 GameObject:
@@ -30100,8 +30113,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+      - m_Target: {fileID: 870297721}
+        m_TargetAssemblyTypeName: DialogueManager2, Assembly-CSharp
         m_MethodName: DisplayNextSentence
         m_Mode: 1
         m_Arguments:
@@ -30240,7 +30253,6 @@ GameObject:
   - component: {fileID: 1831479878}
   - component: {fileID: 1831479877}
   - component: {fileID: 1831479881}
-  - component: {fileID: 1831479880}
   m_Layer: 5
   m_Name: InteractButton
   m_TagString: Untagged
@@ -30362,19 +30374,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831479874}
   m_CullTransparentMesh: 1
---- !u!114 &1831479880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831479874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92823f0033044b140b087a41eba2d5a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Interact: {fileID: 1831479874}
 --- !u!114 &1831479881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30405,7 +30404,7 @@ GameObject:
   - component: {fileID: 1860809287}
   - component: {fileID: 1860809286}
   - component: {fileID: 1860809285}
-  - component: {fileID: 1860809284}
+  - component: {fileID: 1860809288}
   m_Layer: 5
   m_Name: InteractButton
   m_TagString: Untagged
@@ -30433,24 +30432,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00012207031, y: 2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1860809284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860809282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8e9be5d0644f874db266b62b324b9fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Dave
-    sentences:
-    - 'How are you doing today Caeser? '
-    - Sorry, I am afraid that we are all sold out of chicken seed
-    - Come back in a few days and maybe i'll have some
 --- !u!114 &1860809285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30495,8 +30476,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860809284}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+      - m_Target: {fileID: 1860809288}
+        m_TargetAssemblyTypeName: DialogueTrigger2, Assembly-CSharp
         m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
@@ -30545,6 +30526,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860809282}
   m_CullTransparentMesh: 1
+--- !u!114 &1860809288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860809282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1efb063da6ad684e9212294cdf355c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Dave
+    sentences:
+    - Hey Caeser! Here for the chicken seed I presume?
+    - Sorry the chicken seed is out of stock, come back in a few days and hopefully
+      I will have more.
 --- !u!1 &1865810212
 GameObject:
   m_ObjectHideFlags: 0
