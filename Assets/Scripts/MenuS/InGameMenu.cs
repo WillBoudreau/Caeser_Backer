@@ -7,10 +7,12 @@ public class InGameMenu : MonoBehaviour
 {
     public bool paused = false;
     public GameObject InventoryMenu;
+    public GameObject PauseMenu;
     // Start is called before the first frame update
     void Start()
     {
        InventoryMenu.SetActive(false);
+       PauseMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,11 +20,16 @@ public class InGameMenu : MonoBehaviour
     {
         
     }
+    public void resume()
+    {
+        paused = false;
+        Time.timeScale = 1f;
+        PauseMenu.SetActive(false);
+    }
     public void pauseButton() 
     {
-        paused = true;
         Time.timeScale = 0f;
-        SceneManager.LoadScene(8);
+        PauseMenu.SetActive(true);
     }
     public void Quit()
     {
@@ -40,6 +47,7 @@ public class InGameMenu : MonoBehaviour
     }
     public void BackToTitleScreenButton()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }
