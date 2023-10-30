@@ -11,7 +11,6 @@ public class DialogueManager2 : MonoBehaviour
     private Queue<string> sentences;
     public TextMeshProUGUI nametext;
     public TextMeshProUGUI dialoguetext;
-    public bool endGame;
     public GameObject panel;
     // Start is called before the first frame update
     void Start()
@@ -42,10 +41,6 @@ public class DialogueManager2 : MonoBehaviour
         }
         string sentence = sentences.Dequeue();
         dialoguetext.text = sentence;
-    }
-    public void EndDemoCheck()
-    {
-        endGame = true;
     }
     void EndDialogue()
     {

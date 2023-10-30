@@ -10,7 +10,6 @@ public class NPCDialogueBehaviour : MonoBehaviour
     {
         Interact.SetActive(false);
     }
-
     // Update is called once per frame
     public void  OnTriggerEnter2D(Collider2D other)
     {
