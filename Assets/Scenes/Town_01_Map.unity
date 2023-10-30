@@ -6099,7 +6099,7 @@ GameObject:
   - component: {fileID: 749134573}
   - component: {fileID: 749134572}
   - component: {fileID: 749134571}
-  - component: {fileID: 749134570}
+  - component: {fileID: 749134574}
   m_Layer: 5
   m_Name: InteractButton
   m_TagString: Untagged
@@ -6127,22 +6127,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00012207031, y: 2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &749134570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 749134568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8e9be5d0644f874db266b62b324b9fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Nocternia Poulin
-    sentences:
-    - hi Caeser...how are you?....listen I'm busy please leave
 --- !u!114 &749134571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6187,8 +6171,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 749134570}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+      - m_Target: {fileID: 749134574}
+        m_TargetAssemblyTypeName: DialogueTrigger2, Assembly-CSharp
         m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
@@ -6237,6 +6221,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749134568}
   m_CullTransparentMesh: 1
+--- !u!114 &749134574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749134568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1efb063da6ad684e9212294cdf355c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Nocternia Poulin
+    sentences:
+    - hi Caeser...how are you?....listen I'm busy please leave
 --- !u!1 &750186575
 GameObject:
   m_ObjectHideFlags: 0
@@ -6885,7 +6885,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 870297718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18dea3cb10953954aa5e42ad03a5a9ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 561054a8519a68b45ac3fa9a7fa4f204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nametext: {fileID: 979015903}
@@ -7513,6 +7513,37 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1020206388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1020206389}
+  m_Layer: 0
+  m_Name: SubInventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020206389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020206388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 728.5663, y: 183.95837, z: -2.1896076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1026020449
 GameObject:
   m_ObjectHideFlags: 0
@@ -8225,7 +8256,7 @@ GameObject:
   - component: {fileID: 1135518105}
   - component: {fileID: 1135518104}
   - component: {fileID: 1135518103}
-  - component: {fileID: 1135518102}
+  - component: {fileID: 1135518106}
   m_Layer: 5
   m_Name: InteractButton
   m_TagString: Untagged
@@ -8253,23 +8284,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00012207031, y: 2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1135518102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135518100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8e9be5d0644f874db266b62b324b9fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Madeline Stewart
-    sentences:
-    - Madeline stares at you intently...
-    - Maybe you should leave...
 --- !u!114 &1135518103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8314,8 +8328,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1135518102}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+      - m_Target: {fileID: 1135518106}
+        m_TargetAssemblyTypeName: DialogueTrigger2, Assembly-CSharp
         m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
@@ -8364,6 +8378,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135518100}
   m_CullTransparentMesh: 1
+--- !u!114 &1135518106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135518100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1efb063da6ad684e9212294cdf355c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Madeline Stewart
+    sentences:
+    - Madeline stares at you intently...
+    - Maybe you should leave...
 --- !u!1 &1162096064
 GameObject:
   m_ObjectHideFlags: 0
@@ -9660,6 +9691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: 0
+  InventoryMenu: {fileID: 1020206388}
 --- !u!114 &1439752486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30068,7 +30100,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 870297721}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: DisplayNextSentence
         m_Mode: 1
@@ -30207,7 +30239,7 @@ GameObject:
   - component: {fileID: 1831479879}
   - component: {fileID: 1831479878}
   - component: {fileID: 1831479877}
-  - component: {fileID: 1831479876}
+  - component: {fileID: 1831479881}
   - component: {fileID: 1831479880}
   m_Layer: 5
   m_Name: InteractButton
@@ -30236,24 +30268,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00012207031, y: 2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1831479876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831479874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8e9be5d0644f874db266b62b324b9fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Belle Cressec
-    sentences:
-    - Oh hello Caeser!
-    - What a wonderful day we are having!
-    - See you around!
 --- !u!114 &1831479877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30298,8 +30312,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1831479876}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+      - m_Target: {fileID: 1831479881}
+        m_TargetAssemblyTypeName: DialogueTrigger2, Assembly-CSharp
         m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
@@ -30361,6 +30375,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Interact: {fileID: 1831479874}
+--- !u!114 &1831479881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831479874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1efb063da6ad684e9212294cdf355c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Belle Shultz
+    sentences:
+    - Oh hello Caeser!
+    - What a wonderful day we are having!
+    - See you around!
 --- !u!1 &1860809282
 GameObject:
   m_ObjectHideFlags: 0
@@ -31319,3 +31351,4 @@ SceneRoots:
   - {fileID: 646546793}
   - {fileID: 264425798}
   - {fileID: 809527102}
+  - {fileID: 1020206389}
