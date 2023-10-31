@@ -12,12 +12,29 @@ public static class PlayerData
     public static int CBmSP;
     public static int CBcSP;
     public static int CBmHP;
-    public static int CBLVL;
-    public static int CBmnDMG;
-    public static int CBmxDMG;
+    public static float CBWeaponBonus;
+   
+
+
+
+    //ceaser Attributes
+
+
     public static int CBXP;
+    public static int CBLVL;
 
+    public static int CBStatPoints;
 
+    public static int CBStr;
+    public static int CBDex;
+    public static int CBAgi;
+    public static int CBCon;
+    public static int CBDev;
+    public static int CBEnl;
+    public static int CBLuck;
+    public static int CBWill;
+    public static int CBWeight;
+    public static int CBDefense;
 
 
 

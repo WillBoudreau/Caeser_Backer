@@ -10,21 +10,34 @@ public class Unit : MonoBehaviour
     public int UnitXp;
     public int MnDamage;
     public int MxDamage;
+    public int Accuracy;
+    public int Evasion;
 
     public int maxHP;
     public int currentHP;
+    public bool Hit;
 
-    public bool TakeDamage(int mindmg, int maxdmg)
+    public bool TakeDamage(int mindmg, int maxdmg, int Acc)
     {
-        PlayerData.RNGRSLT = Random.Range(mindmg, maxdmg);
-        currentHP -= PlayerData.RNGRSLT;
-
-        if (currentHP == 0 | currentHP <= 0)
+        int HitRate = Random.Range(Acc, 100);
+        if (HitRate > Evasion)
         {
-            return true;
+            Hit = true;
+            PlayerData.RNGRSLT = Random.Range(mindmg, maxdmg);
+            currentHP -= PlayerData.RNGRSLT;
+
+            if (currentHP == 0 | currentHP <= 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         else
         {
+            Hit = false;
             return false;
         }
     }
@@ -35,7 +48,7 @@ public class Unit : MonoBehaviour
         if (currentHP > maxHP)
             currentHP = maxHP;
     }
-
+    
 }
 
 

@@ -44,9 +44,18 @@ public class BattleSystem : MonoBehaviour
         playerUnit.maxHP = PlayerData.CBmHP;
         playerUnit.currentHP = PlayerData.CBcHP;
         playerUnit.unitLevel = PlayerData.CBLVL;
-        playerUnit.MnDamage = PlayerData.CBmnDMG;
-        playerUnit.MxDamage = PlayerData.CBmxDMG;
-
+        playerUnit.MnDamage = (PlayerData.CBStr + (PlayerData.CBDex / 4)) / 2;
+        playerUnit.MxDamage = (PlayerData.CBStr + (PlayerData.CBDex / 4)) * 2;
+        playerUnit.Accuracy = ((PlayerData.CBDex / 4) * (314 / 100));
+        if (((PlayerData.CBAgi * 4) / (314 / 100)) <= 95)
+        {
+            playerUnit.Evasion = ((PlayerData.CBAgi * 4) / (314 / 100));
+        }
+        else
+        {
+            playerUnit.Evasion = 95;
+        }
+    
         dialogueText.text = "You've been cornered by a " + enemyUnit.unitName + "...";
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
@@ -56,11 +65,19 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator PlayerAttack()
     {
-        bool isDead = enemyUnit.TakeDamage(playerUnit.MnDamage, playerUnit.MxDamage);
-        enemyHUD.SetHP(enemyUnit.currentHP);
         dialogueText.text = playerUnit.unitName + " Attacks!";
+        bool isDead = enemyUnit.TakeDamage(playerUnit.MnDamage, playerUnit.MxDamage, playerUnit.Accuracy);
+        enemyHUD.SetHP(enemyUnit.currentHP);
         yield return new WaitForSeconds(2f);
-        dialogueText.text = playerUnit.unitName + " Deals " + PlayerData.RNGRSLT + " to the " + enemyUnit.unitName + "...";
+        if (enemyUnit.Hit && PlayerData.RNGRSLT > 0)
+        {
+            dialogueText.text = playerUnit.unitName + " Deals " + PlayerData.RNGRSLT + " to the " + enemyUnit.unitName + "...";
+        }
+        else
+        {
+            dialogueText.text = playerUnit.unitName + " " + "Missed!";
+        }
+
         yield return new WaitForSeconds(2f);
         if (isDead)
         {
@@ -78,10 +95,19 @@ public class BattleSystem : MonoBehaviour
     IEnumerator EnemyTurn()
     {
         dialogueText.text = "The " + enemyUnit.unitName + " Makes their move!";
-        yield return new WaitForSeconds(2f);
-        bool isDead = playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MxDamage);
+        bool isDead = playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MxDamage, enemyUnit.Accuracy);
+        yield return new WaitForSeconds(1f);
         playerHUD.SetHP(playerUnit.currentHP);
-        dialogueText.text = "The " + enemyUnit.unitName + " deals " + PlayerData.RNGRSLT + " to " + playerUnit.unitName + "...";
+        yield return new WaitForSeconds(1f);
+        if (playerUnit.Hit && PlayerData.RNGRSLT > 0)
+        {
+            dialogueText.text = "The " + enemyUnit.unitName + " deals " + PlayerData.RNGRSLT + " to " + playerUnit.unitName + "...";
+        }
+        else
+        {
+            dialogueText.text = "The" + " " + enemyUnit.unitName + " " + "Missed!";
+        }
+
         yield return new WaitForSeconds(2f);
         if (isDead)
         {
@@ -98,8 +124,6 @@ public class BattleSystem : MonoBehaviour
     IEnumerator EndBattle()
     {
         PlayerData.CBcHP = playerUnit.currentHP;
-
-
 
         PlayerData.CBXP = PlayerData.CBXP + enemyUnit.UnitXp;
 
@@ -142,7 +166,7 @@ public class BattleSystem : MonoBehaviour
         int HealValue = UnityEngine.Random.Range(5, playerUnit.maxHP);
         playerUnit.Heal(HealValue);
         playerHUD.SetHP(playerUnit.currentHP);
-        dialogueText.text = playerUnit.name + " Recovers " + HealValue + " Health!";
+        dialogueText.text = playerUnit.unitName + " Recovers " + HealValue + " Health!";
         yield return new WaitForSeconds(2f);
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurn());
@@ -159,13 +183,14 @@ public class BattleSystem : MonoBehaviour
             playerUnit.MnDamage += 500;
             playerUnit.MxDamage += 1000;
             PlayerData.CBXP += 100;
+            playerHUD.SetHP(playerUnit.currentHP);
             yield return new WaitForSeconds(2);
         }
         else if (PrayValue >= 0 && PrayValue <= 50)
         {
             dialogueText.text = "They said some hurtful words...";
             yield return new WaitForSeconds(2);
-            playerUnit.currentHP -= 25;
+            playerUnit.TakeDamage(25, 25, 100);
             if (playerUnit.currentHP <= 0)
             {
                 playerUnit.currentHP = 0;
@@ -173,22 +198,25 @@ public class BattleSystem : MonoBehaviour
                 StartCoroutine(EndBattle());
 
             }
+            playerHUD.SetHP(playerUnit.currentHP);
         }
         else if (PrayValue >= 51 && PrayValue <= 500)
         {
             dialogueText.text = "Nothing happens...";
             yield return new WaitForSeconds(2);
+            playerHUD.SetHP(playerUnit.currentHP);
             //nothing
         }
         else if (PrayValue >= 501 && PrayValue <= 776)
         {
             dialogueText.text = "Your wounds have been healed!";
             yield return new WaitForSeconds(2);
-            playerUnit.currentHP += 25;
+            playerUnit.Heal(25);
             if (playerUnit.currentHP > playerUnit.maxHP)
             {
                 playerUnit.currentHP = playerUnit.maxHP;
             }
+            playerHUD.SetHP(playerUnit.currentHP);
         }
         else if (PrayValue >= 778 && PrayValue <= 1000)
         {
@@ -216,7 +244,7 @@ public class BattleSystem : MonoBehaviour
         {
             dialogueText.text = "The " + enemyUnit.unitName + " Caught you!";
             yield return new WaitForSeconds(2);
-            playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MnDamage);
+            playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MnDamage, 100);
             dialogueText.text = playerUnit.unitName + " takes " + enemyUnit.MnDamage;
             yield return new WaitForSeconds(2);
             StartCoroutine(EnemyTurn());
