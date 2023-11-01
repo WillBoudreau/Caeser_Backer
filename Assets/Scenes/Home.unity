@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TitleScreen
+  m_text: Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1069,13 +1069,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1335,6 +1335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 414033151}
+  - component: {fileID: 414033152}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -1357,6 +1358,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &414033152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414033150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c292485ec7c59a4fa13f00d8fac33b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &415348332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,8 +2456,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1301019702}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+      - m_Target: {fileID: 1301019704}
+        m_TargetAssemblyTypeName: DialogueManager2, Assembly-CSharp
         m_MethodName: DisplayNextSentence
         m_Mode: 1
         m_Arguments:
@@ -2502,7 +2515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301019703}
-  - component: {fileID: 1301019702}
+  - component: {fileID: 1301019704}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -2510,22 +2523,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1301019702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301019701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18dea3cb10953954aa5e42ad03a5a9ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nametext: {fileID: 2032896465}
-  dialoguetext: {fileID: 258483853}
-  endGame: 0
-  panel: {fileID: 851501509}
 --- !u!4 &1301019703
 Transform:
   m_ObjectHideFlags: 0
@@ -2541,6 +2538,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1301019704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301019701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561054a8519a68b45ac3fa9a7fa4f204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametext: {fileID: 2032896465}
+  dialoguetext: {fileID: 258483853}
+  panel: {fileID: 851501509}
 --- !u!1 &1318361801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,7 +2565,6 @@ GameObject:
   - component: {fileID: 1318361806}
   - component: {fileID: 1318361805}
   - component: {fileID: 1318361804}
-  - component: {fileID: 1318361803}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -2576,25 +2587,11 @@ RectTransform:
   - {fileID: 351442810}
   m_Father: {fileID: 138287119}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -510.1, y: 259}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 160, y: -85}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1318361803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1318361801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e94b48672ec03484885e9c2e9c1a0d7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  paused: 0
-  InventoryMenu: {fileID: 0}
 --- !u!114 &1318361804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2639,9 +2636,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1318361803}
-        m_TargetAssemblyTypeName: InGameMenu, Assembly-CSharp
-        m_MethodName: pauseButton
+      - m_Target: {fileID: 414033152}
+        m_TargetAssemblyTypeName: GameMenu, Assembly-CSharp
+        m_MethodName: ToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2822,7 +2819,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1368924367
@@ -3366,6 +3363,7 @@ GameObject:
   - component: {fileID: 1686263286}
   - component: {fileID: 1686263285}
   - component: {fileID: 1686263284}
+  - component: {fileID: 1686263288}
   - component: {fileID: 1686263287}
   m_Layer: 5
   m_Name: InteractButton
@@ -3438,8 +3436,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1686263287}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+      - m_Target: {fileID: 1686263288}
+        m_TargetAssemblyTypeName: DialogueTrigger2, Assembly-CSharp
         m_MethodName: TriggerDialogue
         m_Mode: 1
         m_Arguments:
@@ -3500,15 +3498,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e9be5d0644f874db266b62b324b9fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1686263288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686263282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1efb063da6ad684e9212294cdf355c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue:
-    name: Grandpappi
+    name: GrandPappi
     sentences:
-    - Good morning Caeser!
-    - Please go out and fetch some chicken seed in the town from Dave. Take a right
-      at the trail fork.
-    - Also, one of the chickens got out last night. So if you see it make sure to
-      scare it back here.
-    - Come back and talk to me after getting the chicken seed
+    - OI!
 --- !u!1 &1713976654
 GameObject:
   m_ObjectHideFlags: 0

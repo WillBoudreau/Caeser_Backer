@@ -5,14 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class InGameMenu : MonoBehaviour
 {
-    public bool paused = false;
     public GameObject InventoryMenu;
-    public GameObject PauseMenu;
     // Start is called before the first frame update
     void Start()
     {
        InventoryMenu.SetActive(false);
-       PauseMenu.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -22,14 +20,16 @@ public class InGameMenu : MonoBehaviour
     }
     public void resume()
     {
-        paused = false;
+        
         Time.timeScale = 1f;
-        PauseMenu.SetActive(false);
+        SceneManager.LoadScene(0);
+        
+        
     }
     public void pauseButton() 
     {
         Time.timeScale = 0f;
-        PauseMenu.SetActive(true);
+       
     }
     public void Quit()
     {
@@ -42,7 +42,7 @@ public class InGameMenu : MonoBehaviour
     }
     public void InventoryBack() 
     {
-        paused = true;
+        
         InventoryMenu.SetActive(false);
     }
     public void BackToTitleScreenButton()
