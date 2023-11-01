@@ -24,4 +24,8 @@ public class GameMenu : MonoBehaviour
     {
         Application.Quit();
     }
+    public void ToMenu()
+    {
+        SceneManager.LoadScene(8);
+    }
 }
