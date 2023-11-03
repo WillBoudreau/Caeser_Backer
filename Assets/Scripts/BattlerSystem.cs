@@ -37,10 +37,12 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator SetupBattle()
     {
+        // draw battlers
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Unit>();
+        // Set main characters stats
         playerUnit.maxHP = PlayerData.CBmHP;
         playerUnit.currentHP = PlayerData.CBcHP;
         playerUnit.unitLevel = PlayerData.CBLVL;
@@ -56,6 +58,7 @@ public class BattleSystem : MonoBehaviour
             playerUnit.Evasion = 95;
         }
     
+        // start battle
         dialogueText.text = "You've been cornered by a " + enemyUnit.unitName + "...";
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
@@ -63,34 +66,22 @@ public class BattleSystem : MonoBehaviour
         state = BattleState.PLAYERTURN;
         PlayerTurn();
     }
-    IEnumerator PlayerAttack()
+    void PlayerTurn()
     {
-        dialogueText.text = playerUnit.unitName + " Attacks!";
-        bool isDead = enemyUnit.TakeDamage(playerUnit.MnDamage, playerUnit.MxDamage, playerUnit.Accuracy);
-        enemyHUD.SetHP(enemyUnit.currentHP);
-        yield return new WaitForSeconds(2f);
-        if (enemyUnit.Hit && PlayerData.RNGRSLT > 0)
+        if (playerUnit.currentHP == 5 || playerUnit.currentHP <= 5)
         {
-            dialogueText.text = playerUnit.unitName + " Deals " + PlayerData.RNGRSLT + " to the " + enemyUnit.unitName + "...";
+            Skullivan.SetActive(true);
         }
         else
         {
-            dialogueText.text = playerUnit.unitName + " " + "Missed!";
+            Skullivan.SetActive(false);
         }
-
-        yield return new WaitForSeconds(2f);
-        if (isDead)
-        {
-
-            dialogueText.text = "The " + enemyUnit.unitName + ", has been defeated...";
-            state = BattleState.WON;
-            StartCoroutine(EndBattle());
-        }
-        else
-        {
-            state = BattleState.ENEMYTURN;
-            StartCoroutine(EnemyTurn());
-        }
+        dialogueText.text = "Please select an Action:";
+        BattleUI00.SetActive(true);
+        BattleUI01.SetActive(true);
+        BattleUI02.SetActive(true);
+        BattleUI03.SetActive(true);
+        FrTrn = true;
     }
     IEnumerator EnemyTurn()
     {
@@ -123,17 +114,28 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator EndBattle()
     {
-        PlayerData.CBcHP = playerUnit.currentHP;
-
-        PlayerData.CBXP = PlayerData.CBXP + enemyUnit.UnitXp;
 
 
         if (state == BattleState.WON)
         {
+            PlayerData.CBcHP = playerUnit.currentHP;
+            PlayerData.CBXP = PlayerData.CBXP + enemyUnit.UnitXp;
+
             dialogueText.text = "You've Survived...";
             yield return new WaitForSeconds(2f);
             dialogueText.text = "You gained " + enemyUnit.UnitXp + " XP!";
-            yield return new WaitForSeconds(2f);
+            
+            LevelUp lvlCheck = new LevelUp();
+            if (lvlCheck.LVLUP())
+            {
+                dialogueText.text = "You Leveled up!";
+                yield return new WaitForSeconds(2f);
+            }
+            else
+            {
+                yield return new WaitForSeconds(2f);
+            }
+           
             SceneManager.LoadScene(3);
         }
         else if (state == BattleState.LOST)
@@ -142,22 +144,67 @@ public class BattleSystem : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
-    void PlayerTurn()
+    public void OnAttackButton()
     {
-        if (playerUnit.currentHP == 5 || playerUnit.currentHP <= 5)
+        if (FrTrn)
         {
-            Skullivan.SetActive(true);
+            FrTrn = false;
+            BattleUI00.SetActive(false);
+            BattleUI01.SetActive(false);
+            BattleUI02.SetActive(false);
+            BattleUI03.SetActive(false);
+            if (state != BattleState.PLAYERTURN)
+            {
+                return;
+            }
+        }
+        StartCoroutine(PlayerAttack());
+    }
+    IEnumerator PlayerAttack()
+    {
+        dialogueText.text = playerUnit.unitName + " Attacks!";
+        bool isDead = enemyUnit.TakeDamage(playerUnit.MnDamage, playerUnit.MxDamage, playerUnit.Accuracy);
+        enemyHUD.SetHP(enemyUnit.currentHP);
+        yield return new WaitForSeconds(2f);
+        if (enemyUnit.Hit && PlayerData.RNGRSLT > 0)
+        {
+            dialogueText.text = playerUnit.unitName + " Deals " + PlayerData.RNGRSLT + " to the " + enemyUnit.unitName + "...";
         }
         else
         {
-            Skullivan.SetActive(false);
+            dialogueText.text = playerUnit.unitName + " " + "Missed!";
         }
-        dialogueText.text = "Please select an Action:";
-        BattleUI00.SetActive(true);
-        BattleUI01.SetActive(true);
-        BattleUI02.SetActive(true);
-        BattleUI03.SetActive(true);
+
+        yield return new WaitForSeconds(2f);
+        if (isDead)
+        {
+
+            dialogueText.text = "The " + enemyUnit.unitName + ", has been defeated...";
+            state = BattleState.WON;
+            StartCoroutine(EndBattle());
+        }
+        else
+        {
+            state = BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn());
+        }
+    }
+    public void OnHealButton()
+    {
         FrTrn = true;
+        if (FrTrn)
+        {
+            FrTrn = false;
+            BattleUI00.SetActive(false);
+            BattleUI01.SetActive(false);
+            BattleUI02.SetActive(false);
+            BattleUI03.SetActive(false);
+            if (state != BattleState.PLAYERTURN)
+            {
+                return;
+            }
+            StartCoroutine(PlayerHeal());
+        }
     }
     IEnumerator PlayerHeal()
     {
@@ -170,6 +217,62 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(2f);
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurn());
+    }
+    public void OnRunButton()
+    {
+        if (FrTrn)
+        {
+            FrTrn = false;
+            BattleUI00.SetActive(false);
+            BattleUI01.SetActive(false);
+            BattleUI02.SetActive(false);
+            BattleUI03.SetActive(false);
+            if (state != BattleState.PLAYERTURN)
+            {
+                return;
+            }
+        }
+        StartCoroutine(FleeAttempt());
+    }
+    IEnumerator FleeAttempt()
+    {
+        dialogueText.text = "You Attempt to Flee...";
+        yield return new WaitForSeconds(2);
+        int FleeValue = UnityEngine.Random.Range(0, 100);
+        if (FleeValue >= 40 && FleeValue <= 60)
+        {
+            dialogueText.text = "You Flee.";
+            yield return new WaitForSeconds(2);
+            
+            
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            dialogueText.text = "The " + enemyUnit.unitName + " Caught you!";
+            yield return new WaitForSeconds(2);
+            playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MnDamage, 100);
+            dialogueText.text = playerUnit.unitName + " takes " + enemyUnit.MnDamage;
+            yield return new WaitForSeconds(2);
+            StartCoroutine(EnemyTurn());
+        }
+    }
+    public void OnPrayButton()
+    {
+        FrTrn = true;
+        if (FrTrn)
+        {
+            FrTrn = false;
+            BattleUI00.SetActive(false);
+            BattleUI01.SetActive(false);
+            BattleUI02.SetActive(false);
+            BattleUI03.SetActive(false);
+            if (state != BattleState.PLAYERTURN)
+            {
+                return;
+            }
+            StartCoroutine(Pray());
+        }
     }
     IEnumerator Pray()
     {
@@ -226,94 +329,5 @@ public class BattleSystem : MonoBehaviour
         }
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurn());
-    }
-    IEnumerator FleeAttempt()
-    {
-        dialogueText.text = "You Attempt to Flee...";
-        yield return new WaitForSeconds(2);
-        int FleeValue = UnityEngine.Random.Range(0, 100);
-        if (FleeValue >= 40 && FleeValue <= 60)
-        {
-            dialogueText.text = "You Flee.";
-            yield return new WaitForSeconds(2);
-            
-            
-            SceneManager.LoadScene(2);
-        }
-        else
-        {
-            dialogueText.text = "The " + enemyUnit.unitName + " Caught you!";
-            yield return new WaitForSeconds(2);
-            playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MnDamage, 100);
-            dialogueText.text = playerUnit.unitName + " takes " + enemyUnit.MnDamage;
-            yield return new WaitForSeconds(2);
-            StartCoroutine(EnemyTurn());
-        }
-    }
-    public void OnAttackButton()
-    {
-        if (FrTrn)
-        {
-            FrTrn = false;
-            BattleUI00.SetActive(false);
-            BattleUI01.SetActive(false);
-            BattleUI02.SetActive(false);
-            BattleUI03.SetActive(false);
-            if (state != BattleState.PLAYERTURN)
-            {
-                return;
-            }
-        }
-        StartCoroutine(PlayerAttack());
-    }
-    public void OnRunButton()
-    {
-        if (FrTrn)
-        {
-            FrTrn = false;
-            BattleUI00.SetActive(false);
-            BattleUI01.SetActive(false);
-            BattleUI02.SetActive(false);
-            BattleUI03.SetActive(false);
-            if (state != BattleState.PLAYERTURN)
-            {
-                return;
-            }
-        }
-        StartCoroutine(FleeAttempt());
-    }
-    public void OnHealButton()
-    {
-        FrTrn = true;
-        if (FrTrn)
-        {
-            FrTrn = false;
-            BattleUI00.SetActive(false);
-            BattleUI01.SetActive(false);
-            BattleUI02.SetActive(false);
-            BattleUI03.SetActive(false);
-            if (state != BattleState.PLAYERTURN)
-            {
-                return;
-            }
-            StartCoroutine(PlayerHeal());
-        }
-    }
-    public void OnPrayButton()
-    {
-        FrTrn = true;
-        if (FrTrn)
-        {
-            FrTrn = false;
-            BattleUI00.SetActive(false);
-            BattleUI01.SetActive(false);
-            BattleUI02.SetActive(false);
-            BattleUI03.SetActive(false);
-            if (state != BattleState.PLAYERTURN)
-            {
-                return;
-            }
-            StartCoroutine(Pray());
-        }
     }
 }

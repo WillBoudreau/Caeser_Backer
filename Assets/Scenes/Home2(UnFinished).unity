@@ -350,11 +350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e9be5d0644f874db266b62b324b9fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Grandpappi
-    sentences:
-    - ....He's... alive but barely
-    - I need to head into the city and get hte doctor
 --- !u!114 &269253349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1135,7 +1130,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &888708873
@@ -1181,9 +1176,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ca1ab689fcf5b214987bc8071d7a53d3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ba1410f8e5aadfe43b4d03093e65b3e0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
