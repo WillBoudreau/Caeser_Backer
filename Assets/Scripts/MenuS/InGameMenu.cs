@@ -22,9 +22,9 @@ public class InGameMenu : MonoBehaviour
     {
         
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
-        
-        
+        PlayerData.playerPOSX;
+        PlayerData.playerPOSY;
+        SceneManager.LoadScene(2);
     }
     public void pauseButton() 
     {
