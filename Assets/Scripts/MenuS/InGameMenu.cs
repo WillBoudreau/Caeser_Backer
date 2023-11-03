@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class InGameMenu : MonoBehaviour
 {
     public GameObject InventoryMenu;
+    public GameObject inGameMenu;
     // Start is called before the first frame update
     void Start()
     {
        InventoryMenu.SetActive(false);
-
+       inGameMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,13 +19,15 @@ public class InGameMenu : MonoBehaviour
     {
         
     }
+    public void toMenu()
+    {
+        inGameMenu.SetActive(true);
+        Time.timeScale = 0.0f;
+    }
     public void resume()
     {
-        
         Time.timeScale = 1f;
-        PlayerData.playerPOSX;
-        PlayerData.playerPOSY;
-        SceneManager.LoadScene(2);
+        inGameMenu.SetActive(false );
     }
     public void pauseButton() 
     {
