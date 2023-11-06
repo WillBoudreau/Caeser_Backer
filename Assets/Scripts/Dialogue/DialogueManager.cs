@@ -45,7 +45,7 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDemoCheck()
     {
-       endGame = true;
+      
     }
     void EndDialogue()
     {
