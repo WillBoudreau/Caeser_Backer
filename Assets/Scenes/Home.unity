@@ -819,8 +819,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65, y: -8.864}
-  m_SizeDelta: {x: 787.1734, y: 93.728}
+  m_AnchoredPosition: {x: 108, y: -0.000013828}
+  m_SizeDelta: {x: 811.8514, y: 84.2365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258483853
 MonoBehaviour:
@@ -3515,7 +3515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 412, y: -64.51001}
+  m_AnchoredPosition: {x: 424.02, y: -64.237}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1289229332
@@ -5509,15 +5509,13 @@ MonoBehaviour:
     name: GrandPappi
     sentences:
     - 'Hey Caeser my boy! How are you doing this morning? '
-    - One of my chickens got out last night and is causin a ruckus all around the
-      forest and city
+    - One of our chickens,Gregory, got out last night and is causin a ruckus all
+      around the forest and city
     - Now I know you are scared of chickens. But don't you worry, your sister is
       already out there looking it
-    - When you are done, head into the village and fetch me some chicken seed from
-      my ol pal Dave!
-    - 'Thanks a million and good luck!
-
-      Hopefully nothing bad will happen!'
+    - when you are done with that, if you could, please head into the village and
+      speak with Dave. I'm expecting an order of chicken seed order soon.
+    - Thanks Caeser! Be careful and be back before lunch okay?
 --- !u!1 &1703464850
 GameObject:
   m_ObjectHideFlags: 0
@@ -6195,8 +6193,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -398, y: 63}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -414, y: 33}
+  m_SizeDelta: {x: 196.347, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2032896465
 MonoBehaviour:
