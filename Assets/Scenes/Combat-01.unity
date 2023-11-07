@@ -2078,7 +2078,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 5364064980479375075, guid: 3d9c4c0dc3d4638488568ac3c2c4e176, type: 3}
-  enemyPrefab: {fileID: 163739910964224895, guid: f212360752ff92443955264b8960d2d8, type: 3}
+  enemyPrefab01: {fileID: 163739910964224895, guid: f212360752ff92443955264b8960d2d8, type: 3}
+  enemyPrefab02: {fileID: 7176974899773596344, guid: 90f57aca272b2064c9745420ad872de9, type: 3}
+  enemyPrefab03: {fileID: 1905537125487627207, guid: 2eef416541bede94e8e4f70aea327644, type: 3}
+  enemyPrefab04: {fileID: 7177385936283432254, guid: 63183009d65f6a34199ffb92cd364775, type: 3}
+  enemyPrefab05: {fileID: 6109378289802219942, guid: dff953ee9a5327d4eadce6bd6e2de098, type: 3}
   BattleUI00: {fileID: 405301830}
   BattleUI01: {fileID: 981904146}
   BattleUI02: {fileID: 987223925}
