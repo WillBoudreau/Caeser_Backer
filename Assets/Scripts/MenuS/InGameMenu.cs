@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,11 +8,13 @@ public class InGameMenu : MonoBehaviour
 {
     public GameObject InventoryMenu;
     public GameObject inGameMenu;
+    public GameObject StatMenu;
     // Start is called before the first frame update
     void Start()
     {
        InventoryMenu.SetActive(false);
        inGameMenu.SetActive(false);
+       StatMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -52,5 +55,13 @@ public class InGameMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
+    }
+    public void StatButton()
+    {
+       StatMenu.SetActive(true);
+    }
+    public void BackStat()
+    {
+        StatMenu.SetActive(false);
     }
 }
