@@ -41,4 +41,5 @@ public static class PlayerData
     //Misc Data
     public static int RNGRSLT;
     public static bool TalktoDave;
+    public static int NxtMnst;
 }
