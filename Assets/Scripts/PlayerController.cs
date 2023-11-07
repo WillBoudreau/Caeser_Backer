@@ -21,8 +21,22 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         //input
-        Movement.x = Input.GetAxisRaw("Horizontal");
+        if(Input.GetKeyDown(KeyCode.W) | Input.GetKeyDown(KeyCode.S))
+        {
+            
+            
+        }
+        else if  (Input.GetKeyDown(KeyCode.A) | Input.GetKeyDown(KeyCode.D))
+        {
+            
+           
+        }
+        else
+        {
+            
+        }
         Movement.y = Input.GetAxisRaw("Vertical");
+        Movement.x = Input.GetAxisRaw("Horizontal");
         CBanimator.SetFloat("Horizontal", Movement.x);
         CBanimator.SetFloat("Vertical", Movement.y);
         CBanimator.SetFloat("Speed", Movement.sqrMagnitude);
@@ -30,7 +44,12 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
+         rb.MovePosition(rb.position + Movement * moveSpeed * Time.fixedDeltaTime);
         //movement
-        rb.MovePosition(rb.position + Movement * moveSpeed * Time.fixedDeltaTime);
+        
+    }
+    void LeftMove()
+    {
+        
     }
 }
