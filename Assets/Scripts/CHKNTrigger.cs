@@ -16,6 +16,7 @@ public class CHKNTrigger : MonoBehaviour
     {
         if (collision != null && ChknFight)
         {
+            PlayerData.NxtMnst = 1;
             ChknFight = false;
             SceneManager.LoadScene(5);
         }
