@@ -25,6 +25,8 @@ public static class PlayerData
 
     public static int CBStatPoints;
 
+    // increasable stats
+
     public static int CBStr;
     public static int CBDex;
     public static int CBAgi;
@@ -33,6 +35,8 @@ public static class PlayerData
     public static int CBEnl;
     public static int CBLuck;
     public static int CBWill;
+
+
     public static int CBWeight;
     public static int CBDefense;
 

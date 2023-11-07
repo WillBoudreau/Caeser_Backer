@@ -9,7 +9,11 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
     public GameObject playerPrefab;
-    public GameObject enemyPrefab;
+    public GameObject enemyPrefab01;
+    public GameObject enemyPrefab02;
+    public GameObject enemyPrefab03;
+    public GameObject enemyPrefab04;
+    public GameObject enemyPrefab05;
     public GameObject BattleUI00;
     public GameObject BattleUI01;
     public GameObject BattleUI02;
@@ -17,6 +21,7 @@ public class BattleSystem : MonoBehaviour
     public GameObject Skullivan;
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
+    GameObject enemyGO;
     bool FrTrn;
     Unit playerUnit;
     Unit enemyUnit;
@@ -40,8 +45,37 @@ public class BattleSystem : MonoBehaviour
         // draw battlers
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
-        GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
-        enemyUnit = enemyGO.GetComponent<Unit>();
+        if (PlayerData.NxtMnst == 1)
+        {
+            GameObject enemyGO = Instantiate(enemyPrefab01, enemyBattleStation);
+            enemyUnit = enemyGO.GetComponent<Unit>();
+        }
+        else if (PlayerData.NxtMnst == 2)
+        {
+            GameObject enemyGO = Instantiate(enemyPrefab02, enemyBattleStation);
+            enemyUnit = enemyGO.GetComponent<Unit>();
+        }
+        else if (PlayerData.NxtMnst == 3)
+        {
+            GameObject enemyGO = Instantiate(enemyPrefab03, enemyBattleStation);
+            enemyUnit = enemyGO.GetComponent<Unit>();
+        }
+        else if (PlayerData.NxtMnst == 4)
+        {
+            GameObject enemyGO = Instantiate(enemyPrefab04, enemyBattleStation);
+            enemyUnit = enemyGO.GetComponent<Unit>();
+        }
+        else if (PlayerData.NxtMnst == 5)
+        {
+            GameObject enemyGO = Instantiate(enemyPrefab05, enemyBattleStation);
+            enemyUnit = enemyGO.GetComponent<Unit>();
+        }
+        else
+        {
+            GameObject enemyGO = Instantiate(enemyPrefab01, enemyBattleStation);
+            enemyUnit = enemyGO.GetComponent<Unit>();
+        }
+        
         // Set main characters stats
         playerUnit.maxHP = PlayerData.CBmHP;
         playerUnit.currentHP = PlayerData.CBcHP;
