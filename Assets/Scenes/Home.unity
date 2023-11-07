@@ -5509,15 +5509,13 @@ MonoBehaviour:
     name: GrandPappi
     sentences:
     - 'Hey Caeser my boy! How are you doing this morning? '
-    - One of my chickens got out last night and is causin a ruckus all around the
-      forest and city
+    - One of our chickens,Gregory, got out last night and is causin a ruckus all
+      around the forest and city
     - Now I know you are scared of chickens. But don't you worry, your sister is
       already out there looking it
-    - When you are done, head into the village and fetch me some chicken seed from
-      my ol pal Dave!
-    - 'Thanks a million and good luck!
-
-      Hopefully nothing bad will happen!'
+    - when you are done with that, if you could, please head into the village and
+      speak with Dave. I'm expecting an order of chicken seed order soon.
+    - Thanks Caeser! Be careful and be back before lunch okay?
 --- !u!1 &1703464850
 GameObject:
   m_ObjectHideFlags: 0
