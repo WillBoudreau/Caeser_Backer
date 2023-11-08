@@ -5630,7 +5630,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 17.714252
+  m_Radius: 1.13
 --- !u!1001 &318669203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8245,8 +8245,8 @@ MonoBehaviour:
   inGameMenu: {fileID: 1579276117}
   StatMenu: {fileID: 1375102490}
   CharacterImage: {fileID: 992763229}
-  Needtofindfix1: {fileID: 141100287}
-  NeedtoFindfix2: {fileID: 112022337}
+  QuitButton: {fileID: 0}
+  BackToTitleScreen: {fileID: 0}
 --- !u!4 &723316941
 Transform:
   m_ObjectHideFlags: 0
@@ -14187,7 +14187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1626498729
 RectTransform:
   m_ObjectHideFlags: 0
