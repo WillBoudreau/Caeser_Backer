@@ -9,12 +9,16 @@ public class InGameMenu : MonoBehaviour
     public GameObject InventoryMenu;
     public GameObject inGameMenu;
     public GameObject StatMenu;
+    public GameObject CharacterImage;
+    public GameObject Needtofindfix1;
+    public GameObject NeedtoFindfix2;
     // Start is called before the first frame update
     void Start()
     {
        InventoryMenu.SetActive(false);
        inGameMenu.SetActive(false);
        StatMenu.SetActive(false);
+        CharacterImage.SetActive(false);
     }
 
     // Update is called once per frame
@@ -25,12 +29,14 @@ public class InGameMenu : MonoBehaviour
     public void toMenu()
     {
         inGameMenu.SetActive(true);
+        CharacterImage.SetActive(true) ;
         Time.timeScale = 0.0f;
     }
     public void resume()
     {
         Time.timeScale = 1f;
         inGameMenu.SetActive(false );
+        CharacterImage.SetActive(false) ;
     }
     public void pauseButton() 
     {
@@ -44,12 +50,17 @@ public class InGameMenu : MonoBehaviour
     public void InventoryMenuBUtton() 
     {
         InventoryMenu.SetActive(true);
-        
+        CharacterImage.SetActive(false) ;
+        NeedtoFindfix2.SetActive(false);
+        Needtofindfix1 .SetActive(false);
     }
     public void InventoryBack() 
     {
         
         InventoryMenu.SetActive(false);
+        CharacterImage.SetActive(true) ;
+        Needtofindfix1.SetActive(true);
+        NeedtoFindfix2 .SetActive(true);
     }
     public void BackToTitleScreenButton()
     {
@@ -59,9 +70,11 @@ public class InGameMenu : MonoBehaviour
     public void StatButton()
     {
        StatMenu.SetActive(true);
+        CharacterImage.SetActive(false) ;
     }
     public void BackStat()
     {
         StatMenu.SetActive(false);
+        CharacterImage.SetActive(true);
     }
 }
