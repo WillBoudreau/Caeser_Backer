@@ -359,7 +359,7 @@ public class BattleSystem : MonoBehaviour
         {
             dialogueText.text = "The Six Gods have blessed you with greed!";
             yield return new WaitForSeconds(2);
-            enemyUnit.UnitXp *= 2;
+            enemyUnit.UnitXp *= (12/10);
         }
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurn());

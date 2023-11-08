@@ -7,7 +7,6 @@ public static class PlayerData
     //Ceaser data
     public static float playerPOSX;
     public static float playerPOSY;
-    public static bool CHKNBTL = true;
     public static int CBcHP;
     public static int CBmSP;
     public static int CBcSP;
@@ -47,4 +46,6 @@ public static class PlayerData
     public static int RNGRSLT;
     public static bool TalktoDave;
     public static int NxtMnst;
+    public static bool CHKNBTL;
+    public static bool HasBattled;
 }

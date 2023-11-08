@@ -8,8 +8,7 @@ public class StatController : MonoBehaviour
     //status menu misc text
     public TextMeshProUGUI CharacterName;
     //status menu main stats
-    public TextMeshProUGUI HealthPoints;
-    public TextMeshProUGUI ApostlePoints;
+   
     
     public TextMeshProUGUI CurrentLevel02;
     public TextMeshProUGUI StatusPoints;
@@ -32,8 +31,7 @@ public class StatController : MonoBehaviour
 
         CharacterName.text = PlayerData.CBName;
         //assignment of main stats to text boxes
-        HealthPoints.text = PlayerData.CBcHP + " / " + PlayerData.CBmHP;
-        ApostlePoints.text = PlayerData.CBcSP + " / " + PlayerData.CBmSP;
+        
         
         CurrentLevel02.text = "Lv. " + PlayerData.CBLVL;
         StatusPoints.text = PlayerData.CBStatPoints + "";
@@ -62,48 +60,64 @@ public class StatController : MonoBehaviour
         StatUp("Str");
         StrValueText.text = "" + PlayerData.CBStr;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     public void OnConIncButton()
     {
         StatUp("Con");
         ConValueText.text = "" + PlayerData.CBCon;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     public void OnAgiIncButton()
     {
         StatUp("Agi");
         AgiValueText.text = "" + PlayerData.CBAgi;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     public void OnDexIncButton()
     {
         StatUp("Dex");
         DexValueText.text = "" + PlayerData.CBDex;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     public void OnDevIncButton()
     {
         StatUp("Dev");
         DevValueText.text = "" + PlayerData.CBDev;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     public void OnEnlIncButton()
     {
         StatUp("Enl");
         EnlValueText.text = "" + PlayerData.CBEnl;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     public void OnWillIncButton()
     {
         StatUp("Will");
         WillValueText.text = "" + PlayerData.CBWill;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     public void OnLuckIncButton()
     {
         StatUp("Luck");
         LuckValueText.text = "" + PlayerData.CBLuck;
         StatusPoints.text = PlayerData.CBStatPoints + "";
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
     }
     //stat increase
     void StatUp(string stat)

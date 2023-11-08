@@ -13,7 +13,7 @@ public class LevelUp : MonoBehaviour
             {
             PlayerData.CBXP = PlayerData.CBXP - (PlayerData.CBLVL * (314 / 50));
             PlayerData.CBLVL = PlayerData.CBLVL + 1;
-            PlayerData.CBStatPoints = PlayerData.CBStatPoints + (PlayerData.CBLVL * (314 / 100));
+            PlayerData.CBStatPoints = PlayerData.CBStatPoints + (PlayerData.CBLVL * (157 / 100));
             }
             return true;
         }
