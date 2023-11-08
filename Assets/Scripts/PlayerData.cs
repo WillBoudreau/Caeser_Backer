@@ -13,12 +13,13 @@ public static class PlayerData
     public static int CBcSP;
     public static int CBmHP;
     public static float CBWeaponBonus;
-   
+
 
 
 
     //ceaser Attributes
 
+    public static string CBName = "Ceaser";
 
     public static int CBXP;
     public static int CBLVL;

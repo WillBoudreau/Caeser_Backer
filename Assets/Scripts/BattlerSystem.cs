@@ -158,9 +158,9 @@ public class BattleSystem : MonoBehaviour
             dialogueText.text = "You've Survived...";
             yield return new WaitForSeconds(2f);
             dialogueText.text = "You gained " + enemyUnit.UnitXp + " XP!";
+
             
-            LevelUp lvlCheck = new LevelUp();
-            if (lvlCheck.LVLUP())
+            if (LevelUp.LVLUP())
             {
                 dialogueText.text = "You Leveled up!";
                 yield return new WaitForSeconds(2f);
