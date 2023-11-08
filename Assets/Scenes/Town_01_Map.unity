@@ -7295,7 +7295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &523813004
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7535,8 +7535,8 @@ MonoBehaviour:
   inGameMenu: {fileID: 973070953}
   StatMenu: {fileID: 2005926606}
   CharacterImage: {fileID: 233724747}
-  Needtofindfix1: {fileID: 30672519}
-  NeedtoFindfix2: {fileID: 1729797735}
+  QuitButton: {fileID: 0}
+  BackToTitleScreen: {fileID: 0}
 --- !u!1 &591066673
 GameObject:
   m_ObjectHideFlags: 0

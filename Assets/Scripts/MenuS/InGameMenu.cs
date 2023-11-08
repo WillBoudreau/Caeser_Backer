@@ -10,8 +10,8 @@ public class InGameMenu : MonoBehaviour
     public GameObject inGameMenu;
     public GameObject StatMenu;
     public GameObject CharacterImage;
-    public GameObject Needtofindfix1;
-    public GameObject NeedtoFindfix2;
+    public GameObject QuitButton;
+    public GameObject BackToTitleScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,16 +51,16 @@ public class InGameMenu : MonoBehaviour
     {
         InventoryMenu.SetActive(true);
         CharacterImage.SetActive(false) ;
-        NeedtoFindfix2.SetActive(false);
-        Needtofindfix1 .SetActive(false);
+        QuitButton.SetActive(false);
+        BackToTitleScreen.SetActive(false);
     }
     public void InventoryBack() 
     {
         
         InventoryMenu.SetActive(false);
         CharacterImage.SetActive(true) ;
-        Needtofindfix1.SetActive(true);
-        NeedtoFindfix2 .SetActive(true);
+        QuitButton.SetActive(true);
+        BackToTitleScreen.SetActive(true);
     }
     public void BackToTitleScreenButton()
     {
