@@ -13,7 +13,7 @@ public class MenuStart : MonoBehaviour
         PlayerData.playerPOSY = 0;
         PlayerData.CBLVL = 0;
         PlayerData.CBXP = 0;
-        PlayerData.CBStatPoints = 0;
+        PlayerData.CBStatPoints = 3;
         PlayerData.CBWeaponBonus = 0;
         PlayerData.CBWeight = 0;
         PlayerData.CBDefense = 0;
