@@ -7,6 +7,7 @@ public static class PlayerData
     //Ceaser data
     public static float playerPOSX;
     public static float playerPOSY;
+    public static int playerScene;
     public static int CBcHP;
     public static int CBmSP;
     public static int CBcSP;

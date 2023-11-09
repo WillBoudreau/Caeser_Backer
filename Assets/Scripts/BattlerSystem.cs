@@ -18,6 +18,7 @@ public class BattleSystem : MonoBehaviour
     public GameObject BattleUI01;
     public GameObject BattleUI02;
     public GameObject BattleUI03;
+    public GameObject BattleUI04;
     public GameObject Skullivan;
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
@@ -36,6 +37,7 @@ public class BattleSystem : MonoBehaviour
         BattleUI01.SetActive(false);
         BattleUI02.SetActive(false);
         BattleUI03.SetActive(false);
+        BattleUI04.SetActive(false);
         Skullivan.SetActive(false);
         state = BattleState.START;
         StartCoroutine(SetupBattle());
@@ -115,6 +117,7 @@ public class BattleSystem : MonoBehaviour
         BattleUI01.SetActive(true);
         BattleUI02.SetActive(true);
         BattleUI03.SetActive(true);
+        
         FrTrn = true;
     }
     IEnumerator EnemyTurn()
@@ -159,25 +162,40 @@ public class BattleSystem : MonoBehaviour
             yield return new WaitForSeconds(2f);
             dialogueText.text = "You gained " + enemyUnit.UnitXp + " XP!";
 
-            
             if (LevelUp.LVLUP())
             {
                 dialogueText.text = "You Leveled up!";
                 yield return new WaitForSeconds(2f);
+                
             }
             else
             {
                 yield return new WaitForSeconds(2f);
+                
             }
            
-            SceneManager.LoadScene(3);
+            BattleUI04.SetActive(true);
+            
         }
         else if (state == BattleState.LOST)
         {
             dialogueText.text = "You've lost your life...";
-            SceneManager.LoadScene(0);
+            BattleUI04.SetActive(true);
         }
     }
+    public void OnContinueButton()
+    {
+        if (state == BattleState.WON)
+        {
+            SceneManager.LoadScene(PlayerData.playerScene);
+        }
+        else if(state == BattleState.LOST)
+        {
+            SceneManager.LoadScene(0);
+
+        }
+    }
+
     public void OnAttackButton()
     {
         if (FrTrn)

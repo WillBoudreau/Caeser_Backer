@@ -27,8 +27,11 @@ public class BattleTrigger : MonoBehaviour
         {
             if (collision != null)
             {
+                int Cscn = SceneManager.GetActiveScene().buildIndex;
+                PlayerData.playerScene = Cscn;
                 PlayerData.playerPOSX = self.transform.position.x;
                 PlayerData.playerPOSY = self.transform.position.y;
+
                 EncChance = Random.Range(1, 5);
                 PlayerData.NxtMnst = Random.Range(0,10);
                 if (EncChance == 1 || EncChance == 5)
