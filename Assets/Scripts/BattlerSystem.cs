@@ -33,6 +33,7 @@ public class BattleSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerData.HasBattled = true;
         BattleUI00.SetActive(false);
         BattleUI01.SetActive(false);
         BattleUI02.SetActive(false);

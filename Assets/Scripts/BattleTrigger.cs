@@ -7,51 +7,70 @@ using UnityEngine.SceneManagement;
 public class BattleTrigger : MonoBehaviour
 {
     public GameObject self;
-    private float EncChance;
+    
     private int count;
     // Start is called before the first frame update
     void Start()
     {
-        
-        
+        PlayerData.EncChanceMax = Random.Range(5, 25);
+        PlayerData.EncChance = 1;
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
-        if (PlayerData.HasBattled)
+        if (collision != null)
         {
-            PlayerData.HasBattled = false;
+        
+            int Cscn = SceneManager.GetActiveScene().buildIndex;
+            
+            
 
-        }
-        else
-        {
-            if (collision != null)
+            
+            PlayerData.NxtMnst = Random.Range(0, 10);
+            if (Flipper(PlayerData.EncChanceMax, PlayerData.EncChance) == 0)
             {
-                int Cscn = SceneManager.GetActiveScene().buildIndex;
                 PlayerData.playerScene = Cscn;
                 PlayerData.playerPOSX = self.transform.position.x;
                 PlayerData.playerPOSY = self.transform.position.y;
+                SceneManager.LoadScene(5);
 
-                EncChance = Random.Range(1, 5);
-                PlayerData.NxtMnst = Random.Range(0,10);
-                if (EncChance == 1 || EncChance == 5)
-                {
-                    PlayerData.HasBattled = true;
-                    SceneManager.LoadScene(5);
-
-                }
+            }
+            else
+            {
+                PlayerData.EncChance = Flipper(PlayerData.EncChanceMax, PlayerData.EncChance); 
             }
 
         }
         
         
-            
-            
         
+
+
+
+
+    }
+    private int Flipper(int Mvalue, int Cvalue)
+    {
+        if (Cvalue >= Mvalue)
+        {
+            return 0;
+        }
+        else if (Cvalue == 0)
+        {
+            
+            Cvalue = Cvalue + 1;
+            return Cvalue;
+        }
+        else
+        {
+            Cvalue = Cvalue + 1;
+            return Cvalue;
+        }
     }
     // Update is called once per frame
     void Update()
     {
         
     }
+
 }

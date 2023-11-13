@@ -49,4 +49,6 @@ public static class PlayerData
     public static int NxtMnst;
     public static bool CHKNBTL;
     public static bool HasBattled;
+    public static int EncChance;
+    public static int EncChanceMax;
 }
