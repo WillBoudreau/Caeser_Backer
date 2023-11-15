@@ -82,6 +82,8 @@ public class BattleSystem : MonoBehaviour
         // Set main characters stats
         playerUnit.maxHP = PlayerData.CBmHP;
         playerUnit.currentHP = PlayerData.CBcHP;
+        playerUnit.maxAP = PlayerData.CBmAP;
+        playerUnit.currentAP = PlayerData.CBcAP;
         playerUnit.unitLevel = PlayerData.CBLVL;
         playerUnit.MnDamage = (PlayerData.CBStr + (PlayerData.CBDex / 4)) / 2;
         playerUnit.MxDamage = (PlayerData.CBStr + (PlayerData.CBDex / 4)) * 2;
@@ -126,7 +128,7 @@ public class BattleSystem : MonoBehaviour
         dialogueText.text = "The " + enemyUnit.unitName + " Makes their move!";
         bool isDead = playerUnit.TakeDamage(enemyUnit.MnDamage, enemyUnit.MxDamage, enemyUnit.Accuracy);
         yield return new WaitForSeconds(1f);
-        playerHUD.SetHP(playerUnit.currentHP);
+        playerHUD.SetHP(playerUnit.currentHP, playerUnit.currentAP);
         yield return new WaitForSeconds(1f);
         if (playerUnit.Hit && PlayerData.RNGRSLT > 0)
         {
@@ -217,7 +219,7 @@ public class BattleSystem : MonoBehaviour
     {
         dialogueText.text = playerUnit.unitName + " Attacks!";
         bool isDead = enemyUnit.TakeDamage(playerUnit.MnDamage, playerUnit.MxDamage, playerUnit.Accuracy);
-        enemyHUD.SetHP(enemyUnit.currentHP);
+        enemyHUD.SetHP(enemyUnit.currentHP,0); 
         yield return new WaitForSeconds(2f);
         if (enemyUnit.Hit && PlayerData.RNGRSLT > 0)
         {
@@ -265,7 +267,7 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(2f);
         int HealValue = UnityEngine.Random.Range(5, playerUnit.maxHP);
         playerUnit.Heal(HealValue);
-        playerHUD.SetHP(playerUnit.currentHP);
+        playerHUD.SetHP(playerUnit.currentHP, playerUnit.currentAP);
         dialogueText.text = playerUnit.unitName + " Recovers " + HealValue + " Health!";
         yield return new WaitForSeconds(2f);
         state = BattleState.ENEMYTURN;
@@ -339,7 +341,7 @@ public class BattleSystem : MonoBehaviour
             playerUnit.MnDamage += 500;
             playerUnit.MxDamage += 1000;
             PlayerData.CBXP += 100;
-            playerHUD.SetHP(playerUnit.currentHP);
+            playerHUD.SetHP(playerUnit.currentHP, playerUnit.currentAP);
             yield return new WaitForSeconds(2);
         }
         else if (PrayValue >= 0 && PrayValue <= 50)
@@ -354,13 +356,13 @@ public class BattleSystem : MonoBehaviour
                 StartCoroutine(EndBattle());
 
             }
-            playerHUD.SetHP(playerUnit.currentHP);
+            playerHUD.SetHP(playerUnit.currentHP, playerUnit.currentAP);
         }
         else if (PrayValue >= 51 && PrayValue <= 500)
         {
             dialogueText.text = "Nothing happens...";
             yield return new WaitForSeconds(2);
-            playerHUD.SetHP(playerUnit.currentHP);
+            playerHUD.SetHP(playerUnit.currentHP, playerUnit.currentAP);
             //nothing
         }
         else if (PrayValue >= 501 && PrayValue <= 776)
@@ -372,7 +374,7 @@ public class BattleSystem : MonoBehaviour
             {
                 playerUnit.currentHP = playerUnit.maxHP;
             }
-            playerHUD.SetHP(playerUnit.currentHP);
+            playerHUD.SetHP(playerUnit.currentHP, playerUnit.currentAP);
         }
         else if (PrayValue >= 778 && PrayValue <= 1000)
         {

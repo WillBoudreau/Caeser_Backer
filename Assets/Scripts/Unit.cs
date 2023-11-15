@@ -15,6 +15,8 @@ public class Unit : MonoBehaviour
 
     public int maxHP;
     public int currentHP;
+    public int maxAP;
+    public int currentAP;
     public bool Hit;
 
     public bool TakeDamage(int mindmg, int maxdmg, int Acc)

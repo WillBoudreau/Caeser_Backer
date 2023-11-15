@@ -19,7 +19,7 @@ public class LevelFix : MonoBehaviour
     void Update()
     {
         HealthPoints.text = PlayerData.CBcHP + " / " + PlayerData.CBmHP;
-        ApostlePoints.text = PlayerData.CBcSP + " / " + PlayerData.CBmSP;
+        ApostlePoints.text = PlayerData.CBcAP + " / " + PlayerData.CBmAP;
         CurrentLevel01.text = "Lv. " + PlayerData.CBLVL;
     }
 }

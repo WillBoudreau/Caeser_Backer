@@ -9,6 +9,7 @@ public class BattleHUD : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI levelText;
     public Slider hpSlider;
+    public Slider ApSlider;
 
     public void SetHUD(Unit unit)
     {
@@ -16,11 +17,15 @@ public class BattleHUD : MonoBehaviour
         levelText.text = "LvL : " + unit.unitLevel;
         hpSlider.maxValue = unit.maxHP;
         hpSlider.value = unit.currentHP;
+        ApSlider.maxValue = unit.maxAP;
+        ApSlider.value = unit.currentAP;
     }
 
-    public void SetHP(int hp)
+    public void SetHP(int hp, int ap)
     {
         hpSlider.value = hp;
+        ApSlider.value = ap;
+
     }
 
 }

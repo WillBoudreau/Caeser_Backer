@@ -27,8 +27,8 @@ public class MenuStart : MonoBehaviour
         PlayerData.CBLuck = 1;
         PlayerData.CBcHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
         PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
-        PlayerData.CBcSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
-        PlayerData.CBmSP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
+        PlayerData.CBcAP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
+        PlayerData.CBmAP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
         SceneManager.LoadScene(MMSc);
     }
 }

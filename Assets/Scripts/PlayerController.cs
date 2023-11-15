@@ -15,7 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         moveTarget.position = new Vector3(PlayerData.playerPOSX, PlayerData.playerPOSY, 0.0f);
-        moveSpeed = 0.0025f;
+        moveSpeed = 0.01f;
         movePoint.parent = null;
 
 

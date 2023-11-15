@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public static class PlayerData 
 {
@@ -8,10 +10,10 @@ public static class PlayerData
     public static float playerPOSX;
     public static float playerPOSY;
     public static int playerScene;
-    public static int CBcHP;
-    public static int CBmSP;
-    public static int CBcSP;
     public static int CBmHP;
+    public static int CBcHP;
+    public static int CBmAP;
+    public static int CBcAP;
     public static float CBWeaponBonus;
 
 
