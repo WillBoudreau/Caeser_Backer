@@ -18,11 +18,6 @@ public class DialogueManager : MonoBehaviour
     {
         panel.SetActive(false);
         sentences = new Queue<string>();
-        PlayerData.TalktoDave = true;
-        while(PlayerData.TalktoDave == true)
-        {
-            Debug.Log("Hello World!");
-        }
     }
     public void StartDialogue (Dialogue dialogue)
     {
@@ -57,12 +52,5 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         
-    }
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Dave"))
-        {
-            PlayerData.TalktoDave = true;
-        }
     }
 }
