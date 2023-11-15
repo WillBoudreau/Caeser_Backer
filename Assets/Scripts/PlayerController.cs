@@ -69,7 +69,8 @@ public class NewBehaviourScript : MonoBehaviour
         }
         CBanimator.SetFloat("Horizontal", 0);
         CBanimator.SetFloat("Vertical", 0);
-
+        PlayerData.playerPOSX = moveTarget.position.x;
+        PlayerData.playerPOSY = moveTarget.position.y;
     }
     private void FixedUpdate()
     {

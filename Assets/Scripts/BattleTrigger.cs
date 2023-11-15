@@ -21,7 +21,7 @@ public class BattleTrigger : MonoBehaviour
         if (collision != null)
         {
         
-            int Cscn = SceneManager.GetActiveScene().buildIndex;
+            string Cscn = SceneManager.GetActiveScene().name;
             
             
 
