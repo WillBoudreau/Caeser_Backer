@@ -42,6 +42,8 @@ public class DialogueManager : MonoBehaviour
         }
         string sentence = sentences.Dequeue();
         dialoguetext.text = sentence;
+        
+        
     }
     public void EndDemoCheck()
     {
