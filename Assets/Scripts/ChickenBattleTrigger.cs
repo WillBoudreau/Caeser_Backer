@@ -22,7 +22,7 @@ public class ChickenBattleTrigger : MonoBehaviour
         
         if (PlayerData.CHKNBTL)
         {
-            string Cscn = SceneManager.GetActiveScene().name;
+            int Cscn = SceneManager.GetActiveScene().buildIndex;
             PlayerData.playerScene = Cscn;
             PvLc.position = new Vector2(XYpos.x, XYpos.y);
             PlayerData.playerPOSX = XYpos.x;

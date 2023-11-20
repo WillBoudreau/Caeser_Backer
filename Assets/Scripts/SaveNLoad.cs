@@ -16,11 +16,13 @@ public class SaveNLoad : MonoBehaviour
 
     public void SaveGame()
     {
-        
+
         int CBposX = (int)math.round(PlayerData.playerPOSX);
         int CBposY = (int)math.round(PlayerData.playerPOSY);
+        //float CBposX = PlayerData.playerPOSX;
+        //float CBposY = PlayerData.playerPOSY;
         // "CBPScn","CBPEX","CBPVL","CBPSP","CBPST","CBPCN","CBPGI","CBPDX","CBPDV","CBPNL","CBPWI","CBPUK","CBPEX","CBPYE",    <- savedata format
-        SaveValue = PlayerData.playerScene + "-" + PlayerData.CBXP + "-" + PlayerData.CBLVL + "-" + PlayerData.CBStatPoints + "-" + PlayerData.CBStr + "-" + PlayerData.CBCon + "-" + PlayerData.CBAgi + "-" + PlayerData.CBDex + "-" + PlayerData.CBDev + "-" + PlayerData.CBEnl + "-" + PlayerData.CBWill + "-" + PlayerData.CBLuck + "-" + CBposX + "-" + CBposY;
+        SaveValue = PlayerData.playerScene + "~" + PlayerData.CBXP + "~" + PlayerData.CBLVL + "~" + PlayerData.CBStatPoints + "~" + PlayerData.CBStr + "~" + PlayerData.CBCon + "~" + PlayerData.CBAgi + "~" + PlayerData.CBDex + "~" + PlayerData.CBDev + "~" + PlayerData.CBEnl + "~" + PlayerData.CBWill + "~" + PlayerData.CBLuck + "~" + CBposX + "~" + CBposY;
 
         File.WriteAllText(path, SaveValue);
 
@@ -35,7 +37,7 @@ public class SaveNLoad : MonoBehaviour
         int SaveIndex = 0;
          SaveValue = File.ReadAllText(path);
 
-         string[] LoadedData = SaveValue.Split('-');
+         string[] LoadedData = SaveValue.Split('~');
          foreach (string SDValue in LoadedData)
          {
             DataLoad(SaveIndex, SDValue);
@@ -53,7 +55,7 @@ public class SaveNLoad : MonoBehaviour
     {
         if (Index == 0)
         {
-            PlayerData.playerScene = Value;
+            PlayerData.playerScene =int.Parse(Value);
         }
         else if (Index == 1)
         {
