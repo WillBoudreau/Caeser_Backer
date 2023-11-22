@@ -52,7 +52,25 @@ public class StatController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //int NxtLvl = (PlayerData.CBLVL + 1) * (314 / 50);
+
+        //CharacterName.text = PlayerData.CBName;
+        ////assignment of main stats to text boxes
+
+
+        //CurrentLevel02.text = "Lv. " + PlayerData.CBLVL;
+        //StatusPoints.text = PlayerData.CBStatPoints + "";
+        //;
+        //NextLvlExperiencePoints.text = PlayerData.CBXP + " / " + NxtLvl;
+        ////assignment of stats to text boxes
+        //StrValueText.text = "" + PlayerData.CBStr;
+        //ConValueText.text = "" + PlayerData.CBCon;
+        //AgiValueText.text = "" + PlayerData.CBAgi;
+        //DexValueText.text = "" + PlayerData.CBDex;
+        //DevValueText.text = "" + PlayerData.CBDev;
+        //EnlValueText.text = "" + PlayerData.CBEnl;
+        //WillValueText.text = "" + PlayerData.CBWill;
+        //LuckValueText.text = "" + PlayerData.CBLuck;
     }
     //buttons
     public void OnStrIncButton()

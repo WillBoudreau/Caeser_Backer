@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,25 +12,25 @@ using UnityEngine.SceneManagement;
 public class SaveNLoad : MonoBehaviour
 {
     string path = @"CBATOUSD.txt";
-    string SaveValue;
+    [SerializeField]string SaveValue;
     // Start is called before the first frame update
-
+    [SerializeField]public int savePoint;
     public void SaveGame()
     {
-
+        savePoint = PlayerData.playerScene;
         int CBposX = (int)math.round(PlayerData.playerPOSX);
         int CBposY = (int)math.round(PlayerData.playerPOSY);
         //float CBposX = PlayerData.playerPOSX;
         //float CBposY = PlayerData.playerPOSY;
         // "CBPScn","CBPEX","CBPVL","CBPSP","CBPST","CBPCN","CBPGI","CBPDX","CBPDV","CBPNL","CBPWI","CBPUK","CBPEX","CBPYE",    <- savedata format
-        SaveValue = PlayerData.playerScene + "~" + PlayerData.CBXP + "~" + PlayerData.CBLVL + "~" + PlayerData.CBStatPoints + "~" + PlayerData.CBStr + "~" + PlayerData.CBCon + "~" + PlayerData.CBAgi + "~" + PlayerData.CBDex + "~" + PlayerData.CBDev + "~" + PlayerData.CBEnl + "~" + PlayerData.CBWill + "~" + PlayerData.CBLuck + "~" + CBposX + "~" + CBposY;
+        SaveValue = savePoint + PlayerData.CBXP + "~" + PlayerData.CBLVL + "~" + PlayerData.CBStatPoints + "~" + PlayerData.CBStr + "~" + PlayerData.CBCon + "~" + PlayerData.CBAgi + "~" + PlayerData.CBDex + "~" + PlayerData.CBDev + "~" + PlayerData.CBEnl + "~" + PlayerData.CBWill + "~" + PlayerData.CBLuck + "~" + CBposX + "~" + CBposY;
 
         File.WriteAllText(path, SaveValue);
 
      
 
 
-        PlayerPrefs.Save();
+        
         Debug.Log("Game data saved.");
     }
     public void LoadGame()
@@ -45,17 +46,25 @@ public class SaveNLoad : MonoBehaviour
             SaveIndex = SaveIndex + 1;
          }
 
-
+        PlayerData.CBcHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBmHP = (PlayerData.CBCon * 5) + (PlayerData.CBStr * 3) + (PlayerData.CBWill * 2);
+        PlayerData.CBcAP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
+        PlayerData.CBmAP = (PlayerData.CBDev * 5) + (PlayerData.CBEnl * 2);
 
         Debug.Log("Game data loaded.");
-        SceneManager.LoadScene(PlayerData.playerScene);
+        PlayerData.playerPOSX = 0;
+        PlayerData.playerPOSY = 0;
+        SceneManager.LoadSceneAsync(savePoint);
     }
+
+    
 
     public void DataLoad(int Index, string Value)
     {
         if (Index == 0)
         {
-            PlayerData.playerScene =int.Parse(Value);
+            savePoint = int.Parse(Value);
+
         }
         else if (Index == 1)
         {
@@ -104,11 +113,11 @@ public class SaveNLoad : MonoBehaviour
         }
         else if (Index == 12)
         {
-            PlayerData.playerPOSX = float.Parse(Value);
+            PlayerData.playerPOSX = int.Parse(Value);
         }
         else if (Index == 13)
         {
-            PlayerData.playerPOSY = float.Parse(Value);
+            PlayerData.playerPOSY = int.Parse(Value);
         }
 
     }

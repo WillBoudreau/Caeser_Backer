@@ -1,87 +1,75 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class NewBehaviourScript : MonoBehaviour
 {
-    public Transform movePoint;
-    public Transform moveTarget;
-
-    public float moveSpeed;
+    public Rigidbody2D rb;
+    public float moveSpeed = 0.25f;
     public Animator CBanimator;
-
+    Vector2 Movement;
+    int KeyDireh;
+    int KeyDirev;
     // Start is called before the first frame update
     void Start()
     {
         PlayerData.playerScene = SceneManager.GetActiveScene().buildIndex;
-        moveTarget.position = new Vector3(PlayerData.playerPOSX, PlayerData.playerPOSY, 0.0f);
-        moveSpeed = 0.01f;
-        movePoint.parent = null;
-
-
-
-        // Update is called once per frame
+        Time.timeScale = 1.0f;
+        Movement.x = PlayerData.playerPOSX;
+        Movement.y = PlayerData.playerPOSY;
+        rb.position = new Vector2(Movement.x, Movement.y);
     }
+
+    // Update is called once per frame
     void Update()
     {
-        moveTarget.position = Vector3.MoveTowards(moveTarget.position, movePoint.position, moveSpeed);
-        if (Vector3.Distance(moveTarget.position, movePoint.position) <= 0.01f)
-        {
-                
-            CBanimator.SetFloat("Horizontal", 0);
+        
+        //input
+        //if (Input.GetKey(KeyCode.W))
+        //{
+        //    KeyDirev = 1;
 
-            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1)
-            {
-                //if (Input.GetButtonDown("Left"))
-                //{
+        //}
+        //if (Input.GetKey(KeyCode.S))
+        //{
+        //    KeyDirev = 0;
 
-                //}
-                //else if (Input.GetButtonDown("Right"))
-                //{
+        //}
+        //if (Input.GetKey(KeyCode.D))
+        //{
+        //    KeyDireh = 1;
 
-                //}
-                //else
-                //{
-                movePoint.position += new Vector3((Input.GetAxisRaw("Horizontal") / 2), 0.0f, 0.0f);
-                CBanimator.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
+        //}
+        //if (Input.GetKey(KeyCode.A))
+        //{
+        //    KeyDireh = 0;
 
-                //}
+        //}
+        //else
+        //{
+        //    KeyDireh = 0;
+        //    KeyDirev = 0;
 
-            }
-            else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1)
-            {
-                //if (Input.GetButtonDown("Up"))
-                //{
+        //}
+        Movement.y = Input.GetAxisRaw("Vertical");
+        Movement.x = Input.GetAxisRaw("Horizontal");
 
-                //}
-                //else if (Input.GetButtonDown("Down"))
-                //{
-
-                //}
-                //else
-                //{
-                movePoint.position += new Vector3(0.0f, (Input.GetAxisRaw("Vertical") / 2), 0.0f);
-                CBanimator.SetFloat("Vertical", Input.GetAxisRaw("Vertical"));
-                //}
-
-            }
-
-        }
-        CBanimator.SetFloat("Horizontal", 0);
-        CBanimator.SetFloat("Vertical", 0);
-        PlayerData.playerPOSX = moveTarget.position.x;
-        PlayerData.playerPOSY = moveTarget.position.y;
     }
     private void FixedUpdate()
     {
-
-
-            //movement
-
+        rb.MovePosition(rb.position + Movement * moveSpeed * Time.fixedDeltaTime);
+        PlayerData.playerPOSX = Movement.x;
+        PlayerData.playerPOSY = Movement.y;
+        CBanimator.SetFloat("Horizontal", Movement.x);
+        CBanimator.SetFloat("Vertical", Movement.y);
+        CBanimator.SetFloat("Speed", Movement.sqrMagnitude);
+        //movement
 
     }
-        
-    }
+    void SetStats()
+    {
 
+    }
+}
