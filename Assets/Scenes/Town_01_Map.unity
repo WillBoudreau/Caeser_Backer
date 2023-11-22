@@ -6749,7 +6749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Nocternia Poulin
+    name: Nocternia Boudreau
     sentences:
     - hi Caeser...how are you?....listen I'm busy please leave
 --- !u!1 &750186575
@@ -7269,7 +7269,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1028485, y: 3.4827454}
+  m_Offset: {x: 1.1028485, y: 2.5386162}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7280,7 +7280,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.140313, y: 17.975765}
+  m_Size: {x: 4.140313, y: 16.087492}
   m_EdgeRadius: 0
 --- !u!1 &861379948
 GameObject:
@@ -8942,7 +8942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Madeline Mc
+    name: Madeline McClelland
     sentences:
     - Madeline stares at you intently...
     - Maybe you should leave...
@@ -10607,7 +10607,7 @@ Transform:
   m_GameObject: {fileID: 1420699794}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.709234, y: 3.1522312, z: 6.334108}
+  m_LocalPosition: {x: -13.681, y: 4.39, z: 6.334108}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27044,7 +27044,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.2524285, y: -4.9842887}
+  m_Offset: {x: -2.2524285, y: -6.023587}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -27055,7 +27055,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.5330105, y: 15.222943}
+  m_Size: {x: 8.5330105, y: 13.144346}
   m_EdgeRadius: 0
 --- !u!1 &1765566831
 GameObject:
