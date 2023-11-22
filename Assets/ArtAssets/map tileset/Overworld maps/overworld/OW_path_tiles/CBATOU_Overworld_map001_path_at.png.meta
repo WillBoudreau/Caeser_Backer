@@ -1,0 +1,4263 @@
+fileFormatVersion: 2
+guid: 9789eb07e832c244e839449a8541650f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ec7b7f346c35489667350ba255132
+      internalID: 895090868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68211d4092868d040ad16e4f58f77f08
+      internalID: -1555133990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321fb89a7e0c68147b16988008f34bdb
+      internalID: -746143829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7084155df0ff8fd459ffc7306510b0f3
+      internalID: -1668123957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae99e25a0de97d41824516a6ceb937b
+      internalID: 2080056535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216f9ae487b2f214196a636cf5887826
+      internalID: 1825886048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54dba420c6e46647a07c2c06a6221e1
+      internalID: -878780429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63334c4204281d4b8259d4379b5d7ac
+      internalID: 576672030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aab74729c62b84884a05cbf1e9f61e
+      internalID: -1204475120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a7ad0ecca660b4b8101b87c4e8fae3
+      internalID: -1674897221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269bb0d8bb2827e448939977f0467d4a
+      internalID: 717401146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac1ffb120132154bbcd5a9dc4f71a44
+      internalID: -722112844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_12
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c8b83b95af4aa47940958faf2741e8
+      internalID: 903235784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a641a7cc8441044b6017734046251c
+      internalID: -1958976297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190db36960a8cde4dab308008fc905b7
+      internalID: 1623191410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_15
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee34c19b1d4268468dc3ce4427107ef
+      internalID: -1523683869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87844c3c75215e46a069185cdb30c89
+      internalID: 1776652237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dea9fe998fb0bf4da33e612cdac803c
+      internalID: 695810231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2325847b23b9e854aa574b56934a6498
+      internalID: 979261299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a85ef8bc83d83e46acc554769e85ebb
+      internalID: -629929447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e65ae9d95134a4ba674e7bf1ecf486
+      internalID: 469152478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e033ad2da90a62d41b138cdae9fb45f0
+      internalID: -455161801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6ff684e695edf43aa0e935f0c177af
+      internalID: -1463462499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c56c6bd1ce0e8a428b281e42e70cd6c
+      internalID: -144661966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c965370dafb13744881d4d13c85d614
+      internalID: 1126544589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da03b17bed38f864db5e7ef58b00bd9e
+      internalID: -1678032858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f53e277c16eab4fa26e150b8710098
+      internalID: 646579401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72e812d34911fd4d8f6b4ffcc793a17
+      internalID: -1969110507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d44540a50969e43a88a514111200cc
+      internalID: 522735336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e5e517b686e147be76fd33872d866
+      internalID: 744134623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a61fefb0bf1bb4a955f037d57bc230
+      internalID: 1407679678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b5e24db6abc84fa0ae1058f0f8bf9
+      internalID: -1315730897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5190e29eab24b4f988440e83005754
+      internalID: 626194030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd37022d14149c4a88f53110abcfcdf
+      internalID: -1045111457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9701161ef01f93d4b96b3798a8eec673
+      internalID: 1108669935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_35
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9beccca466304c44fb9d7c186c39e27c
+      internalID: 839146878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9a30b0b2321f84380c75f48651aa1c
+      internalID: 1569030894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abe461de78458e4687c2a81b6a02b1f
+      internalID: -1101336533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_38
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01ffeaa554fb54c8e6b691ee9ed851
+      internalID: -891328696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_39
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c82f4e3a01550e499ef1a1861530bfc
+      internalID: -84329976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a253fbe3cbc98e4d9d27f99ee428688
+      internalID: -1522637573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1e1f71eb0ccc547a9aeaf51b39bb2e
+      internalID: -1499579902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63819b75fa79bd747ac9818f29f59047
+      internalID: 959482400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_43
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77711756ad95f54ab7f2afb531bf977
+      internalID: 216815879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc004c0e3f3ee0498bf83f01c98d823
+      internalID: -1291556413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_45
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcf2281614e0d64eaeb279d4231783f
+      internalID: 335959267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da5cbb5d5b0ac8458a07456313adce7
+      internalID: -120051163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_47
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686df03153660864baa9836a9d872316
+      internalID: 1063854941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a93ac70a95eed748a970a9d18dfe085
+      internalID: -2110053741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fce5640b654d7044b04202a37736962
+      internalID: 773445724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfdd61919ed900479ce24230b1cc90d
+      internalID: -1516689585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_51
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad52a46b0870a404d89760cb50321802
+      internalID: -1487439298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae41b30cf38e3b74499eb632ee2b78bb
+      internalID: -219440089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d417ffdc95b2843a9f408c30173ae5
+      internalID: -239512022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_54
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ca7881d71c9ef4199ee3eff72d7d2c
+      internalID: 2073898570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_55
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0dc02b01a035f43a1bd9ac6ebd5617
+      internalID: 252402760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb9c6551ffdaf468f0ef90ff0fa5d3
+      internalID: -268616548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_57
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b6e2cb05ccfbf40a828a0cc038edec
+      internalID: -1949170762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b112ef3855bd2a41b53f4021bfc55fa
+      internalID: -1645244382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cb886a0c51ed941a88d5e402110c57
+      internalID: -688825461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_60
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37c6a1962b9f7542bf11d055ebfba28
+      internalID: 1137991963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_61
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9812c6c5235f304ea7e8f157ca73bf5
+      internalID: -926504227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87503e83755d9ae49b081e0119989e99
+      internalID: 1565679715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_63
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dafebddba1a1a40bbbf875516b1b38
+      internalID: 264172969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5488ac7e69986d441830c80c1f39acec
+      internalID: -2122847917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f705c9d1c044bea4095cf861e00a1906
+      internalID: -1769585143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd70f9e0e0782d4d93b0053de636886
+      internalID: 281910593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167c80e06faa93049adcafd6265b2b9e
+      internalID: -1639144932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a4d127aebf5c44faacd8d8f48e5f95
+      internalID: 1246638448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4489897ef05d12948bf042ecc2a1dc72
+      internalID: 1026607607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d42486b6e0dfd14fa6dc476c0f9127d
+      internalID: 1137406468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_71
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561fd977e50d7784aad26bdf75b1df08
+      internalID: 434242258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c445e4986e7f1314ab9df44d512f29de
+      internalID: -1337655363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_73
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b3ba198c6f0a840b3eacf6d7139d2d
+      internalID: 1812990286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_74
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab20fccd192b4d49a2d245aa30ef6b8
+      internalID: -953998360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_75
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bc45289437a974cb0b016130579761
+      internalID: 1589133590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46951ae47abc182449ec0f970b9b59c8
+      internalID: -698351849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_77
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8509efd29e975fc409c6ad4e2eb6b8ea
+      internalID: 717623179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_78
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136ca732afd89c345930517cd953e535
+      internalID: 130372715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_79
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41338e04b7b5edd4399a77e2f29bb29f
+      internalID: 840634831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36b0421dc6c7f947addf3b472d5ccfd
+      internalID: -136886240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_81
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1de2a30d4ed7204e8943ce225b645c9
+      internalID: -1974835258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_82
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214e6e250cb03724db28ac840aa2d614
+      internalID: 1288276787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_83
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935f39eb8a5366f4b91a6d9f018e92c9
+      internalID: 1423659226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d56eb6882851f940b001ff3416b3370
+      internalID: 1224890978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ded3746b8742439ed42d7cff13ed2
+      internalID: -1238033533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_86
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3065743a69275f74990314aa3a242199
+      internalID: -580908873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_87
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8da1e4addad494697cbefdc02eb802
+      internalID: 1226280373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7082b416ee041da439a3a8e1bf775566
+      internalID: 2085617345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_89
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f82c71cb16e2345a6b40c91aefb336
+      internalID: 1447815550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_90
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a3eb93be6caf44d937a7139e912ff7
+      internalID: 1728031405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_91
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fe4e80684b328419af635da2de77a1
+      internalID: 1900039529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_92
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ace07c08f0063429b3165601309bee
+      internalID: 43579030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_93
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6d987d875d0c841aa3c65ac81d7fbe
+      internalID: 1070462576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_94
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290517b0bcfbc1d4ebc587baa836445e
+      internalID: -1698094851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_95
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906f3ab62cb53647b26af48dfa2abfa
+      internalID: -2102751237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2423135904b834ca79a6fb545868c1
+      internalID: -484894128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_97
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc083a5f6d79bc49b54a52d087f7df4
+      internalID: -1664800215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5d5f387cd9cba499805556410e66a8
+      internalID: 1397775314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b59ddcd3d020a344a20a616601a5406
+      internalID: 1969492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf35f07e20eb284ab13db3546bd4e05
+      internalID: 208886996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab4348922ade56448fe1e801415f939
+      internalID: 517610818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b704233f37561949b39021669c71e33
+      internalID: 525759673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_103
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7214894270fad104cbaa1275a1b8fcdb
+      internalID: -1462066390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f14526e9dfe844bb57218d3f7f071d
+      internalID: 142979141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_105
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aa666d043b27743bedcc34f201a40a
+      internalID: 1752768092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_106
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23591ef3354e2643ad3ce699238c3db
+      internalID: -731450829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_107
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80e29516a44c75498ed08d247220d63
+      internalID: 388810737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_108
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca23a97e23a88045928541d1dc3ba90
+      internalID: -1324439218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_109
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9451cab0b38ef4898a857aa4abcf68
+      internalID: 194206955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_110
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a235455d75dbf147b94914424fea94f
+      internalID: -811958727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_111
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb2d7107b5b8d54fb77e6db13181b42
+      internalID: 942256844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396ae44b9027103429ea0b81a145f937
+      internalID: -1923133954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_113
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5188c5ee588c9c74ab15e06dfbbe1155
+      internalID: -542918887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_114
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc132cfc5b5aea41a98dc1e6daae2cf
+      internalID: -1772999395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_115
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7abc0fa286d5c44be30561d810e8b7
+      internalID: -2043285059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0c210141dc04c4bbc0bc26cebc18fe
+      internalID: -1077981429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_117
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ae46e9ce3cd04088ab79c7b964a4a
+      internalID: 946768762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_118
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0365843197601f84280703b1eaa5379d
+      internalID: -1851067099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_119
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3f6cc1b26a0ba4aa8f17c73164e2f4
+      internalID: 1730812864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_120
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feef922cf591e874fa9ab6318aeabb91
+      internalID: -2066422481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_121
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac63d838c7997f4a8ab63f0a77a7bd1
+      internalID: 1641647392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_122
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8a868b4c1125349a52f9082b15096c
+      internalID: 1982548721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_123
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a747143cf9baf6440b7c836f32058a25
+      internalID: -1018108154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542385503ec8a9540ba27000ebcd4bbf
+      internalID: 1751061244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_125
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4f597e79de3294eab780f180abd6da
+      internalID: 832578301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_126
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e885f748ca84ce241b8a6bf7ea7c48ae
+      internalID: -1925372887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_127
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4ae7e981f768543b2c5b38361822ce
+      internalID: -1962040236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_128
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562fd04783033c145ad5a94504546ffa
+      internalID: 1340652576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_129
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43ba9b9c6e6d7748864e0a124f33262
+      internalID: 699972560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_130
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e5dc5557e7ac94596414e1a9e8f7ce
+      internalID: 1659786121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_131
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5609b390536b006489c670a0ab4298ad
+      internalID: 343027414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_132
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd6fc28a6bcf69418bd88522dab9435
+      internalID: 337834609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_133
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b964edb62810fc94c95d1b1579415410
+      internalID: -352570890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_134
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e778c1c8a77ae4daaf54d87f8b906f
+      internalID: 911860139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_135
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a71f52eb5a0f6a45938375b01539b88
+      internalID: 1603522628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dbc0c5838027845a2014a5b1629a2a
+      internalID: -496429636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_137
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515ae6d09f3a2684d8fcb6e8c261d00a
+      internalID: 97067949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_138
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a568e2927b4614887ca49351096415
+      internalID: -1689902397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_139
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e338c2409fef6254aa787d8d72f0ce16
+      internalID: -99717246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ca7941c896a84a86f613106df256d
+      internalID: -857440740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_141
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06bbfa454ff9f647b7e4d6a80d272e7
+      internalID: 275346221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_142
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeea1ecdf33a9bc4b8ec7d67e645ae04
+      internalID: 926184424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_143
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fbf24abf38ae847a89dd224ba3c85c
+      internalID: -343260684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_144
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6210ae8a7da3a4a4f8ebc4d4e77620c3
+      internalID: 305646236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_145
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61d5dd56038e1345a0e686789538919
+      internalID: 1653536691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_146
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b239ea39ae0eb1840805b6e6eb439039
+      internalID: -2120229709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_147
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eafe7b6df65a7748b9d4d740f438d2e
+      internalID: 494069939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d052cb201151dfa489a807f5b8f9a198
+      internalID: -838438709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_149
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe480f7d06db179488e754c1d79a36dc
+      internalID: -1705713442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_150
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b47926189e6624a96ed32102ba198f
+      internalID: -1373173488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_151
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5509012d224cb4e49ad8f82f6e2e0ba8
+      internalID: 1719434112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a186547efbc71d74693803a05c649eb1
+      internalID: -2061803818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_153
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b296f5c338094c408ad4d453c679f48
+      internalID: 736227901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_154
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d105236bae7b5547981696b3e71aa50
+      internalID: 316485675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_155
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c19e88478a5b9419bbdf1ab41e72c4
+      internalID: 620115005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_156
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e335e8a1147ce5d448b3520c8ec2763b
+      internalID: -1856026277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_157
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bd88132c6a4744cb8c63ac6bfc81e3
+      internalID: 1024417617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_158
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3cd5f22337f764d8583739abf72022
+      internalID: 674751552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_159
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5c1ce3b07b80c48926173c7c089c01
+      internalID: 553789305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2260f1903105a974fb948e36114cec38
+      internalID: -1820202829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_161
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424f34b40eb65d24eb653686befcbfe0
+      internalID: -831469127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_162
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53291ebd9cc5a9449a9fe940bc4cc598
+      internalID: 333632566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_163
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaf9335f30b5ed45b419e761d250b29
+      internalID: 1614494827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce4254f3c58b9148b55d5318f356bb7
+      internalID: -570845865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_165
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01db32822b6a4344cbd8eb36298181fa
+      internalID: -1413548260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_166
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df670a9898b4824182c27092a624237
+      internalID: -1285422129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_167
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d28a6288a92ab47837655e76a85f28
+      internalID: 217849139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_168
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4b327550cd1734f81eede48063a161
+      internalID: 475368979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_169
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e06568f02fad14da4625f4f723e030
+      internalID: 624404914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_170
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7bc6cb3a4afd448bb5f8fe8c49c4c6
+      internalID: -1461766256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_171
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ee5fe01c3d2cb439db06b1c3073cdb
+      internalID: -420533687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_172
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97a4115a9e237e4c8b22fccdccdf065
+      internalID: -1637533118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_173
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 784
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedeb3e28cd438f4fb367ef48e16fe85
+      internalID: -517626931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_174
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a2364c51a33dd42b7e4f4c5778573b
+      internalID: 1425214774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_175
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68adaab378e5ab4595f792ac46f1953
+      internalID: -1853914268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_176
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627e51b1dd9f1b740a3cc1b108423da9
+      internalID: 739739467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_177
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130bf6be7f751746b334276a9b94925
+      internalID: -17115323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_178
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b659d3a526ab8c469eb95dacd3ccbfe
+      internalID: -1418984062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_179
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5eadb82341e6742875315d6fec8648
+      internalID: 977960724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_180
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df89ed4865c78d46885e12594ff38a5
+      internalID: 1981548773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_181
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e556dc47015c704aaccc863a3bf1d2c
+      internalID: -98191208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5143531ce3ee393429420c4935a6832e
+      internalID: 2015784174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_183
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bc9c5371b047a4ca7146291fc6faab
+      internalID: -1842270064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_184
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fae0ee4caef750488cced6e811c68c1
+      internalID: 2086558291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_185
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42761d6f2e9053f40ae7d34bffe48d3b
+      internalID: -875469703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_186
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a913e56d0bf036c45a51ab1b81e0ab5c
+      internalID: -1485064373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CBATOU_Overworld_map001_path_at_187
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8b2a0e1fc325e48b7043d2c62f03c3
+      internalID: -764280115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CBATOU_Overworld_map001_path_at_0: 895090868
+      CBATOU_Overworld_map001_path_at_1: -1555133990
+      CBATOU_Overworld_map001_path_at_10: 717401146
+      CBATOU_Overworld_map001_path_at_100: 208886996
+      CBATOU_Overworld_map001_path_at_101: 517610818
+      CBATOU_Overworld_map001_path_at_102: 525759673
+      CBATOU_Overworld_map001_path_at_103: -1462066390
+      CBATOU_Overworld_map001_path_at_104: 142979141
+      CBATOU_Overworld_map001_path_at_105: 1752768092
+      CBATOU_Overworld_map001_path_at_106: -731450829
+      CBATOU_Overworld_map001_path_at_107: 388810737
+      CBATOU_Overworld_map001_path_at_108: -1324439218
+      CBATOU_Overworld_map001_path_at_109: 194206955
+      CBATOU_Overworld_map001_path_at_11: -722112844
+      CBATOU_Overworld_map001_path_at_110: -811958727
+      CBATOU_Overworld_map001_path_at_111: 942256844
+      CBATOU_Overworld_map001_path_at_112: -1923133954
+      CBATOU_Overworld_map001_path_at_113: -542918887
+      CBATOU_Overworld_map001_path_at_114: -1772999395
+      CBATOU_Overworld_map001_path_at_115: -2043285059
+      CBATOU_Overworld_map001_path_at_116: -1077981429
+      CBATOU_Overworld_map001_path_at_117: 946768762
+      CBATOU_Overworld_map001_path_at_118: -1851067099
+      CBATOU_Overworld_map001_path_at_119: 1730812864
+      CBATOU_Overworld_map001_path_at_12: 903235784
+      CBATOU_Overworld_map001_path_at_120: -2066422481
+      CBATOU_Overworld_map001_path_at_121: 1641647392
+      CBATOU_Overworld_map001_path_at_122: 1982548721
+      CBATOU_Overworld_map001_path_at_123: -1018108154
+      CBATOU_Overworld_map001_path_at_124: 1751061244
+      CBATOU_Overworld_map001_path_at_125: 832578301
+      CBATOU_Overworld_map001_path_at_126: -1925372887
+      CBATOU_Overworld_map001_path_at_127: -1962040236
+      CBATOU_Overworld_map001_path_at_128: 1340652576
+      CBATOU_Overworld_map001_path_at_129: 699972560
+      CBATOU_Overworld_map001_path_at_13: -1958976297
+      CBATOU_Overworld_map001_path_at_130: 1659786121
+      CBATOU_Overworld_map001_path_at_131: 343027414
+      CBATOU_Overworld_map001_path_at_132: 337834609
+      CBATOU_Overworld_map001_path_at_133: -352570890
+      CBATOU_Overworld_map001_path_at_134: 911860139
+      CBATOU_Overworld_map001_path_at_135: 1603522628
+      CBATOU_Overworld_map001_path_at_136: -496429636
+      CBATOU_Overworld_map001_path_at_137: 97067949
+      CBATOU_Overworld_map001_path_at_138: -1689902397
+      CBATOU_Overworld_map001_path_at_139: -99717246
+      CBATOU_Overworld_map001_path_at_14: 1623191410
+      CBATOU_Overworld_map001_path_at_140: -857440740
+      CBATOU_Overworld_map001_path_at_141: 275346221
+      CBATOU_Overworld_map001_path_at_142: 926184424
+      CBATOU_Overworld_map001_path_at_143: -343260684
+      CBATOU_Overworld_map001_path_at_144: 305646236
+      CBATOU_Overworld_map001_path_at_145: 1653536691
+      CBATOU_Overworld_map001_path_at_146: -2120229709
+      CBATOU_Overworld_map001_path_at_147: 494069939
+      CBATOU_Overworld_map001_path_at_148: -838438709
+      CBATOU_Overworld_map001_path_at_149: -1705713442
+      CBATOU_Overworld_map001_path_at_15: -1523683869
+      CBATOU_Overworld_map001_path_at_150: -1373173488
+      CBATOU_Overworld_map001_path_at_151: 1719434112
+      CBATOU_Overworld_map001_path_at_152: -2061803818
+      CBATOU_Overworld_map001_path_at_153: 736227901
+      CBATOU_Overworld_map001_path_at_154: 316485675
+      CBATOU_Overworld_map001_path_at_155: 620115005
+      CBATOU_Overworld_map001_path_at_156: -1856026277
+      CBATOU_Overworld_map001_path_at_157: 1024417617
+      CBATOU_Overworld_map001_path_at_158: 674751552
+      CBATOU_Overworld_map001_path_at_159: 553789305
+      CBATOU_Overworld_map001_path_at_16: 1776652237
+      CBATOU_Overworld_map001_path_at_160: -1820202829
+      CBATOU_Overworld_map001_path_at_161: -831469127
+      CBATOU_Overworld_map001_path_at_162: 333632566
+      CBATOU_Overworld_map001_path_at_163: 1614494827
+      CBATOU_Overworld_map001_path_at_164: -570845865
+      CBATOU_Overworld_map001_path_at_165: -1413548260
+      CBATOU_Overworld_map001_path_at_166: -1285422129
+      CBATOU_Overworld_map001_path_at_167: 217849139
+      CBATOU_Overworld_map001_path_at_168: 475368979
+      CBATOU_Overworld_map001_path_at_169: 624404914
+      CBATOU_Overworld_map001_path_at_17: 695810231
+      CBATOU_Overworld_map001_path_at_170: -1461766256
+      CBATOU_Overworld_map001_path_at_171: -420533687
+      CBATOU_Overworld_map001_path_at_172: -1637533118
+      CBATOU_Overworld_map001_path_at_173: -517626931
+      CBATOU_Overworld_map001_path_at_174: 1425214774
+      CBATOU_Overworld_map001_path_at_175: -1853914268
+      CBATOU_Overworld_map001_path_at_176: 739739467
+      CBATOU_Overworld_map001_path_at_177: -17115323
+      CBATOU_Overworld_map001_path_at_178: -1418984062
+      CBATOU_Overworld_map001_path_at_179: 977960724
+      CBATOU_Overworld_map001_path_at_18: 979261299
+      CBATOU_Overworld_map001_path_at_180: 1981548773
+      CBATOU_Overworld_map001_path_at_181: -98191208
+      CBATOU_Overworld_map001_path_at_182: 2015784174
+      CBATOU_Overworld_map001_path_at_183: -1842270064
+      CBATOU_Overworld_map001_path_at_184: 2086558291
+      CBATOU_Overworld_map001_path_at_185: -875469703
+      CBATOU_Overworld_map001_path_at_186: -1485064373
+      CBATOU_Overworld_map001_path_at_187: -764280115
+      CBATOU_Overworld_map001_path_at_19: -629929447
+      CBATOU_Overworld_map001_path_at_2: -746143829
+      CBATOU_Overworld_map001_path_at_20: 469152478
+      CBATOU_Overworld_map001_path_at_21: -455161801
+      CBATOU_Overworld_map001_path_at_22: -1463462499
+      CBATOU_Overworld_map001_path_at_23: -144661966
+      CBATOU_Overworld_map001_path_at_24: 1126544589
+      CBATOU_Overworld_map001_path_at_25: -1678032858
+      CBATOU_Overworld_map001_path_at_26: 646579401
+      CBATOU_Overworld_map001_path_at_27: -1969110507
+      CBATOU_Overworld_map001_path_at_28: 522735336
+      CBATOU_Overworld_map001_path_at_29: 744134623
+      CBATOU_Overworld_map001_path_at_3: -1668123957
+      CBATOU_Overworld_map001_path_at_30: 1407679678
+      CBATOU_Overworld_map001_path_at_31: -1315730897
+      CBATOU_Overworld_map001_path_at_32: 626194030
+      CBATOU_Overworld_map001_path_at_33: -1045111457
+      CBATOU_Overworld_map001_path_at_34: 1108669935
+      CBATOU_Overworld_map001_path_at_35: 839146878
+      CBATOU_Overworld_map001_path_at_36: 1569030894
+      CBATOU_Overworld_map001_path_at_37: -1101336533
+      CBATOU_Overworld_map001_path_at_38: -891328696
+      CBATOU_Overworld_map001_path_at_39: -84329976
+      CBATOU_Overworld_map001_path_at_4: 2080056535
+      CBATOU_Overworld_map001_path_at_40: -1522637573
+      CBATOU_Overworld_map001_path_at_41: -1499579902
+      CBATOU_Overworld_map001_path_at_42: 959482400
+      CBATOU_Overworld_map001_path_at_43: 216815879
+      CBATOU_Overworld_map001_path_at_44: -1291556413
+      CBATOU_Overworld_map001_path_at_45: 335959267
+      CBATOU_Overworld_map001_path_at_46: -120051163
+      CBATOU_Overworld_map001_path_at_47: 1063854941
+      CBATOU_Overworld_map001_path_at_48: -2110053741
+      CBATOU_Overworld_map001_path_at_49: 773445724
+      CBATOU_Overworld_map001_path_at_5: 1825886048
+      CBATOU_Overworld_map001_path_at_50: -1516689585
+      CBATOU_Overworld_map001_path_at_51: -1487439298
+      CBATOU_Overworld_map001_path_at_52: -219440089
+      CBATOU_Overworld_map001_path_at_53: -239512022
+      CBATOU_Overworld_map001_path_at_54: 2073898570
+      CBATOU_Overworld_map001_path_at_55: 252402760
+      CBATOU_Overworld_map001_path_at_56: -268616548
+      CBATOU_Overworld_map001_path_at_57: -1949170762
+      CBATOU_Overworld_map001_path_at_58: -1645244382
+      CBATOU_Overworld_map001_path_at_59: -688825461
+      CBATOU_Overworld_map001_path_at_6: -878780429
+      CBATOU_Overworld_map001_path_at_60: 1137991963
+      CBATOU_Overworld_map001_path_at_61: -926504227
+      CBATOU_Overworld_map001_path_at_62: 1565679715
+      CBATOU_Overworld_map001_path_at_63: 264172969
+      CBATOU_Overworld_map001_path_at_64: -2122847917
+      CBATOU_Overworld_map001_path_at_65: -1769585143
+      CBATOU_Overworld_map001_path_at_66: 281910593
+      CBATOU_Overworld_map001_path_at_67: -1639144932
+      CBATOU_Overworld_map001_path_at_68: 1246638448
+      CBATOU_Overworld_map001_path_at_69: 1026607607
+      CBATOU_Overworld_map001_path_at_7: 576672030
+      CBATOU_Overworld_map001_path_at_70: 1137406468
+      CBATOU_Overworld_map001_path_at_71: 434242258
+      CBATOU_Overworld_map001_path_at_72: -1337655363
+      CBATOU_Overworld_map001_path_at_73: 1812990286
+      CBATOU_Overworld_map001_path_at_74: -953998360
+      CBATOU_Overworld_map001_path_at_75: 1589133590
+      CBATOU_Overworld_map001_path_at_76: -698351849
+      CBATOU_Overworld_map001_path_at_77: 717623179
+      CBATOU_Overworld_map001_path_at_78: 130372715
+      CBATOU_Overworld_map001_path_at_79: 840634831
+      CBATOU_Overworld_map001_path_at_8: -1204475120
+      CBATOU_Overworld_map001_path_at_80: -136886240
+      CBATOU_Overworld_map001_path_at_81: -1974835258
+      CBATOU_Overworld_map001_path_at_82: 1288276787
+      CBATOU_Overworld_map001_path_at_83: 1423659226
+      CBATOU_Overworld_map001_path_at_84: 1224890978
+      CBATOU_Overworld_map001_path_at_85: -1238033533
+      CBATOU_Overworld_map001_path_at_86: -580908873
+      CBATOU_Overworld_map001_path_at_87: 1226280373
+      CBATOU_Overworld_map001_path_at_88: 2085617345
+      CBATOU_Overworld_map001_path_at_89: 1447815550
+      CBATOU_Overworld_map001_path_at_9: -1674897221
+      CBATOU_Overworld_map001_path_at_90: 1728031405
+      CBATOU_Overworld_map001_path_at_91: 1900039529
+      CBATOU_Overworld_map001_path_at_92: 43579030
+      CBATOU_Overworld_map001_path_at_93: 1070462576
+      CBATOU_Overworld_map001_path_at_94: -1698094851
+      CBATOU_Overworld_map001_path_at_95: -2102751237
+      CBATOU_Overworld_map001_path_at_96: -484894128
+      CBATOU_Overworld_map001_path_at_97: -1664800215
+      CBATOU_Overworld_map001_path_at_98: 1397775314
+      CBATOU_Overworld_map001_path_at_99: 1969492
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
