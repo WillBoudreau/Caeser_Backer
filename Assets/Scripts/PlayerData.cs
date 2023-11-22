@@ -53,7 +53,8 @@ public static class PlayerData
     public static bool HasBattled;
     public static int EncChance;
     public static int EncChanceMax;
-
+    public static int FieldState;
+    public static int FieldStateArea;
     
 
 
