@@ -10973,7 +10973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Madeline Biasca
+    name: Madeline Boudreau
     sentences:
     - Hey Caeser!
     - Are you looking for the city? Its just to the right of me, follow the trail!
@@ -12309,7 +12309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Abby Fournier
+    name: Abby Kinnaird
     sentences:
     - Wow careful there Caeser!
     - Somewhere up there is a evil tree monster
