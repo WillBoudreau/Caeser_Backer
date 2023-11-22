@@ -8942,7 +8942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Madeline Stewart
+    name: Madeline Mc
     sentences:
     - Madeline stares at you intently...
     - Maybe you should leave...
@@ -31709,7 +31709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Belle Shultz
+    name: Belle Jones
     sentences:
     - Oh hello Caeser!
     - What a wonderful day we are having!
