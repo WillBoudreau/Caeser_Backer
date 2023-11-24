@@ -128,7 +128,7 @@ public class SceneChangeController : MonoBehaviour
                 }
 
             }
-            else if (PlayerData.FieldStateArea == 0)
+            else if (PlayerData.FieldStateArea == 4)
             {
                 if (PlayerData.FieldState == 0)
                 {
@@ -151,9 +151,13 @@ public class SceneChangeController : MonoBehaviour
 
                 }
             }
-            PlayerData.playerPOSX = TposX;
-            PlayerData.playerPOSY = TposY;
-            SceneManager.LoadScene(SCNL);
+            else
+            {
+                PlayerData.playerPOSX = TposX;
+                PlayerData.playerPOSY = TposY;
+                SceneManager.LoadScene(SCNL);
+
+            }
         }
     }
     // Update is called once per frame

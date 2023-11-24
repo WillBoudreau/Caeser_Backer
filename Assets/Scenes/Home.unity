@@ -3215,6 +3215,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: FSvar
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: TposX
       value: -5
       objectReference: {fileID: 0}
