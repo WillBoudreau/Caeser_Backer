@@ -4208,7 +4208,7 @@ GameObject:
   - component: {fileID: 5857825784678531933}
   - component: {fileID: 4552329419929183600}
   - component: {fileID: 4511766289043405319}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Caeser
   m_TagString: Player
   m_Icon: {fileID: 0}
