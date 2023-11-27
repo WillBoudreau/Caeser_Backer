@@ -55,7 +55,6 @@ public class NewBehaviourScript : MonoBehaviour
         //}
         Movement.y = Input.GetAxisRaw("Vertical");
         Movement.x = Input.GetAxisRaw("Horizontal");
-
     }
     private void FixedUpdate()
     {

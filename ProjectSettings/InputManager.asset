@@ -265,10 +265,10 @@ InputManager:
     m_Name: Interact
     descriptiveName: Use this keybind to interact with an NPC
     descriptiveNegativeName: 
-    negativeButton: e
-    positiveButton: e
-    altNegativeButton: e
-    altPositiveButton: e
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 0
     dead: 0
     sensitivity: 0
