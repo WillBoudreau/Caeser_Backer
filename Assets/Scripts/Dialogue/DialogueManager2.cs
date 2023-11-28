@@ -26,6 +26,10 @@ public class DialogueManager2 : MonoBehaviour
     {
         Interact.SetActive(true);
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Interact.SetActive(false);
+    }
     void Update()
     {
         if(Interact.activeSelf == true)
@@ -35,21 +39,17 @@ public class DialogueManager2 : MonoBehaviour
                 TriggerDialogue();
           }
 
-        }
-        
+        }  
     }
-
     public void TriggerDialogue()
     {
-
         {
             StartDialogue(dialogue);
         }
-
-
     }
     public void StartDialogue(Dialogue dialogue)
     {
+
         Time.timeScale = 0.0f;
         panel.SetActive(true);
         nametext.text = dialogue.name;  
@@ -60,17 +60,12 @@ public class DialogueManager2 : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-        if (Input.GetKey(KeyCode.E) == true)
-        {
-            DisplayNextSentence();
-        }
+        
+        DisplayNextSentence();
        
     }
     public void DisplayNextSentence()
     {
-       
-       
-        
         if (sentences.Count == 0)
         {
             EndDialogue();
