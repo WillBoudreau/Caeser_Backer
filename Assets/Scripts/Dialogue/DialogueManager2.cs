@@ -38,7 +38,6 @@ public class DialogueManager2 : MonoBehaviour
           {
                 TriggerDialogue();
           }
-
         }  
     }
     public void TriggerDialogue()
@@ -49,20 +48,15 @@ public class DialogueManager2 : MonoBehaviour
     }
     public void StartDialogue(Dialogue dialogue)
     {
-
         Time.timeScale = 0.0f;
         panel.SetActive(true);
         nametext.text = dialogue.name;  
-
         sentences.Clear();
-
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
-        
         DisplayNextSentence();
-       
     }
     public void DisplayNextSentence()
     {

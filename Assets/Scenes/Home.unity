@@ -1859,6 +1859,7 @@ GameObject:
   - component: {fileID: 1289229334}
   - component: {fileID: 1289229333}
   - component: {fileID: 1289229332}
+  - component: {fileID: 1289229335}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -1930,7 +1931,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1289229335}
         m_TargetAssemblyTypeName: DialogueManager2, Assembly-CSharp
         m_MethodName: DisplayNextSentence
         m_Mode: 1
@@ -1980,6 +1981,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289229330}
   m_CullTransparentMesh: 1
+--- !u!114 &1289229335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289229330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561054a8519a68b45ac3fa9a7fa4f204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametext: {fileID: 2032896465}
+  dialoguetext: {fileID: 258483853}
+  panel: {fileID: 851501509}
+  dialogue:
+    name: GrandPappi
+    sentences:
+    - 'Hey Caeser my boy! How are you doing this morning? '
+    - One of our chickens,Gregory, got out last night and is causin a ruckus all
+      around the forest and city
+    - Now I know you are scared of chickens. But don't you worry, your sister is
+      already out there looking it
+    - when you are done with that, if you could, please head into the village and
+      speak with Dave. I'm expecting an order of chicken seed order soon.
+    - Thanks Caeser! Be careful and be back before lunch okay?
+  Interact: {fileID: 1686263282}
 --- !u!1 &1301019701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3023,7 +3051,7 @@ MonoBehaviour:
   dialoguetext: {fileID: 258483853}
   panel: {fileID: 851501509}
   dialogue:
-    name: GrandPappi
+    name: Grandpappi
     sentences:
     - 'Hey Caeser my boy! How are you doing this morning? '
     - One of our chickens,Gregory, got out last night and is causin a ruckus all
