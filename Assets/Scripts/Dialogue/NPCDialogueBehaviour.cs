@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class NPCDialogueBehaviour : MonoBehaviour
 {
     public GameObject Interact;
@@ -14,6 +15,7 @@ public class NPCDialogueBehaviour : MonoBehaviour
     public void  OnTriggerEnter2D(Collider2D other)
     {
         Interact.SetActive(true);
+       
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
