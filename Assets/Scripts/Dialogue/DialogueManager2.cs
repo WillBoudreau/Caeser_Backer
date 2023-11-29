@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
+using System.IO;
 
 public class DialogueManager2 : MonoBehaviour
 {
@@ -14,63 +15,72 @@ public class DialogueManager2 : MonoBehaviour
     public TextMeshProUGUI dialoguetext;
     public GameObject panel;
     public Dialogue dialogue;
-    public GameObject Interact;
+    public bool startend;
+    //public string path = @"GrandPappiDialogue.txt";
+    //public string[] Dialogues;
     // Start is called before the first frame update
     void Start()
     {
-        Interact.SetActive(false);
         panel.SetActive(false);
         sentences = new Queue<string>();
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Interact.SetActive(true);
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        Interact.SetActive(false);
-    }
     void Update()
     {
-        if(Interact.activeSelf == true)
+        if (Input.GetKeyDown(KeyCode.E) == true)
         {
-          if (Input.GetKeyDown(KeyCode.E) == true)
-          {
-                TriggerDialogue();
-          }
-        }  
-    }
-    public void TriggerDialogue()
-    {
-        {
-            StartDialogue(dialogue);
+            if (panel.activeSelf == true)
+            {
+                DisplayNextSentence();
+            }
+            else
+            {
+               panel.SetActive(true);
+               StartDialogue(dialogue);
+            }
         }
+        
+    }
+    public void AltTrigger()
+    {
+        StartDialogue(dialogue);
     }
     public void StartDialogue(Dialogue dialogue)
     {
-        Time.timeScale = 0.0f;
-        panel.SetActive(true);
-        nametext.text = dialogue.name;  
-        sentences.Clear();
+        //sentences.Clear();
+        startend = false;
+        nametext.text = dialogue.name;
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
+
         DisplayNextSentence();
     }
     public void DisplayNextSentence()
     {
+        string sentence = sentences.Dequeue();
+        dialoguetext.text = sentence;
         if (sentences.Count == 0)
         {
             EndDialogue();
-            panel.SetActive(false);
+            //panel.SetActive(false);
+            //startend = true;
             return;
         } 
-            string sentence = sentences.Dequeue();
-            dialoguetext.text = sentence;
     }
     void EndDialogue()
     {
-        Time.timeScale= 1.0f;
+        Time.timeScale = 1.0f;
+        panel.SetActive(false);    
+
     }
 }
+
+        //string test;
+        //Time.timeScale = 0.0f;
+        // test = File.ReadAllText(path);
+        //Dialogues = test.Split('\n');
+        //for (int i = 0; i < Dialogues.Length; i++)
+        //{
+        //    dialoguetext.text = Dialogues[i];
+        //}

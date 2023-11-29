@@ -235,7 +235,6 @@ GameObject:
   m_Component:
   - component: {fileID: 78266300}
   - component: {fileID: 78266299}
-  - component: {fileID: 78266301}
   - component: {fileID: 78266302}
   - component: {fileID: 78266303}
   m_Layer: 0
@@ -313,19 +312,6 @@ Transform:
   - {fileID: 68605252}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &78266301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78266298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92823f0033044b140b087a41eba2d5a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Interact: {fileID: 1686263282}
 --- !u!61 &78266302
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -763,7 +749,7 @@ Transform:
   m_GameObject: {fileID: 389759236}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.637, y: 0.56, z: 0}
+  m_LocalPosition: {x: 6.21, y: -0.35, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1443,7 +1429,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1859,7 +1845,6 @@ GameObject:
   - component: {fileID: 1289229334}
   - component: {fileID: 1289229333}
   - component: {fileID: 1289229332}
-  - component: {fileID: 1289229335}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -1931,7 +1916,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1289229335}
+      - m_Target: {fileID: 1686263287}
         m_TargetAssemblyTypeName: DialogueManager2, Assembly-CSharp
         m_MethodName: DisplayNextSentence
         m_Mode: 1
@@ -1942,7 +1927,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1289229333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1981,33 +1966,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289229330}
   m_CullTransparentMesh: 1
---- !u!114 &1289229335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289229330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 561054a8519a68b45ac3fa9a7fa4f204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nametext: {fileID: 2032896465}
-  dialoguetext: {fileID: 258483853}
-  panel: {fileID: 851501509}
-  dialogue:
-    name: GrandPappi
-    sentences:
-    - 'Hey Caeser my boy! How are you doing this morning? '
-    - One of our chickens,Gregory, got out last night and is causin a ruckus all
-      around the forest and city
-    - Now I know you are scared of chickens. But don't you worry, your sister is
-      already out there looking it
-    - when you are done with that, if you could, please head into the village and
-      speak with Dave. I'm expecting an order of chicken seed order soon.
-    - Thanks Caeser! Be careful and be back before lunch okay?
-  Interact: {fileID: 1686263282}
 --- !u!1 &1301019701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,7 +1975,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301019703}
-  - component: {fileID: 1301019704}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -2040,25 +1997,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1301019704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301019701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 561054a8519a68b45ac3fa9a7fa4f204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nametext: {fileID: 2032896465}
-  dialoguetext: {fileID: 258483853}
-  panel: {fileID: 851501509}
-  dialogue:
-    name: 
-    sentences: []
-  Interact: {fileID: 1686263282}
 --- !u!1 &1371369111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,11 +2900,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2987,7 +2925,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1686263287}
         m_TargetAssemblyTypeName: DialogueManager2, Assembly-CSharp
-        m_MethodName: TriggerDialogue
+        m_MethodName: AltTrigger
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3051,7 +2989,7 @@ MonoBehaviour:
   dialoguetext: {fileID: 258483853}
   panel: {fileID: 851501509}
   dialogue:
-    name: Grandpappi
+    name: GrandPappi
     sentences:
     - 'Hey Caeser my boy! How are you doing this morning? '
     - One of our chickens,Gregory, got out last night and is causin a ruckus all
@@ -3061,7 +2999,7 @@ MonoBehaviour:
     - when you are done with that, if you could, please head into the village and
       speak with Dave. I'm expecting an order of chicken seed order soon.
     - Thanks Caeser! Be careful and be back before lunch okay?
-  Interact: {fileID: 1686263282}
+  startend: 0
 --- !u!1 &1713976654
 GameObject:
   m_ObjectHideFlags: 0

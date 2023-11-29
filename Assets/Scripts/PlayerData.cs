@@ -55,7 +55,12 @@ public static class PlayerData
     public static int EncChanceMax;
     public static int FieldState;
     public static int FieldStateArea;
-    
+
+
+    //Inventory
+    public static bool Cape;
+    public static bool ChickenSeed;
+    public static bool WoodenSword;
 
 
 }
