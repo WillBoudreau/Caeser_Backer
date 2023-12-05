@@ -135,8 +135,9 @@ GameObject:
   - component: {fileID: 4068331}
   - component: {fileID: 4068333}
   - component: {fileID: 4068334}
+  - component: {fileID: 4068335}
   m_Layer: 0
-  m_Name: Character_sprite[placeholder]
+  m_Name: Dave
   m_TagString: Dave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,6 +269,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &4068335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4068330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561054a8519a68b45ac3fa9a7fa4f204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nametext: {fileID: 2009075741}
+  dialoguetext: {fileID: 1910577963}
+  panel: {fileID: 224307727}
+  dialogue:
+    name: Dave
+    sentences:
+    - Hey Caeser! Here for the chicken seed I presume?
+    - Sorry the chicken seed is out of stock, come back in a few days and hopefully
+      I will have more.
+  startend: 0
 --- !u!1 &30101319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,6 +1828,95 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.82754713, y: 0.6717904}
   m_EdgeRadius: 0
+--- !u!1001 &238036317
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489252136236604552, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794048129654563388, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_Size.x
+      value: 0.18702316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794048129654563388, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_Size.y
+      value: 2.1209633
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794048129654563388, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.20942307
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794048129654563388, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13476038
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: SCNL
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: FSvar
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: TposX
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: TposY
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6454667387242209878, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: m_Name
+      value: Trigger_Scene (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fe65320064506f40afe48182ead13da, type: 3}
 --- !u!1 &241488544
 GameObject:
   m_ObjectHideFlags: 0
@@ -6906,6 +7018,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &782617318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6454667387242209878, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+  m_PrefabInstance: {fileID: 238036317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &807686989
 GameObject:
   m_ObjectHideFlags: 0
@@ -7406,6 +7523,10 @@ MonoBehaviour:
   nametext: {fileID: 2009075741}
   dialoguetext: {fileID: 1910577963}
   panel: {fileID: 224307727}
+  dialogue:
+    name: 
+    sentences: []
+  startend: 0
 --- !u!1 &876787217
 GameObject:
   m_ObjectHideFlags: 0
@@ -10450,6 +10571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e76a1d14dc758c4aa899d04a23602df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  QuestTrigger: {fileID: 782617318}
 --- !u!1 &1385765035
 GameObject:
   m_ObjectHideFlags: 0
@@ -31809,7 +31931,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1860809286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33207,6 +33329,7 @@ SceneRoots:
   - {fileID: 870297720}
   - {fileID: 194474610}
   - {fileID: 2089855744}
+  - {fileID: 238036317}
   - {fileID: 1543409789}
   - {fileID: 1339083607}
   - {fileID: 1789568491}

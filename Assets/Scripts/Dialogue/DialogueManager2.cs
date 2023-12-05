@@ -47,6 +47,10 @@ public class DialogueManager2 : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         //sentences.Clear();
+        if (CompareTag("Dave"))
+        {
+            PlayerData.TalktoDave = true;
+        }
         startend = false;
         nametext.text = dialogue.name;
         foreach (string sentence in dialogue.sentences)
@@ -72,7 +76,10 @@ public class DialogueManager2 : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         panel.SetActive(false);    
-
+        if(PlayerData.TalktoDave)
+        {
+            Debug.Log("Trigger");
+        }
     }
 }
 
