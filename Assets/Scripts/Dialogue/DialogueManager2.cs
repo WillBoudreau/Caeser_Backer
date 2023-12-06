@@ -46,7 +46,6 @@ public class DialogueManager2 : MonoBehaviour
     }
     public void StartDialogue(Dialogue dialogue)
     {
-        //sentences.Clear();
         if (CompareTag("Dave"))
         {
             PlayerData.TalktoDave = true;
@@ -67,8 +66,6 @@ public class DialogueManager2 : MonoBehaviour
         if (sentences.Count == 0)
         {
             EndDialogue();
-            //panel.SetActive(false);
-            //startend = true;
             return;
         } 
     }
