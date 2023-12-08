@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class BossTrigger : MonoBehaviour
 {
 
-    public void OnTriggerEnter (Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other != null)
         {

@@ -53,7 +53,7 @@ public class SaveNLoad : MonoBehaviour
         Debug.Log("Game data loaded.");
         PlayerData.playerPOSX = 0;
         PlayerData.playerPOSY = 0;
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     
