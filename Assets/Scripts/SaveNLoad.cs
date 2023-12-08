@@ -23,8 +23,7 @@ public class SaveNLoad : MonoBehaviour
         //float CBposX = PlayerData.playerPOSX;
         //float CBposY = PlayerData.playerPOSY;
         // "CBPScn","CBPEX","CBPVL","CBPSP","CBPST","CBPCN","CBPGI","CBPDX","CBPDV","CBPNL","CBPWI","CBPUK","CBPEX","CBPYE",    <- savedata format
-        SaveValue = savePoint + PlayerData.CBXP + "~" + PlayerData.CBLVL + "~" + PlayerData.CBStatPoints + "~" + PlayerData.CBStr + "~" + PlayerData.CBCon + "~" + PlayerData.CBAgi + "~" + PlayerData.CBDex + "~" + PlayerData.CBDev + "~" + PlayerData.CBEnl + "~" + PlayerData.CBWill + "~" + PlayerData.CBLuck + "~" + CBposX + "~" + CBposY;
-
+        SaveValue = PlayerData.CBXP + "~" + PlayerData.CBLVL + "~" + PlayerData.CBStatPoints + "~" + PlayerData.CBStr + "~" + PlayerData.CBCon + "~" + PlayerData.CBAgi + "~" + PlayerData.CBDex + "~" + PlayerData.CBDev + "~" + PlayerData.CBEnl + "~" + PlayerData.CBWill + "~" + PlayerData.CBLuck;
         File.WriteAllText(path, SaveValue);
 
      
@@ -35,7 +34,7 @@ public class SaveNLoad : MonoBehaviour
     }
     public void LoadGame()
     {
-        int SaveIndex = 0;
+        int SaveIndex = 1;
          SaveValue = File.ReadAllText(path);
 
          string[] LoadedData = SaveValue.Split('~');
@@ -54,7 +53,7 @@ public class SaveNLoad : MonoBehaviour
         Debug.Log("Game data loaded.");
         PlayerData.playerPOSX = 0;
         PlayerData.playerPOSY = 0;
-        SceneManager.LoadSceneAsync(savePoint);
+        SceneManager.LoadSceneAsync(1);
     }
 
     

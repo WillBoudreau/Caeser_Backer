@@ -2558,6 +2558,7 @@ MonoBehaviour:
   enemyPrefab03: {fileID: 1905537125487627207, guid: 2eef416541bede94e8e4f70aea327644, type: 3}
   enemyPrefab04: {fileID: 7177385936283432254, guid: 63183009d65f6a34199ffb92cd364775, type: 3}
   enemyPrefab05: {fileID: 6109378289802219942, guid: dff953ee9a5327d4eadce6bd6e2de098, type: 3}
+  enemyPrefab66: {fileID: 3662179126668993606, guid: 67207d33cb3d0784c8c8ae5d971267d4, type: 3}
   BattleUI00: {fileID: 405301830}
   BattleUI01: {fileID: 981904146}
   BattleUI02: {fileID: 987223925}

@@ -14,6 +14,7 @@ public class BattleSystem : MonoBehaviour
     public GameObject enemyPrefab03;
     public GameObject enemyPrefab04;
     public GameObject enemyPrefab05;
+    public GameObject enemyPrefab66;
     public GameObject BattleUI00;
     public GameObject BattleUI01;
     public GameObject BattleUI02;
@@ -71,6 +72,11 @@ public class BattleSystem : MonoBehaviour
         else if (PlayerData.NxtMnst == 5)
         {
             GameObject enemyGO = Instantiate(enemyPrefab05, enemyBattleStation);
+            enemyUnit = enemyGO.GetComponent<Unit>();
+        }
+        else if (PlayerData.NxtMnst == 66)
+        {
+            GameObject enemyGO = Instantiate(enemyPrefab66, enemyBattleStation);
             enemyUnit = enemyGO.GetComponent<Unit>();
         }
         else
@@ -190,7 +196,15 @@ public class BattleSystem : MonoBehaviour
     {
         if (state == BattleState.WON)
         {
-            SceneManager.LoadScene(PlayerData.playerScene);
+            if (PlayerData.NxtMnst == 66)
+            {
+                SceneManager.LoadScene(6);
+            }
+            else
+            {
+                SceneManager.LoadScene(PlayerData.playerScene);
+
+            }
         }
         else if(state == BattleState.LOST)
         {
