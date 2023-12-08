@@ -2553,6 +2553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 5364064980479375075, guid: 3d9c4c0dc3d4638488568ac3c2c4e176, type: 3}
+  PlayerAttackAnim: {fileID: 3898822341456108019, guid: eb232b8987bdc674fbe72182347226e8, type: 3}
   enemyPrefab01: {fileID: 163739910964224895, guid: f212360752ff92443955264b8960d2d8, type: 3}
   enemyPrefab02: {fileID: 7176974899773596344, guid: 90f57aca272b2064c9745420ad872de9, type: 3}
   enemyPrefab03: {fileID: 1905537125487627207, guid: 2eef416541bede94e8e4f70aea327644, type: 3}

@@ -12206,6 +12206,14 @@ PrefabInstance:
       propertyPath: FSvar
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: TposX
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: TposY
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6454667387242209878, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: m_Name
       value: Trigger_Scene (2)
@@ -12841,7 +12849,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1426672134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13367,11 +13375,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: TposX
-      value: -18
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: TposY
-      value: -1.5
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6454667387242209878, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: m_Name

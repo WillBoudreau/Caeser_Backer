@@ -40720,6 +40720,14 @@ PrefabInstance:
       propertyPath: FSvar
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: TposX
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320124513048701472, guid: 4fe65320064506f40afe48182ead13da, type: 3}
+      propertyPath: TposY
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6454667387242209878, guid: 4fe65320064506f40afe48182ead13da, type: 3}
       propertyPath: m_Name
       value: Trigger_Scene

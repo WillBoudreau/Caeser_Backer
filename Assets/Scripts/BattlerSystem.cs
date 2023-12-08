@@ -9,6 +9,7 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
     public GameObject playerPrefab;
+    public GameObject PlayerAttackAnim;
     public GameObject enemyPrefab01;
     public GameObject enemyPrefab02;
     public GameObject enemyPrefab03;
@@ -23,7 +24,9 @@ public class BattleSystem : MonoBehaviour
     public GameObject Skullivan;
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
-    GameObject enemyGO;
+    static GameObject enemyGO;
+    static GameObject playAtk;
+    static GameObject playerGO;
     bool FrTrn;
     Unit playerUnit;
     Unit enemyUnit;
@@ -47,7 +50,8 @@ public class BattleSystem : MonoBehaviour
     IEnumerator SetupBattle()
     {
         // draw battlers
-        GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
+        playerGO = Instantiate(playerPrefab, playerBattleStation);
+        playAtk = Instantiate(PlayerAttackAnim, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
         if (PlayerData.NxtMnst == 1)
         {
@@ -232,9 +236,13 @@ public class BattleSystem : MonoBehaviour
     IEnumerator PlayerAttack()
     {
         dialogueText.text = playerUnit.unitName + " Attacks!";
+        playerGO.SetActive(false);
+        playAtk.SetActive(true);
         bool isDead = enemyUnit.TakeDamage(playerUnit.MnDamage, playerUnit.MxDamage, playerUnit.Accuracy);
         enemyHUD.SetHP(enemyUnit.currentHP,0); 
         yield return new WaitForSeconds(2f);
+        playerGO.SetActive(true);
+        playAtk.SetActive(false);
         if (enemyUnit.Hit && PlayerData.RNGRSLT > 0)
         {
             dialogueText.text = playerUnit.unitName + " Deals " + PlayerData.RNGRSLT + " to the " + enemyUnit.unitName + "...";
