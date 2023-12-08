@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/overworld map.unity
     guid: f37c7c1ba1e5c1f449f060801e75daea
+  - enabled: 1
+    path: Assets/Scenes/Cave_1.unity
+    guid: 64599c1b77be14945a3cec4f7d78daa1
   m_configObjects: {}
